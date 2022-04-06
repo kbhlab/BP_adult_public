@@ -1,0 +1,53 @@
+Comp. Result ID ,Start Time ,Duration ,Batch,Worker ID ,Worker Type ,State ,Files ,Message ,exp_start
+5733,2/2/2021 21:16,0:18:45,Participant link 334,4274,Personal Single,FINISHED,none,none,Tue Feb 02 2021 21:17:09 GMT-0500 (Eastern Standard Time)
+5517,1/29/2021 17:58,0:01:25,Participant links 186-211,2090,Personal Single,FAIL,none,none,
+5232,1/23/2021 17:30,0:16:04,Participant links 186-211,2084,Personal Single,FINISHED,none,none,Sat Jan 23 2021 17:30:15 GMT-0500 (Eastern Standard Time)
+5208,1/22/2021 21:10,0:18:59,Participant links 186-211,2082,Personal Single,FINISHED,none,none,Fri Jan 22 2021 21:10:41 GMT-0500 (GMT-05:00)
+5205,1/22/2021 19:22,0:00:00,Participant link 324,3994,Personal Single,FAIL,none,none,
+5201,1/22/2021 17:52,16:30:19,Participant link 325,3996,Personal Single,FAIL,none,none,
+5197,1/22/2021 15:51,0:00:10,Participant links 186-211,2088,Personal Single,FAIL,none,none,
+5106,1/21/2021 18:27,0:05:06,Participant links 186-211,2087,Personal Single,FAIL,none,none,Thu Jan 21 2021 18:27:46 GMT-0500 (Eastern Standard Time)
+4792,1/16/2021 20:01,0:26:19,Participant links 186-211,2081,Personal Single,FINISHED,none,none,Sat Jan 16 2021 20:10:32 GMT-0500 (GMT-05:00)
+2982,12/15/2020 16:14,0:18:36,Participant links 51-55,1288,Personal Single,FINISHED,none,none,Tue Dec 15 2020 16:14:41 GMT-0500 (Eastern Standard Time)
+2907,12/12/2020 10:30,not yet,Participant link 318,2367,Personal Single,RESULTDATA_POSTED,none,none,Sat Dec 12 2020 10:30:49 GMT-0500 (Eastern Standard Time)
+2906,12/11/2020 17:47,1:20:35,Participant link 317,2366,Personal Single,FAIL,none,none,Fri Dec 11 2020 17:47:44 GMT-0500 (Eastern Standard Time)
+2904,12/11/2020 9:07,0:17:38,Participant links 51-55,1290,Personal Single,FINISHED,none,none,Fri Dec 11 2020 09:08:11 GMT-0500 (Eastern Standard Time)
+2902,12/10/2020 18:19,6:01:26,Participant links 186-211,2078,Personal Single,FAIL,none,none,
+2900,12/10/2020 13:11,0:16:29,Participant link 311,2282,Personal Single,FINISHED,none,none,Thu Dec 10 2020 13:12:13 GMT-0500 (GMT-05:00)
+2894,12/10/2020 8:02,not yet,Participant links 31-50,1276,Personal Single,RESULTDATA_POSTED,none,none,
+2845,12/7/2020 19:57,not yet,Participant links 51-55,1291,Personal Single,RESULTDATA_POSTED,none,none,
+2844,12/7/2020 19:41,0:22:44,Participant link 306,2253,Personal Single,FINISHED,none,none,Mon Dec 07 2020 19:43:38 GMT-0500 (Eastern Standard Time)
+2797,12/6/2020 23:06,0:21:50,Participant link 302,2244,Personal Single,FINISHED,none,none,Sun Dec 06 2020 23:06:37 GMT-0500 (Eastern Standard Time)
+2791,12/6/2020 21:31,0:02:23,Participant links 186-211,2076,Personal Single,FAIL,none,none,
+2780,12/6/2020 16:11,0:15:46,Participant link 300,2238,Personal Single,FINISHED,none,none,Sun Dec 06 2020 16:11:41 GMT-0500 (Eastern Standard Time)
+2778,12/6/2020 15:38,0:05:43,Participant links 186-211,2075,Personal Single,FAIL,none,none,
+2740,12/4/2020 20:53,0:14:52,Participant link 212,2107,Personal Single,FINISHED,none,none,Fri Dec 04 2020 20:54:27 GMT-0500 (Eastern Standard Time)
+2733,12/4/2020 20:20,not yet,Participant links 51-55,1292,Personal Single,RESULTDATA_POSTED,none,none,
+2725,12/4/2020 20:00,not yet,Participant links 186-211,2073,Personal Single,DATA_RETRIEVED,none,none,Fri Dec 04 2020 20:22:49 GMT-0500 (Eastern Standard Time)
+2646,12/2/2020 22:04,0:18:04,Participant links 31-50,1287,Personal Single,FINISHED,none,none,Wed Dec 02 2020 22:04:51 GMT-0500 (Eastern Standard Time)
+2637,12/2/2020 15:41,0:15:56,Participant links 31-50,1273,Personal Single,FINISHED,none,none,Wed Dec 02 2020 15:41:58 GMT-0500 (GMT-05:00)
+2594,11/30/2020 16:34,21:19:26,Participant links 31-50,1286,Personal Single,FINISHED,none,none,Mon Nov 30 2020 16:34:49 GMT-0500 (GMT-05:00)
+2556,11/30/2020 11:24,0:19:34,Participant links 31-50,1285,Personal Single,FINISHED,none,none,Mon Nov 30 2020 11:25:57 GMT-0500 (Eastern Standard Time)
+2542,11/29/2020 15:49,0:00:15,Participant link 120,1807,Personal Single,FAIL,none,none,
+2537,11/29/2020 11:23,0:09:13,Participant link 130,1905,Personal Single,FAIL,none,none,
+2535,11/29/2020 10:43,0:01:15,Participant link 129,1904,Personal Single,FAIL,none,none,
+2534,11/29/2020 10:23,0:00:09,Participant link 127,1900,Personal Single,FAIL,none,none,
+2517,11/28/2020 14:38,0:00:05,Participant links 31-50,1284,Personal Single,FAIL,none,none,
+2506,11/26/2020 23:01,0:19:32,Participant links 31-50,1280,Personal Single,FINISHED,none,none,Thu Nov 26 2020 23:00:59 GMT-0500 (Eastern Standard Time)
+2505,11/26/2020 21:47,0:17:28,Participant link 124,1820,Personal Single,FINISHED,none,none,Thu Nov 26 2020 21:47:53 GMT-0500 (GMT-05:00)
+2504,11/26/2020 21:23,0:16:08,Participant links 31-50,1283,Personal Single,FINISHED,none,none,Thu Nov 26 2020 21:24:36 GMT-0500 (GMT-05:00)
+2467,11/24/2020 15:02,0:02:20,Participant links 31-50,1269,Personal Single,FAIL,none,none,
+2464,11/24/2020 10:48,0:17:00,Participant link 113,1708,Personal Single,FINISHED,none,none,Tue Nov 24 2020 10:48:23 GMT-0500 (heure normale de l’Est nord-américain)
+2447,11/22/2020 22:34,not yet,Participant links 31-50,1282,Personal Single,RESULTDATA_POSTED,none,none,
+2423,11/20/2020 17:38,0:00:07,Participant link 119,1796,Personal Single,FAIL,none,none,
+2411,11/20/2020 11:59,0:00:12,Participant link 115,1788,Personal Single,FAIL,none,none,
+2324,11/18/2020 16:38,0:00:06,Participant link 111,1658,Personal Single,FAIL,none,none,
+2287,11/18/2020 3:48,0:05:23,Participant links 31-50,1275,Personal Single,FAIL,none,none,
+2282,11/17/2020 22:26,not yet,Participant links 31-50,1270,Personal Single,RESULTDATA_POSTED,none,none,
+2275,11/17/2020 20:52,not yet,Participant links 31-50,1271,Personal Single,RESULTDATA_POSTED,none,none,
+2262,11/17/2020 13:28,0:00:09,Participant links 31-50,1277,Personal Single,FAIL,none,none,
+2068,11/5/2020 22:03,0:22:27,Participant links 31-50,1272,Personal Single,FINISHED,none,none,Thu Nov 05 2020 22:04:03 GMT-0500 (Eastern Standard Time)
+1737,10/21/2020 17:44,0:14:48,Default,730,Jatos,FINISHED,none,none,Wed Oct 21 2020 17:44:18 GMT-0400 (Eastern Daylight Time)
+1732,10/21/2020 11:26,0:13:29,Default,730,Jatos,FINISHED,none,none,Wed Oct 21 2020 11:26:52 GMT-0400 (hora de verano oriental)
+1731,10/21/2020 10:46,0:01:58,Default,730,Jatos,FAIL,none,none,Wed Oct 21 2020 10:46:34 GMT-0400 (hora de verano oriental)
+1730,10/21/2020 10:39,not yet,Default,730,Jatos,RESULTDATA_POSTED,none,none,Wed Oct 21 2020 10:39:49 GMT-0400 (hora de verano oriental)

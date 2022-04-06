@@ -1,0 +1,736 @@
+---
+title             : "The title"
+shorttitle        : "Title"
+
+author: 
+  - name          : "Lena V. Kremin"
+    affiliation   : "1,2"
+    corresponding : yes    # Define only one corresponding author
+    address       : "7141 Sherbrooke St. West, PY-033, Montréal, QC, H4B 1R6"
+    email         : "lena.kremin@mail.concordia.ca"
+  - name          : "Andrea Sander-Montant"
+    affiliation   : "1,2"
+  - name          : "Krista Byers-Heinlein"
+    affiliation   : "1,2"
+
+affiliation:
+  - id            : "1"
+    institution   : "Concordia University"
+  - id            : "2"
+    institution   : "Centre for Research on Brain, Language and Music"
+
+authornote: |
+  Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
+
+  Enter author note here.
+
+abstract: |
+  One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
+  
+  Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
+  
+  One sentence clearly stating the **general problem** being addressed by  this particular study.
+  
+  One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
+  
+  Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
+  
+  One or two sentences to put the results into a more **general context**.
+  
+  Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
+  
+  <!-- https://tinyurl.com/ybremelq -->
+  
+keywords          : "keywords"
+wordcount         : "X"
+
+bibliography      : []
+
+floatsintext      : no
+figurelist        : no
+tablelist         : no
+footnotelist      : no
+linenumbers       : yes
+mask              : no
+draft             : no
+
+documentclass     : "apa6"
+classoption       : "man"
+output            : papaja::apa6_word
+---
+
+```{r setup, include = FALSE}
+library("papaja")
+library(knitr)
+library(tidyverse)
+library(here)
+library(lme4)
+library(patchwork)
+library(magrittr)
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, cache = FALSE, include = FALSE, dpi=300, fig.width=7)
+```
+
+```{r load-data}
+
+exp_final_headphones <- read_csv(here("data_frames/exp_final_headphones.csv")) %>% 
+  mutate(resp = case_when(
+    response == "b" ~ 0,
+    response == "p" ~ 1 ))
+
+exp_full_headphones <- read_csv(here("data_frames/exp_full_headphones.csv")) %>% 
+  mutate(resp = case_when(
+    response == "b" ~ 0,
+    response == "p" ~ 1 ))
+
+exp_trunc_headphones <- read_csv(here("data_frames/exp_trunc_headphones.csv")) %>%   mutate(resp = case_when(
+    response == "b" ~ 0,
+    response == "p" ~ 1 ))
+
+exp_full_all <- read_csv(here("data_frames/exp_full_all.csv"))
+exp_trunc_all <- read_csv(here("data_frames/exp_trunc_all.csv"))
+
+
+lhq_final_sample <- read_csv(here("data_frames/lhq_final_sample.csv"))
+
+non_keepers <- read_csv(here("data_frames/non_keepers.csv"))
+
+
+## set color palette & text sizes for visualizations
+# green and purple for indvidual word viz
+pal <- c("#006d2c", "#2ca25f", "#66c2a4", "#99d8c9", "#810f7c", "#8856a7", "#8c96c6", "#b3cde3")
+pal_test <- c("#006d2c", "#2ca25f", "#66c2a4", "#A6DDD0", "#810f7c", "#8856a7", "#8c96c6", "#b3cde3")
+
+# green and purple
+pal1 <- c("#006d2c", "#810f7c")
+pal1_rev <- c("#810f7c", "#006d2c")
+
+# red and blue
+pal2 <- c("#e41a1c", "#377eb8")
+pal2_rev <- c("#377eb8", "#e41a1c")
+```
+
+# Method
+
+```{r}
+descriptives <- exp_final_headphones %>% 
+  group_by(jatos_id, age, overall_ability_English, listening_age_English, overall_ability_French, listening_age_French, proficiency_diff, headphones) %>% 
+  dplyr::summarize(n = n()) %>% 
+  ungroup() %>%
+  #get native language
+  mutate(native_lang = case_when(
+    listening_age_English == 0 & listening_age_French == 0 ~ "bilingual",
+    listening_age_English == 0 ~ "English",
+    listening_age_French == 0 ~ "French"
+  )) 
+
+native_lang <- descriptives %>% 
+  count(native_lang)
+
+descriptives <- descriptives %>% 
+  summarize(n = n(), 
+            mean_age = mean(age), min_age = min(age), max_age = max(age), min_ability_Eng = min(overall_ability_English), max_ability_Eng = max(overall_ability_English), 
+            mean_ability_Eng = mean(overall_ability_English), sd_ability_Eng = sd(overall_ability_English), 
+            mean_AoA_Eng = mean(listening_age_English), sd_AoA_Eng = sd(listening_age_English), 
+            min_AoA_Eng = min(listening_age_English), max_AoA_Eng = max(listening_age_English), min_ability_Fr = min(overall_ability_French), max_ability_Fr = max(overall_ability_French),
+            mean_ability_Fr = mean(overall_ability_French), sd_ability_Fr = sd(overall_ability_French),
+            mean_AoA_Fr = mean(listening_age_French), sd_AoA_Fr = sd(listening_age_French),
+            min_AoA_Fr = min(listening_age_French), max_AoA_Fr = max(listening_age_French),
+            mean_prof = mean(proficiency_diff), sd_prof = sd(proficiency_diff),
+            min_prof = min(proficiency_diff), max_prof = max(proficiency_diff))
+```
+
+
+## Participants
+
+Participants were `r descriptives %>% pull(n)` bilingual adult speakers of French and English from Quebec, Canada (mean age = `r descriptives %>% pull(mean_age) %>% round(digits = 2)`, age range = `r descriptives %>% pull(min_age)` - `r descriptives %>% pull(max_age)`). Participants were recruited in one of two primary ways: 1) from the Concordia University Participant Pool or 2) from the International Laboratory for Brain, Music and Sound Research (BRAMS) online testing platform. Participants from Concordia University received course credit, and participants recruited from BRAMS received a \$10 gift card for their participation. An additional `r sum(non_keepers$reason_n)` participants completed the study but were removed from the analysis for not meeting the pre-registered language criteria (see below; `r non_keepers %>% filter(reason == "language") %>% pull(reason_n)`), not following instructions to complete the task while wearing headphones (`r non_keepers %>% filter(reason == "headphones") %>% pull(reason_n)`), or not meeting our pre-registered attention criteria (see below; `r non_keepers %>% filter(reason == "inattention") %>% pull(reason_n)`).
+
+Language background was assessed using the Language History Questionnaire (LHQ; REF). Participants were required to be a native speaker of French (N = `r native_lang %>% filter(native_lang == "French") %>% pull(n)`) or English (N = `r native_lang %>% filter(native_lang == "English") %>% pull(n)`) or be a native French-English bilingual (N = `r native_lang %>% filter(native_lang == "bilingual") %>% pull(n)`). On average, participants reported learning English from the age of `r descriptives %>% pull(mean_AoA_Eng)` years (SD = `r descriptives %>% pull(sd_AoA_Eng)`, Range = `r descriptives %>% pull(min_AoA_Eng)` – `r descriptives %>% pull(max_AoA_Eng)`) and French from the age of `r descriptives %>% pull(mean_AoA_Fr)` years (SD = `r descriptives %>% pull(sd_AoA_Fr)`, Range = `r descriptives %>% pull(min_AoA_Fr)` – `r descriptives %>% pull(max_AoA_Fr)`). Participants rated their proficiency in each language for listening, speaking, reading, and writing separately on a scale of 1-7. We calculated the mean of these four values to calculate participants’ proficiency in both English and French. Participants’ mean proficiency was `r descriptives %>% pull(mean_ability_Eng)` (SD = `r descriptives %>% pull(sd_ability_Eng)`, Range = `r descriptives %>% pull(min_ability_Eng)` - `r descriptives %>% pull(max_ability_Eng)`) in English and `r descriptives %>% pull(mean_ability_Fr)` (SD = `r descriptives %>% pull(sd_ability_Fr)`, Range = `r descriptives %>% pull(min_ability_Fr)` - `r descriptives %>% pull(max_ability_Fr)`) in French. We did not require participants to have minimum proficiency in either French or English, as one of the main goals of this study was to investigate how various levels of proficiency affect phoneme perception. We then calculated a single proficiency difference score by subtracting French proficiency from English proficiency. Thus, a negative score indicated higher proficiency in French, a score close to 0 indicated relatively equal proficiency in each language, and a positive score indicated higher proficiency in English. Proficiency difference scores ranged from `r descriptives %>% pull(min_prof)` - `r descriptives %>% pull(max_prof)` (*Mean* = `r descriptives %>% pull(mean_prof)`, *SD* = `r descriptives %>% pull(sd_prof) %>% round(digits = 2)`), indicating that on average, participants were more proficient in English. 
+
+```{r}
+other_lang <- lhq_final_sample %>% 
+  filter(lang != "English" & lang != "French" & category == "listening" & age_ability == "age")
+
+other_lang_AoA <- other_lang %>% 
+  summarize(min = min(score),
+            max = max(score),
+            mean = mean(score),
+            sd = sd(score))
+
+other_lang_n <- other_lang %>% 
+  count(lang) %>% 
+  arrange(desc(n), lang) %>% 
+  mutate(lang_n = paste(lang, " (", n, ")", sep = ""))
+```
+
+
+Due to high rates of multilingualism in Montreal and Quebec, and following similar criteria that have been used to investigate speech sound perception in this population (Gonzales et al., 2019), we included participants with knowledge of additional languages, as long as they were not learned from birth (i.e., they were learned after English and/or French). `r other_lang %>% distinct(lhq_id) %>% nrow() %>% printnum(numerals = FALSE, capitalize = TRUE, zero_string = "no", na_string = getOption("papaja.na_string"))` participants reported knowing additional languages, including `r glue::glue_collapse(other_lang_n$lang_n, ", ", last = ", and ")`. Participants started learning these additional languages between `r other_lang_AoA %>% pull(min)` - `r other_lang_AoA %>% pull(max)` (mean = `r other_lang_AoA %>% pull(mean)`, SD = `r other_lang_AoA %>% pull(sd)`) years of age.
+
+```{r study-timeline, echo = FALSE, include = TRUE, fig.cap= "Illustration of the design of the phonological categorization task."}
+include_graphics(here("figures/study-timeline.png"))
+```
+
+# Results
+
+## General Analytic Strategy 
+
+The dependent variable for all analyses was the proportion of /p/ responses. Predictor variables included language (French versus English, contrast coded), VOT (a continuous variable ranging from -30ms to 30ms), target onset (the onset of the original word, contrast coded; e.g., the word “book” was always coded as /b/ even for trials when its onset was phonetically realized as /p/). In our pre-registration, we had planned to investigate English and French proficiency as separate predictors, but as most participants ended up being quite proficient in English (*M* = `r descriptives %>% pull(mean_ability_Eng) %>% round(digits = 2)`/7), we opted to use the proficiency difference score (i.e., English proficiency - French proficiency) to capture both measures of proficiency in a single variable. Pre-registered confirmatory analyses were conducted by fitting logistic mixed effects models to the full dataset. Models were fit separately for full words and truncated words. The final models are reported in the main text, and intermediary models are reported in the supplementary materials. We conducted additional exploratory analyses following Gonzales et al. (2019), by first fitting logistic models to individuals’ data, and then comparing the resulting individual VOT boundaries across relevant predictor variables.  
+
+## Logistic Mixed-Effects Model
+
+Our pre-registered analytic approach began with a base logistic mixed-effects model developed through pilot data (report of the pilot data available at https://osf.io/bx4ad/). We used mixed-effects models, because this technique allows for individual-level and group-level data to vary independently, thus accounting for the dependence of error terms within each level (Sonderegger, 2021). We used a logistic model because our response variable in the forced-choice task was binary (either /b/ or /p/). Our main research question – whether bilinguals perceive phonemes in a language-specific manner – was tested via effects of and interactions with the language predictor. Significant effects of language would indicate that participants had language-specific phoneme perception based on the phonetic cue of VOT. We predicted a significant effect of language for the truncated words, but not for the full words. We also expected to find significant main effects of VOT, whereby participants should report hearing /p/ more often at higher VOTs for both full and truncated words. For the full words only, under the Ganong effect, we expected a main effect of target onset, whereby known words that begin with /p/ (e.g., “puppy”) would be more often heard with /p/ than known words that begin with /b/. When looking at the effect of proficiency, we expected bilinguals with higher proficiency in each language to exhibit a more pronounced effect of language context than those with lower proficiency in their second language.
+
+### Model Selection
+
+The base model included main effects for VOT, language, and target onset, and two way-interactions between VOT and language as well as VOT and target onset. The base model also included random intercepts for participants and items (i.e., individual target words; base model equation: response ~ VOT + language + target onset + VOT:language + VOT:target onset + (1 | participant) + (1 | word)). We then added the proficiency difference score, which was retained in the subsequent model iterations if the associated regression coefficient had an associated z value larger than 1.96 or less than -1.96. If proficiency was retained, we then entered in 2-way interactions between proficiency and language then target onset, and these were retained if the interaction regression coefficient had an associated z value larger than 1.96 or less than -1.96. 
+
+We followed a similar procedure for determining the random effects structure. We started with an intercepts-only model (Sonderegger, 2021) with subject and item as random intercepts. From there, we added random slopes in the following order: VOT, language, target onset, proficiency (if fixed effects included in model). Random slopes were retained if they statistically significantly reduced the deviance based on a Likelihood ratio test and pruned if they led to a convergence error. 
+
+We had also pre-registered conducting exploratory analyses to investigate the potential effect of age of acquisition on phoneme perception. While inspecting this variable, we discovered that most of our participants began learning both languages early in life (at or before 5 years of age). Thus, our data did not have enough variability to properly address this question, as the magnitude of an effect is reduced when the data have a restricted range, and thus we did not perform this analysis.
+
+The final model for full words built upon the base model and additionally included the main effect of proficiency, the interaction between proficiency and target onset, random slopes for VOT and language by participant, and a random slope for VOT by word (full words model: response ~ VOT + language + target onset + proficiency + VOT:language + VOT:target onset + proficiency:target onset + (1 + VOT + language || participant) + (1 + VOT || word)). The final model for the truncated words, compared to the baseline model, included the additional main effect of proficiency (truncated words model: response ~ VOT + language + target onset + VOT:language + VOT:target onset + proficiency + (1 | participant) + (1 | word)). For these final models, we obtained several model diagnostic measurements. The Brier Score (.12 for both the full words and truncated words models) indicated a small mean difference between the fitted and actual values of the dependent variable, which indicates a good model fit (Brier, 1950). The Expected Percentage of Correct Predictions (76.38% for the full words model and 74.18% for the truncated words model; Herron, 1999) and the Classification Accuracy Measures (88.6 % for the full words model and 82.6% for the truncated words model) also indicated a good model fit. We report the outcomes of each model below.
+
+### Full Words
+
+Addressing our main research question, we found no main effect of language nor an interaction between language and VOT (See Table \@ref(tab:full-table)). , suggesting that bilinguals did not perceive the consonants in a language-specific way as in full word contexts, described in previous literature for syllables and non-words. Further examining the fixed effects, as anticipated, we observed main effects of VOT and target onset: participants reported hearing /p/ more often with increased VOT and for real words that begin with /p/. The interaction between VOT and the target onset approached statistical significance, tentatively suggesting that the effect of VOT on participants’ perception depended on the onset of the target word (See Figure \@ref(fig:full-viz-lang)). This supports the prediction stemming from the Ganong effect that participants would be more likely to report hearing the sound that resulted in a real word. Finally, there was a significant effect of proficiency. As participants’ relative proficiency in English increased, they gave fewer /p/ responses, indicating they perceived phonemes differently than participants who were relatively more proficient in French  . This is consistent with what would be expected from monolinguals in each language (Abramson & Lisker, 1973; Caramazza et al., 1973). 
+
+Examining the random effects, there was little variance in the random slopes. The random intercept by participant was also small, suggesting that the effect of VOT did not vary strongly across participants. However, there was high variance on the random slope of item, indicating that VOT boundaries strongly depended on the word tested. Individual items are visualized in Figure \@ref(fig:full-by-word).  
+
+```{r model-full}
+
+
+# load model
+full <- readRDS(here("data_frames/model_full_prof_diff.Rds"))
+full_std <- readRDS(here("data_frames/standardized_full_hp.Rds"))
+
+full_fixed_std <- broom.mixed::tidy(full_std, effects = "fixed") %>% 
+  mutate(std_estimate = round(estimate, digits = 3),
+         term = str_remove_all(term, "_z")) %>% 
+  dplyr::select(term, std_estimate)
+  
+
+# get fixed effects
+full_fixed <- broom.mixed::tidy(full, effects = "fixed") %>%
+  mutate(signif = gtools::stars.pval(p.value),
+         estimate = round(estimate, digits = 3),
+         std.error = round(std.error, digits = 3),
+         statistic = round(statistic, digits = 3),
+         p.value = round(p.value, digits = 3)) %>% 
+  left_join(full_fixed_std, by = "term") %>% 
+  dplyr::select(term:estimate, std_estimate, std.error:signif) %>% 
+  mutate(term = case_when(
+            term == "(Intercept)" ~ "Intercept",
+            term == "language_c" ~ "Language",
+            term == "onset_c" ~ "Target onset",
+            term == "proficiency_diff" ~ "Proficiency difference",
+            term == "VOT:language_c" ~ "VOT x Language",
+            term == "VOT:onset_c" ~ "VOT x Target onset",
+            term == 	
+"onset_c:proficiency_diff" ~ "Target onset x Proficiency difference",
+            TRUE ~ as.character(term)),
+        signif = case_when(
+          signif == "." ~ "+",
+          TRUE ~ as.character(signif))
+        ) %>% 
+  rename(`Fixed effects` = term, Estimate = estimate, `Standardized estimate` = std_estimate, `Standard error` = std.error, `*z*-statistic` = statistic, `*p*-value` = p.value, ` ` = signif)
+
+  
+# random effects info
+full_ran <- VarCorr(full) %>% 
+  as.data.frame() %>% 
+  mutate(across(4:5, ~ round(.x, digits = 3)))
+
+# combine for table
+full_table <- rbind(full_fixed, c("**Random effects**", "", "**Variance**", "", "", "", ""), c("Participant", "Intercept", pull(filter(full_ran, grp == "jatos_id" & var1 == "(Intercept)"), vcov), "", "", "", ""), c("Participant", "VOT", pull(filter(full_ran, grp == "jatos_id.1" & var1 == "VOT"), vcov), "", "", "", ""), c("Target word", "Intercept", pull(filter(full_ran, grp == "target_word" & var1 == "(Intercept)"), vcov), "", "", "", ""), c("Target word", "VOT", pull(filter(full_ran, grp == "target_word.1" & var1 == "VOT"), vcov), "", "", "", "")) %>% 
+  mutate(`*p*-value` = case_when(
+    `*p*-value` == "0" ~ "< 0.001",
+    TRUE ~ as.character(`*p*-value`)
+  ))
+```
+
+``` {r full-table, include = TRUE, results = "asis"}
+apa_table(full_table, caption = "Results from logistic mixed effect model for full words", note = "Equation: VOT + Language + Target onset + VOT x Language + VOT x Target onset + Proficiency difference + Target onset x Proficiency difference + (1 + VOT || participant) + (1 + VOT || Target word). + *p* < .1, * *p* < .05, ** *p* < .01, *** *p* < .001")
+```
+
+```{r full-viz-lang, echo = FALSE, include= TRUE, fig.width = 3, fig.height= 8, fig.cap = "Proportion of /p/ responses as a function of VOT and language for both target onsets combined (a) and each target onset separately (b and c) for full words."}
+
+# by language
+full_viz_lang <- exp_full_headphones %>% 
+  ggplot(aes(x = VOT, y = resp, color = language, shape = language)) +
+  stat_summary(fun.data = "mean_cl_boot", size = 1) +
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', size = 1) +
+  scale_color_manual(values = pal2) +
+  labs(y = "Proportion of /p/ responses") +
+  theme(legend.position = "none") +
+  coord_cartesian(ylim = c(0,1)) +
+  ggtitle("a) All words")
+
+# language and target onset
+full_viz_lang_onset_b <- exp_full_headphones %>% 
+  filter(target_onset == "b") %>% 
+  ggplot(aes(x = VOT, y = resp, color = language, shape = language)) +
+  stat_summary(fun.data = "mean_cl_boot", size = 1) +
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', size = 1) +
+  scale_color_manual(values = pal2) +
+  labs(y = "Proportion of /p/ responses") +
+  #facet_grid(. ~ target_onset, labeller = as_labeller(c("b" = "/b/", "p" = "/p/"))) +
+  theme(legend.position = "none") +
+  coord_cartesian(ylim = c(0,1)) +
+  ggtitle("b) Target onset = /b/")
+
+full_viz_lang_onset_p <- exp_full_headphones %>% 
+  filter(target_onset == "p") %>% 
+  ggplot(aes(x = VOT, y = resp, color = language, shape = language)) +
+  stat_summary(fun.data = "mean_cl_boot", size = 1) +
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', size = 1) +
+  scale_color_manual(values = pal2, name = "Language", labels = c("English", "French")) +
+  scale_shape_manual(values = c(16, 17), name = "Language", labels = c("English", "French")) +
+  labs(y = "Proportion of /p/ responses") +
+  #facet_grid(. ~ target_onset, labeller = as_labeller(c("b" = "/b/", "p" = "/p/"))) +
+  theme(legend.position = "bottom") +
+  coord_cartesian(ylim = c(0,1)) +
+  ggtitle("c) Target onset = /p/")
+
+full_viz_lang / full_viz_lang_onset_b / full_viz_lang_onset_p
+ggsave(here("figures/full_viz_lang.png"))
+
+```
+
+
+
+```{r full-by-word, echo = FALSE, include = TRUE, fig.width = 5, fig.height= 8, fig.cap = "Proportion of /p/ responses as a function of VOT and Target Onset. The solid lines represent the average values for each Target Onset across all Target Words. The dotted lines represent the average values for each Target Word."}
+
+# visualize by individual words
+
+en <- exp_full_headphones %>% 
+  filter(language == "en") %>% 
+  mutate(word = target_word)
+
+#b/p, all words different
+
+shapes <- c(17, 16, 15, 23, 25, 1, 0, 5)
+
+
+# English by word with average by target onset
+eng_word <- ggplot(en, aes(x = VOT, y = resp)) +
+  #individual words
+  stat_summary(fun = "mean", geom = 'point', aes(color = word, shape = word, fill = word)) + 
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', aes(color = word), linetype = "dashed", show.legend = FALSE) +
+  scale_color_manual(values = pal, name = "Target Onset and Words") +
+  scale_shape_manual(values = shapes, name = "Target Onset and Words") +
+  scale_fill_manual(values = pal, name = "Target Onset and Words") +
+  #target onset
+  stat_summary(fun.data = "mean_cl_boot", aes(color = target_onset, shape = target_onset, fill = target_onset), size = .75, show.legend = FALSE) +
+  stat_summary(fun = "mean", geom = 'line', aes(color = target_onset), size = 1, show.legend = FALSE) +
+  labs(y = "Proportion of /p/ responses") +
+  ggtitle("a) English") 
+
+
+
+fr <- exp_full_headphones %>% 
+  filter(language == "fr") %>% 
+  mutate(word = case_when(
+    target_word == "apple" ~ "pomme (apple)",
+    target_word == "candy" ~ "bonbon (candy)",
+    target_word == "cookie" ~ "biscuit (cookie)",
+    target_word == "doll" ~ "poupée (doll)",
+    target_word == "foot" ~ "pied (foot)",
+    target_word == "mouth" ~ "bouche (mouth)"
+  ))
+
+# French by word with average by target onset
+fr_word <- ggplot(fr, aes(x = VOT, y = resp)) +
+  #individual words
+  stat_summary(fun = "mean", geom = 'point', aes(color = word, shape = word, fill = word)) + 
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', aes(color = word), linetype = "dashed", show.legend = FALSE) +
+  scale_color_manual(values = pal, name = "Target Onset and Words") +
+  scale_shape_manual(values = shapes, name = "Target Onset and Words") +
+  scale_fill_manual(values = pal, name = "Target Onset and Words") +
+  #target onset
+  stat_summary(fun.data = "mean_cl_boot", aes(color = target_onset, shape = target_onset, fill = target_onset), size = .75, show.legend = FALSE) +
+  stat_summary(fun = "mean", geom = 'line', aes(color = target_onset), size = 1, show.legend = FALSE) +
+  labs(y = "Proportion of /p/ responses") +
+  ggtitle("b) French") 
+
+
+
+eng_word / fr_word 
+ggsave(here("figures/full_by_word.png"))
+
+```
+
+
+### Truncated Words
+
+Our second model analyzed participants’ responses to the truncated words, and the final set of predictors included main effects of VOT, language, target onset, and the proficiency difference score, and interactions between VOT and language and VOT and target onset (See Table \@ref(tab:trunc-table)). The model also included random intercepts for participants and target words and random slopes for VOT and language.
+
+Like the model for full words, the main effects of VOT and target onset, and the interaction between VOT and target onset were statistically significant, suggesting that while VOT is a large contributor to participants’ perception, they were still influenced by the onset of the target word. There was no main effect for language, but unexpectedly there was a significant interaction between VOT and language, indicating that participants were responding to the cue of VOT differently across languages. Specifically, participants were more likely to report hearing a /p/ during English blocks compared to French blocks. Thus, we did observe some evidence for language-specific phoneme perception in the truncated words condition (See Figure \@ref(fig:trunc-viz-lang)). Lastly, there was a significant effect of proficiency. Like in the model for the full words, participants who were relatively more proficient in English gave fewer /p/ responses, indicating a higher VOT boundary than participants relatively more proficient in French.
+
+As in the model for the full words, the random slopes of target word accounted for more variance in this model than the random slopes of participants, meaning that differences across items accounted for more variation than the differences between participants. This suggests that the outcomes varied a bit for each individual but they varied more depending on the truncated word presented (see Figure \@ref(fig:trunc-by-word)).  
+
+
+```{r model-trunc}
+
+### MODEL EQ for reference
+### not run here to save time when knitting
+
+# trunc <- glmer(as.factor(response) ~ VOT + language_c + onset_c + VOT*language_c + VOT*onset_c + (1 + VOT + language_c | jatos_id) + (1 |target_word), glmerControl(optimizer = "bobyqa"), data=exp_trunc_headphones, family = "binomial")
+
+# load model
+trunc <- readRDS(here("data_frames/model_trunc_prof_diff.Rds"))
+trunc_std <- readRDS(here("data_frames/standardized_trunc_hp.Rds"))
+
+trunc_fixed_std <- broom.mixed::tidy(trunc_std, effects = "fixed") %>% 
+  mutate(std_estimate = round(estimate, digits = 3),
+         term = str_remove_all(term, "_z")) %>% 
+  dplyr::select(term, std_estimate)
+
+# extract fixed effects for table
+trunc_fixed <- broom.mixed::tidy(trunc, effects = "fixed") %>%
+  mutate(signif = gtools::stars.pval(p.value),
+         estimate = round(estimate, digits = 3),
+         std.error = round(std.error, digits = 3),
+         statistic = round(statistic, digits = 3),
+         p.value = round(p.value, digits = 3)) %>% 
+  left_join(trunc_fixed_std, by = "term") %>% 
+  dplyr::select(term:estimate, std_estimate, std.error:signif) %>% 
+  mutate(term = case_when(
+    term == "(Intercept)" ~ "Intercept",
+    term == "language_c" ~ "Language",
+    term == "onset_c" ~ "Target onset",
+    term == "proficiency_diff" ~ "Proficiency difference",
+    term == "VOT:language_c" ~ "VOT x Language",
+    term == "VOT:onset_c" ~ "VOT x Target onset",
+    TRUE ~ as.character(term))) %>% 
+  rename(`Fixed effects` = term, Estimate = estimate, `Standardized estimate` = std_estimate, `Standard error` = std.error, `*z*-statistic` = statistic, `*p*-value` = p.value, ` ` = signif)
+  
+# random effects info
+trunc_ran <- VarCorr(trunc) %>% 
+  as.data.frame() %>%
+  dplyr::select(-var2) %>% 
+  mutate(across(3:4, ~ round(.x, digits = 3)))
+
+# combine for table
+trunc_table <- rbind(trunc_fixed, c("**Random effects**", "",  "**Variance**","", "", "", ""), 
+                    c("Participant", "Intercept",  pull(filter(trunc_ran, grp == "jatos_id" & var1 == "(Intercept)"), vcov), "","", "", ""), 
+                    c("Target word", "Intercept",  pull(filter(trunc_ran, grp == "target_word"), vcov), "", "", "", "")) %>% 
+  mutate(`*p*-value` = case_when(
+    `*p*-value` == "0" ~ "< 0.001",
+    TRUE ~ as.character(`*p*-value`)))
+```
+
+```{r trunc-table, include = TRUE, results = "asis"}
+
+
+apa_table(trunc_table, caption = "Results from logistic mixed effect model for truncated words", note = "Equation: VOT + Language + Target onset + Proficiency difference + VOT x Language + VOT x Target onset + (1 | participant) + (1 | Target Word). + *p* < .1, * *p* < .05, ** *p* < .01, *** *p* < .001")
+
+```
+
+```{r trunc-viz-lang, echo = FALSE, include= TRUE, fig.width = 3, fig.height= 8, fig.cap = "Proportion of /p/ responses as a function of VOT and language for both target onsets combined (a) and each target onset separately (b and c) for truncated words."}
+
+# by language
+trunc_viz_lang <- exp_trunc_headphones %>% 
+  ggplot(aes(x = VOT, y = resp, color = language, shape = language)) +
+  stat_summary(fun.data = "mean_cl_boot", size = 1) +
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', size = 1) +
+  scale_color_manual(values = pal2) +
+  labs(y = "Proportion of /p/ responses") +
+  theme(legend.position = "none") +
+  coord_cartesian(ylim = c(0,1)) +
+  ggtitle("a) All words")
+
+# language and target onset
+trunc_viz_lang_onset_b <- exp_trunc_headphones %>% 
+  filter(target_onset == "b") %>% 
+  ggplot(aes(x = VOT, y = resp, color = language, shape = language)) +
+  stat_summary(fun.data = "mean_cl_boot", size = 1) +
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', size = 1) +
+  scale_color_manual(values = pal2) +
+  #facet_grid(target_onset ~ ., labeller = as_labeller(c("b" = "/b/", "p" = "/p/"))) +
+  labs(y = "Proportion of /p/ responses") +
+  theme(legend.position = "none") +
+  coord_cartesian(ylim = c(0,1)) +
+  ggtitle("b) Target onset = /b/")
+
+trunc_viz_lang_onset_p <- exp_trunc_headphones %>% 
+  filter(target_onset == "p") %>% 
+  ggplot(aes(x = VOT, y = resp, color = language, shape = language)) +
+  stat_summary(fun.data = "mean_cl_boot", size = 1) +
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', size = 1) +
+  scale_color_manual(values = pal2, name = "Language", labels = c("English", "French")) +
+  scale_shape_manual(values = c(16, 17), name = "Language", labels = c("English", "French")) +
+  #facet_grid(target_onset ~ ., labeller = as_labeller(c("b" = "/b/", "p" = "/p/"))) +
+  labs(y = "Proportion of /p/ responses") +
+  theme(legend.position = "bottom") +
+  coord_cartesian(ylim = c(0,1)) +
+  ggtitle("c) Target onset = /p/")
+
+trunc_viz_lang / trunc_viz_lang_onset_b / trunc_viz_lang_onset_p
+ggsave(here("figures/trunc_viz_lang.png"))
+```
+
+
+
+
+```{r trunc-by-word, echo = FALSE, include = TRUE, fig.width = 5, fig.height= 8, fig.cap = "Proportion of /p/ responses as a function of VOT and Target Onset for truncated words. The solid lines represent the average values for each Target Onset across all Target Words. The dotted lines represent the average values for each Target Word. Note that the full word is included in the legend, but participants only heard the first 200ms of the word."}
+
+en_trunc <- exp_trunc_headphones %>% 
+  filter(language == "en") %>% 
+  mutate(word = target_word)
+
+# English by word with average by target onset
+eng_word_trunc <- ggplot(en_trunc, aes(x = VOT, y = resp)) +
+  #individual words
+  stat_summary(fun = "mean", geom = 'point', aes(color = word, shape = word, fill = word)) + 
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', aes(color = word), linetype = "dashed", show.legend = FALSE) +
+  scale_color_manual(values = pal, name = "Target Onset and Words") +
+  scale_shape_manual(values = shapes, name = "Target Onset and Words") +
+  scale_fill_manual(values = pal, name = "Target Onset and Words") +
+  #target onset
+  stat_summary(fun.data = "mean_cl_boot", aes(color = target_onset, shape = target_onset, fill = target_onset), size = .75, show.legend = FALSE) +
+  stat_summary(fun = "mean", geom = 'line', aes(color = target_onset), size = 1, show.legend = FALSE) +
+  labs(y = "Proportion of /p/ responses") +
+  ggtitle("a) English") 
+
+
+fr_trunc <- exp_trunc_headphones %>% 
+  filter(language == "fr") %>% 
+  mutate(word = case_when(
+    target_word == "apple" ~ "pomme (apple)",
+    target_word == "candy" ~ "bonbon (candy)",
+    target_word == "cookie" ~ "biscuit (cookie)",
+    target_word == "doll" ~ "poupée (doll)",
+    target_word == "foot" ~ "pied (foot)",
+    target_word == "mouth" ~ "bouche (mouth)"
+  ))
+
+# French by word with average by target onset
+fr_word_trunc <- ggplot(fr_trunc, aes(x = VOT, y = resp)) +
+  #individual words
+  stat_summary(fun = "mean", geom = 'point', aes(color = word, shape = word, fill = word)) + 
+  stat_summary(fun.data = "mean_cl_boot", geom = 'line', aes(color = word), linetype = "dashed", show.legend = FALSE) +
+  scale_color_manual(values = pal, name = "Target Onset and Words") +
+  scale_shape_manual(values = shapes, name = "Target Onset and Words") +
+  scale_fill_manual(values = pal, name = "Target Onset and Words") +
+  #target onset
+  stat_summary(fun.data = "mean_cl_boot", aes(color = target_onset, shape = target_onset, fill = target_onset), size = .75, show.legend = FALSE) +
+  stat_summary(fun = "mean", geom = 'line', aes(color = target_onset), size = 1, show.legend = FALSE) +
+  labs(y = "Proportion of /p/ responses") +
+  ggtitle("b) French") 
+
+eng_word_trunc / fr_word_trunc
+ggsave(here("figures/trunc_by_word.png"))
+```
+
+## Individual Curve Analysis
+
+```{r}
+boundaries_lang <- read_csv(here("data_frames/individual-boundaries-lang.csv"))
+boundaries_onset <- read_csv(here("data_frames/individual-boundaries-onset.csv"))
+
+boundaries_lang_wide <- boundaries_lang %>% 
+  pivot_wider(id_cols = "jatos_id", names_from = c("block", "language"), values_from = "pred_boundary")
+
+boundaries_onset_wide <- boundaries_onset %>% 
+  pivot_wider(id_cols = "jatos_id", names_from = c("block", "language", "target_onset"), values_from = "pred_boundary")
+
+
+
+boundaries_lang_summary <- boundaries_lang %>% 
+  filter(!is.na(pred_boundary)) %>% 
+  group_by(block, language) %>% 
+  dplyr::summarize(n = n(), mean_boundary = mean(pred_boundary), median_boundary = median(pred_boundary), sd = sd(pred_boundary), sem = sqrt(var(pred_boundary)/length(pred_boundary)))
+
+full_language <- wilcox.test(boundaries_lang_wide$full_English, boundaries_lang_wide$full_French, paired = TRUE)
+
+trunc_language <- wilcox.test(boundaries_lang_wide$trunc_English, boundaries_lang_wide$trunc_French, paired = TRUE)
+
+
+
+boundaries_onset_summary <- boundaries_onset %>% 
+  filter(!is.na(pred_boundary)) %>% 
+  group_by(block, language, target_onset) %>% 
+  dplyr::summarize(n = n(), mean_boundary = mean(pred_boundary), median_boundary = median(pred_boundary), sd = sd(pred_boundary), sem = sqrt(var(pred_boundary)/length(pred_boundary)))
+
+# comparing onset in English
+full_eng <- wilcox.test(boundaries_onset_wide$full_English_b, boundaries_onset_wide$full_English_p, paired = TRUE)
+trunc_eng <- wilcox.test(boundaries_onset_wide$trunc_English_b, boundaries_onset_wide$trunc_English_p, paired = TRUE)
+
+# comparing onset in French
+full_fr <- wilcox.test(boundaries_onset_wide$full_French_b, boundaries_onset_wide$full_French_p, paired = TRUE)
+trunc_fr <- wilcox.test(boundaries_onset_wide$trunc_French_b, boundaries_onset_wide$trunc_French_p, paired = TRUE)
+
+
+### proficiency
+
+prof_diff <- exp_final_headphones %>% 
+  group_by(jatos_id, proficiency_diff) %>% 
+  dplyr::summarize(n = n()) %>% 
+  dplyr::select(-n)
+
+boundaries_lang_prof <- boundaries_lang %>% 
+  left_join(prof_diff, by = "jatos_id") 
+
+
+boundaries_onset_prof <- boundaries_onset %>% 
+  left_join(prof_diff, by = "jatos_id")
+
+```
+
+
+In addition to our pre-registered analyses, we performed a complementary analysis following analyses performed by Gonzales and colleagues (2019), by computing phoneme boundaries for each participant for both full and truncated words using a logistic regression model fitted to their individual data. Computing individual boundaries is a way to examine how phoneme perception varies between individuals based on a specified set of variables. First, we computed individual boundaries based on VOT, language, and their interaction. Second, we computed individual boundaries when adding target onset and the interaction between target onset and VOT. Using each model’s intercept and coefficient terms, we calculated the VOT value where a /b/ and a /p/ response were equally likely. As the VOT values of the individual boundaries were skewed, here, we report median values and compare boundaries across conditions with the non-parametric paired samples Wilcoxon test.
+
+### Full Words
+
+When considering only language, participants' individual VOT boundaries were lower in English (*Median* = `r boundaries_lang_summary %>% filter(block == "full" & language == "English") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_lang_summary %>% filter(block == "full" & language == "English") %>% pull(sd) %>% round(digits = 2)`) than in French (*Median* = `r boundaries_lang_summary %>% filter(block == "full" & language == "French") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_lang_summary %>% filter(block == "full" & language == "French") %>% pull(sd) %>% round(digits = 2)`), `r apa_print(full_language)$statistic` (See Figure \@ref(fig:boundaries-lang), left). When considering both language and target onset, in English, participants' individual VOT boundaries were lower for words beginning with /p/ (*Median* = `r boundaries_onset_summary %>% filter(block == "full" & language == "English" & target_onset == "p") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_onset_summary %>% filter(block == "full" & language == "English" & target_onset == "p") %>% pull(sd) %>% round(digits = 2)`) than words beginning with /b/ (*Median* = `r boundaries_onset_summary %>% filter(block == "full" & language == "English" & target_onset == "b") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_onset_summary %>% filter(block == "full" & language == "English" & target_onset == "b") %>% pull(sd) %>% round(digits = 2)`), `r apa_print(full_eng)$statistic`. Similarly, in French, participants' individual VOT boundaries were lower for words beginning with /p/ (*Median* = `r boundaries_onset_summary %>% filter(block == "full" & language == "French" & target_onset == "p") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_onset_summary %>% filter(block == "full" & language == "French" & target_onset == "p") %>% pull(sd) %>% round(digits = 2)`) than words beginning with /b/ (*Median* = `r boundaries_onset_summary %>% filter(block == "full" & language == "French" & target_onset == "b") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_onset_summary %>% filter(block == "full" & language == "French" & target_onset == "b") %>% pull(sd) %>% round(digits = 2)`), `r apa_print(full_fr)$statistic` (See Figure \@ref(fig:boundaries-onset), left). While we saw statistically significant patterns in individual boundaries across language and target onset, the spread of these boundaries suggests that individuals weigh cues differently for phoneme perception. Trying to identify a single boundary value for all listeners may neglect this variation and obscure the importance of other cues.
+
+### Truncated Words
+
+
+When considering only language, participants' individual VOT boundaries were lower in English (*Median* = `r boundaries_lang_summary %>% filter(block == "trunc" & language == "English") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_lang_summary %>% filter(block == "trunc" & language == "English") %>% pull(sd) %>% round(digits = 2)`) than in French (*Median* = `r boundaries_lang_summary %>% filter(block == "trunc" & language == "French") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_lang_summary %>% filter(block == "trunc" & language == "French") %>% pull(sd) %>% round(digits = 2)`), `r apa_print(trunc_language)$statistic` (See Figure \@ref(fig:boundaries-lang), right). When considering both language and target onset, in English, participants' individual VOT boundaries were lower for words beginning with /p/ (*Median* = `r boundaries_onset_summary %>% filter(block == "trunc" & language == "English" & target_onset == "p") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_onset_summary %>% filter(block == "trunc" & language == "English" & target_onset == "p") %>% pull(sd) %>% round(digits = 2)`) than words beginning with /b/ (*Median* = `r boundaries_onset_summary %>% filter(block == "trunc" & language == "English" & target_onset == "b") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_onset_summary %>% filter(block == "trunc" & language == "English" & target_onset == "b") %>% pull(sd) %>% round(digits = 2)`), `r apa_print(trunc_eng)$statistic`. Similarly, in French, participants' individual VOT boundaries were lower for words beginning with /p/ (*Median* = `r boundaries_onset_summary %>% filter(block == "trunc" & language == "French" & target_onset == "p") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_onset_summary %>% filter(block == "trunc" & language == "French" & target_onset == "p") %>% pull(sd) %>% round(digits = 2)`) than words beginning with /b/ (*Median* = `r boundaries_onset_summary %>% filter(block == "trunc" & language == "French" & target_onset == "b") %>% pull(median_boundary) %>% round(digits = 2)`, *SD* = `r boundaries_onset_summary %>% filter(block == "trunc" & language == "French" & target_onset == "b") %>% pull(sd) %>% round(digits = 2)`), `r apa_print(trunc_fr)$statistic` (See Figure \@ref(fig:boundaries-onset), right). Again, we saw a large spread in boundary values, suggesting that individuals weigh cues differently.
+
+```{r boundaries-lang, echo = FALSE, include = TRUE, fig.cap= "Individual VOT boundaries based on language. Note that for visualization purposes, outlier boundaries greater than 45ms have been removed."}
+
+#reverse level order so English is on top
+boundaries_lang$language <- ordered(boundaries_lang$language, levels = c("French", "English"))
+
+
+ggplot(boundaries_lang, aes(x = pred_boundary, y = factor(language), color = factor(language))) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(height = 0.2, alpha = 0.2) +
+  #scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
+  facet_grid(. ~ block, labeller = as_labeller(c("full" = "Full words", "trunc" = "Truncated words"))) +
+  theme(legend.position = "none") +
+  labs(x = "Predicted boundary (ms)", y = "Language") +
+  scale_color_manual(values = pal2_rev) +
+  coord_cartesian(xlim = c(-15, 45))
+
+ggsave(here("figures/boundaries_lang.png"))
+```
+
+
+```{r boundaries-onset, echo = FALSE, include = TRUE, fig.cap = "Individual VOT boundaries based on language and target onset. Note that for visualization purposes, outlier boundaries less than -50ms or greater than 75ms have been removed."}
+
+boundaries_onset$target_onset <- ordered(boundaries_onset$target_onset, levels = c("p", "b"))
+
+ggplot(boundaries_onset, aes(x = pred_boundary, y = factor(target_onset), color = factor(target_onset))) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(height = 0.2, alpha = 0.1)+
+  #scale_x_continuous(breaks = scales::pretty_breaks(n = 10)) +
+  scale_y_discrete(labels = c("/p/", "/b/")) +
+  facet_grid(language ~ block, labeller = as_labeller(c("full" = "Full words", "trunc" = "Truncated words", "English" = "English", "French" = "French"))) +
+  theme(legend.position = "none") +
+  labs(x = "Predicted boundary (ms)", y = "Target onset") +
+  scale_color_manual(values = pal1_rev) +
+  coord_cartesian(xlim = c(-50, 75))
+
+ggsave(here("figures/boundaries_onset.png"))
+```
+
+### Proficiency Difference Scores
+
+Because proficiency was a significant predictor in our logistic mixed-effect models, we calculated correlations between participants’ proficiency difference scores and their individual boundaries (See Table 3 for language and Table 4 for language and onset). To account for multiple comparisons, we reduced $\alpha$ to .013 for boundaries based on language and .006 for boundaries based on language and onset. With this correction, the only correlation that was statistically significant was between proficiency and French words beginning with /p/ in full blocks. Unlike in the previous analyses, these results suggest that overall, the difference between an individual’s proficiency in English and French did not affect how they weighed the cues of language and target onset, and that proficiency is not sufficient to explain the range of individual boundaries we observed  across all testing conditions.
+
+```{r corr-lang, include = TRUE, results = "asis"}
+# lang only
+# ggplot(boundaries_lang_prof, aes(x = proficiency_diff, y = pred_boundary, color = language))+
+#   geom_point() +
+#   geom_smooth(method = "lm") +
+#   facet_grid(. ~ block) +
+#   coord_cartesian(ylim = c(-15, 45))
+
+lang_full_eng <- boundaries_lang_prof %>% 
+  filter(block == "full" & language == "English") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_full_fr <- boundaries_lang_prof %>% 
+  filter(block == "full" & language == "French") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_trunc_eng <- boundaries_lang_prof %>% 
+  filter(block == "trunc" & language == "English") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_trunc_fr <- boundaries_lang_prof %>% 
+  filter(block == "trunc" & language == "French") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+corr_table_lang <- rbind(apa_print(lang_full_eng)$table, apa_print(lang_full_fr)$table, apa_print(lang_trunc_eng)$table, apa_print(lang_trunc_fr)$table) %>% 
+  mutate(Block = c("Full words", "Full words", "Truncated words", "Truncated words"),
+         Language = c("English", "French", "English", "French"),
+         p.value = as.numeric(p.value),
+         ` ` = case_when(
+           p.value < .013 ~ "*",
+           TRUE ~ ""),
+         p.value = as.character(p.value)
+         ) %>% 
+  dplyr::select(Block, Language, everything())
+
+
+apa_table(corr_table_lang, caption = "Correlations between proficiency difference scores and individual boundaries calculated based on language.", note = "Asterisk denotes *p*-value < 0.013")
+```
+
+```{r corr-onset, include = TRUE, results = "asis"}
+
+#lang and onset
+# ggplot(boundaries_onset_prof, aes(x = proficiency_diff, y = pred_boundary, color = language))+
+#   geom_point() +
+#   geom_smooth(method = "lm") +
+#   facet_grid(target_onset ~ block) +
+#   coord_cartesian(ylim = c(-50, 75))
+
+
+lang_full_eng_b <- boundaries_onset_prof %>% 
+  filter(block == "full" & language == "English" & target_onset == "b") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_full_fr_b <- boundaries_onset_prof %>% 
+  filter(block == "full" & language == "French" & target_onset == "b") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_trunc_eng_b <- boundaries_onset_prof %>% 
+  filter(block == "trunc" & language == "English" & target_onset == "b") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_trunc_fr_b <- boundaries_onset_prof %>% 
+  filter(block == "trunc" & language == "French" & target_onset == "b") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_full_eng_p <- boundaries_onset_prof %>% 
+  filter(block == "full" & language == "English" & target_onset == "p") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_full_fr_p <- boundaries_onset_prof %>% 
+  filter(block == "full" & language == "French" & target_onset == "p") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_trunc_eng_p <- boundaries_onset_prof %>% 
+  filter(block == "trunc" & language == "English" & target_onset == "p") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+lang_trunc_fr_p <- boundaries_onset_prof %>% 
+  filter(block == "trunc" & language == "French" & target_onset == "p") %$%
+cor.test(pred_boundary, proficiency_diff)
+
+corr_table_onset <- rbind(apa_print(lang_full_eng_b)$table,
+                          apa_print(lang_full_eng_p)$table,
+                          apa_print(lang_full_fr_b)$table,
+                          apa_print(lang_full_fr_p)$table,
+                          apa_print(lang_trunc_eng_b)$table,
+                          apa_print(lang_trunc_eng_p)$table,
+                          apa_print(lang_trunc_fr_b)$table,
+                          apa_print(lang_trunc_fr_p)$table) %>% 
+  mutate(Block = c("Full", "Full", "Full", "Full", "Truncated", "Truncated", "Truncated", "Truncated"),
+         Language = c("English", "English", "French", "French", "English", "English", "French", "French"),
+         `Target Onset` = c("/b/", "/p/", "/b/", "/p/", "/b/", "/p/", "/b/", "/p/"),
+         p.value = as.numeric(p.value),
+         ` ` = case_when(
+           p.value < .006 ~ "*",
+           TRUE ~ ""),
+         p.value = as.character(p.value)
+         ) %>% 
+  dplyr::select(Block:`Target Onset`, everything())
+
+apa_table(corr_table_onset, caption = "Correlations between proficiency difference scores and individual boundaries calculated based on language and target onset.", note = "Asterisk denotes *p*-value < 0.006")
+```
+

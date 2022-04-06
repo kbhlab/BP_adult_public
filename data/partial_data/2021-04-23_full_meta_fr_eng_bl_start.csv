@@ -1,0 +1,78 @@
+Comp. Result ID ,Start Time ,Duration ,Batch,Worker ID ,Worker Type ,State ,Files ,Message ,exp_start
+16833,4/21/2021 20:19,0:01:36,Participant link 439,10417,Personal Single,FAIL,none,none,
+16803,4/21/2021 8:49,0:05:11,Participant link 434,8242,Personal Single,FAIL,none,none,
+16758,4/20/2021 15:46,0:19:38,Participant links 240-265,2156,Personal Single,FINISHED,none,none,Tue Apr 20 2021 15:47:04 GMT-0400 (Eastern Daylight Time)
+16614,4/16/2021 21:51,0:11:25,Participant link 437,10107,Personal Single,FAIL,none,none,Fri Apr 16 2021 22:51:28 GMT-0300 (Atlantic Daylight Time)
+15304,4/15/2021 14:09,0:21:00,Participant link 436,9682,Personal Single,FAIL,none,none,Thu Apr 15 2021 15:09:45 GMT-0300 (Atlantic Daylight Time)
+15006,4/14/2021 22:03,0:12:26,Participant links 240-265,2153,Personal Single,FAIL,none,none,Wed Apr 14 2021 23:03:51 GMT-0300 (Atlantic Daylight Time)
+14800,4/14/2021 14:31,0:19:07,Participant links 240-265,2151,Personal Single,FINISHED,none,none,Wed Apr 14 2021 14:32:20 GMT-0400 (Eastern Daylight Time)
+12553,4/5/2021 17:37,0:14:49,Participant link 435,8448,Personal Single,FINISHED,none,none,Mon Apr 05 2021 17:37:17 GMT-0400 (Eastern Daylight Time)
+12195,4/2/2021 18:08,13:56:49,Participant links 214-239,2118,Personal Single,FAIL,none,none,
+12179,4/2/2021 15:42,0:02:40,Participant links 240-265,2150,Personal Single,FAIL,none,none,
+11906,3/31/2021 18:47,0:00:19,Participant links 240-265,2149,Personal Single,FAIL,none,none,
+11462,3/28/2021 19:10,0:18:03,Participant links 214-239,2133,Personal Single,FINISHED,none,none,Sun Mar 28 2021 19:10:41 GMT-0400 (GMT-04:00)
+11422,3/28/2021 13:18,0:18:03,Participant link 429,7768,Personal Single,FAIL,none,none,
+11282,3/26/2021 22:41,not yet,Participant link 423,6958,Personal Single,RESULTDATA_POSTED,none,none,Fri Mar 26 2021 22:42:00 GMT-0400 (Eastern Daylight Time)
+11183,3/26/2021 12:50,0:00:16,Participant link 428,7590,Personal Single,FAIL,none,none,
+10975,3/25/2021 0:32,0:17:49,Participant link 418,6742,Personal Single,FINISHED,none,none,Thu Mar 25 2021 00:32:26 GMT-0400 (Eastern Daylight Time)
+10909,3/24/2021 16:19,0:02:22,Participant link 427,7589,Personal Single,FAIL,none,none,
+10754,3/22/2021 22:47,0:18:00,Participant links 240-265,2138,Personal Single,FINISHED,none,none,Mon Mar 22 2021 22:49:51 GMT-0400 (UTC−04:00)
+10722,3/22/2021 17:05,0:30:05,Participant link 131,1938,Personal Single,FINISHED,none,none,Mon Mar 22 2021 17:05:42 GMT-0400 (GMT-04:00)
+10610,3/20/2021 20:26,0:15:31,Participant link 426,7381,Personal Single,FINISHED,none,none,Sat Mar 20 2021 20:26:48 GMT-0400 (Eastern Daylight Time)
+10607,3/20/2021 19:51,0:02:08,Participant links 240-265,2139,Personal Single,FAIL,none,none,
+10007,3/14/2021 19:19,0:00:42,Participant links 240-265,2145,Personal Single,FAIL,none,none,
+9827,3/10/2021 22:17,0:02:44,Participant links 240-265,2146,Personal Single,FAIL,none,none,
+9508,3/8/2021 16:06,0:13:59,Participant link 419,6743,Personal Single,FINISHED,none,none,Mon Mar 08 2021 16:07:07 GMT-0500 (Eastern Standard Time)
+9498,3/8/2021 12:19,not yet,Participant links 240-265,2142,Personal Single,RESULTDATA_POSTED,none,none,
+9475,3/8/2021 0:56,0:04:09,Participant link 417,6703,Personal Single,FAIL,none,none,
+8489,2/26/2021 23:06,0:20:28,Participant links 214-239,2128,Personal Single,FINISHED,none,none,Fri Feb 26 2021 23:06:24 GMT-0500 (GMT-05:00)
+7686,2/18/2021 21:46,0:19:45,Participant link 376,5534,Personal Single,FINISHED,none,none,Thu Feb 18 2021 21:46:22 GMT-0500 (Eastern Standard Time)
+7668,2/18/2021 20:46,16:22:13:33,Participant links 240-265,2140,Personal Single,FAIL,none,none,
+7502,2/17/2021 22:42,0:01:24,Participant links 240-265,2137,Personal Single,FAIL,none,none,
+7398,2/16/2021 17:58,0:18:11,Participant links 240-265,2141,Personal Single,FINISHED,none,none,Tue Feb 16 2021 17:58:52 GMT-0500 (Eastern Standard Time)
+7140,2/14/2021 11:37,0:15:56,Participant link 370,5264,Personal Single,FINISHED,none,none,Sun Feb 14 2021 11:37:20 GMT-0500 (Eastern Standard Time)
+7025,2/12/2021 20:35,0:03:36,Participant link 369,5217,Personal Single,FAIL,none,none,
+6985,2/12/2021 12:40,0:03:58,Participant links 214-239,2132,Personal Single,FAIL,none,none,
+6976,2/12/2021 9:00,40:04:08:28,Participant links 214-239,2131,Personal Single,FAIL,none,none,
+6949,2/11/2021 18:22,0:15:17,Participant links 214-239,2130,Personal Single,FAIL,none,none,Thu Feb 11 2021 18:22:41 GMT-0500 (Eastern Standard Time)
+6678,2/9/2021 12:56,0:14:19,Participant link 365,5053,Personal Single,FINISHED,none,none,Tue Feb 09 2021 12:56:52 GMT-0500 (Eastern Standard Time)
+6560,2/8/2021 15:40,0:13:26,Participant link 364,4990,Personal Single,FAIL,none,none,
+6497,2/7/2021 22:57,0:00:52,Participant links 240-265,2136,Personal Single,FAIL,none,none,
+5653,2/1/2021 19:30,0:18:13,Participant link 358,4381,Personal Single,FINISHED,none,none,Mon Feb 01 2021 19:30:19 GMT-0500 (Eastern Standard Time)
+5598,1/31/2021 17:29,0:00:24,Participant link 346,4308,Personal Single,FAIL,none,none,
+5571,1/30/2021 18:22,0:00:07,Participant links 214-239,2124,Personal Single,FAIL,none,none,
+5435,1/27/2021 19:16,0:18:05,Participant links 214-239,2129,Personal Single,FINISHED,none,none,Wed Jan 27 2021 19:17:09 GMT-0500 (Eastern Standard Time)
+5393,1/26/2021 18:06,0:14:42,Participant link 333,4129,Personal Single,FINISHED,none,none,Tue Jan 26 2021 18:06:23 GMT-0500 (Eastern Standard Time)
+5389,1/26/2021 16:37,0:05:25,Participant 325,3995,Personal Single,FAIL,none,none,
+5231,1/23/2021 16:47,0:15:23,Participant link 323,3963,Personal Single,FINISHED,none,none,Sat Jan 23 2021 16:48:11 GMT-0500 (Eastern Standard Time)
+5224,1/23/2021 15:19,0:17:05,Participant links 214-239,2127,Personal Single,FINISHED,none,none,Sat Jan 23 2021 15:19:37 GMT-0500 (Eastern Standard Time)
+5209,1/22/2021 22:07,0:15:14,Participant links 214-239,2125,Personal Single,FINISHED,none,none,Fri Jan 22 2021 22:07:41 GMT-0500 (Eastern Standard Time)
+5107,1/21/2021 20:08,0:09:10,Participant links 214-239,2123,Personal Single,FAIL,none,none,
+5050,1/20/2021 21:13,0:02:26,Participant links 214-239,2121,Personal Single,FAIL,none,none,
+4955,1/19/2021 12:41,not yet,Participant links 214-239,2120,Personal Single,RESULTDATA_POSTED,none,none,
+4660,1/14/2021 19:27,0:16:52,Participant links 214-239,2119,Personal Single,FINISHED,none,none,Thu Jan 14 2021 19:28:36 GMT-0500 (Eastern Standard Time)
+4379,1/11/2021 16:09,0:19:25,Participant link 320,3444,Personal Single,FINISHED,none,none,Mon Jan 11 2021 16:10:18 GMT-0500 (Eastern Standard Time)
+4377,1/11/2021 15:42,0:15:30,Participant links 214-239,2117,Personal Single,FINISHED,none,none,Mon Jan 11 2021 15:42:22 GMT-0500 (GMT-05:00)
+3937,12/30/2020 15:29,0:05:16,Participant links 214-239,2115,Personal Single,FAIL,none,none,
+3580,12/23/2020 15:06,0:24:22,Participant link 314,2350,Personal Single,FAIL,none,none,Wed Dec 23 2020 15:07:28 GMT-0500 (GMT-05:00)
+2939,12/14/2020 13:22,0:27:40,Participant link 319,2392,Personal Single,FAIL,none,none,Mon Dec 14 2020 13:23:31 GMT-0500 (Eastern Standard Time)
+2938,12/14/2020 9:26,not yet,Participant links 56-80,1301,Personal Single,RESULTDATA_POSTED,none,none,
+2874,12/8/2020 18:59,0:19:24,Participant links 214-239,2114,Personal Single,FAIL,none,none,Tue Dec 08 2020 19:00:18 GMT-0500 (heure normale de l’Est)
+2810,12/7/2020 11:02,not yet,Participant links 56-80,1302,Personal Single,RESULTDATA_POSTED,none,none,
+2798,12/7/2020 0:13,0:15:10,Participant links 214-239,2111,Personal Single,FINISHED,none,none,Mon Dec 07 2020 00:13:51 GMT-0500 (Eastern Standard Time)
+2794,12/6/2020 22:05,2:15:54,Participant links 214-239,2113,Personal Single,FINISHED,none,none,Sun Dec 06 2020 22:21:16 GMT-0500 (Eastern Standard Time)
+2781,12/6/2020 16:24,0:18:11,Participant link 296,2191,Personal Single,FINISHED,none,none,Sun Dec 06 2020 16:25:02 GMT-0500 (GMT-05:00)
+2774,12/6/2020 1:06,not yet,Participant links 56-80,1316,Personal Single,RESULTDATA_POSTED,none,none,
+2767,12/5/2020 18:30,2:56:17,Participant links 56-80,1299,Personal Single,FINISHED,none,none,Sat Dec 05 2020 21:04:14 GMT-0500 (Eastern Standard Time)
+2748,12/4/2020 22:42,not yet,Participant link 133,2021,Personal Single,RESULTDATA_POSTED,none,none,
+2709,12/4/2020 16:21,0:48:38,Participant links 56-80,1318,Personal Single,FAIL,none,none,
+2604,12/1/2020 10:47,0:18:10,Participant links 56-80,1303,Personal Single,FINISHED,none,none,Tue Dec 01 2020 10:47:55 GMT-0500 (GMT-05:00)
+2549,11/29/2020 21:00,0:16:51,Participant links 56-80,1311,Personal Single,FAIL,none,none,Sun Nov 29 2020 21:00:38 GMT-0500 (GMT-05:00)
+2545,11/29/2020 17:51,0:21:53,Participant link 126,1881,Personal Single,FINISHED,none,none,Sun Nov 29 2020 17:52:00 GMT-0500 (Eastern Standard Time)
+2544,11/29/2020 17:38,0:28:22,Participant link 118,1791,Personal Single,FAIL,none,none,
+2518,11/28/2020 16:53,0:21:03,Participant links 56-80,1310,Personal Single,FINISHED,none,none,Sat Nov 28 2020 16:53:38 GMT-0500 (Eastern Standard Time)
+2510,11/27/2020 22:10,not yet,Participant links 56-80,1309,Personal Single,RESULTDATA_POSTED,none,none,
+2483,11/25/2020 19:14,1:20:08:05,Participant link 123,1815,Personal Single,FAIL,none,none,
+2009,11/4/2020 13:43,0:16:22,Testing Order,1475,Personal Single,FINISHED,none,none,Wed Nov 04 2020 13:43:46 GMT-0500 (Eastern Standard Time)
+1942,11/3/2020 17:19,0:03:38,Participant link 107,1463,Personal Single,FAIL,none,none,
+1738,10/21/2020 18:39,0:15:59,Default,730,Jatos,FINISHED,none,none,Wed Oct 21 2020 18:39:11 GMT-0400 (Eastern Daylight Time)

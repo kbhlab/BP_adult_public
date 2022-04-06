@@ -1,0 +1,2230 @@
+lhq_id,age,gender,education,error_code,category,age_ability,score,lang,score_follow_up,score_corrected
+cfaq4,29,Female,College (Bachelor),0,listening,age,0,English,NA,0
+cfaq4,29,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+cfaq4,29,Female,College (Bachelor),0,reading,age,5,English,NA,5
+cfaq4,29,Female,College (Bachelor),0,writing,age,5,English,NA,5
+cfaq4,29,Female,College (Bachelor),0,yearstotal,age,29,English,NA,29
+cfaq4,29,Female,College (Bachelor),0,listening,age,6,French,NA,6
+cfaq4,29,Female,College (Bachelor),0,speaking,age,6,French,NA,6
+cfaq4,29,Female,College (Bachelor),0,reading,age,6,French,NA,6
+cfaq4,29,Female,College (Bachelor),0,writing,age,6,French,NA,6
+cfaq4,29,Female,College (Bachelor),0,yearstotal,age,23,French,NA,23
+cfaq4,29,Female,College (Bachelor),0,listening,age,26,Spanish,NA,26
+cfaq4,29,Female,College (Bachelor),0,speaking,age,28,Spanish,NA,28
+cfaq4,29,Female,College (Bachelor),0,reading,age,26,Spanish,NA,26
+cfaq4,29,Female,College (Bachelor),0,writing,age,28,Spanish,NA,28
+cfaq4,29,Female,College (Bachelor),0,yearstotal,age,1,Spanish,NA,1
+cfaq4,29,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+cfaq4,29,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+cfaq4,29,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+cfaq4,29,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+cfaq4,29,Female,College (Bachelor),0,listening,ability,5,French,NA,5
+cfaq4,29,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+cfaq4,29,Female,College (Bachelor),0,reading,ability,5,French,NA,5
+cfaq4,29,Female,College (Bachelor),0,writing,ability,4,French,NA,4
+cfaq4,29,Female,College (Bachelor),0,listening,ability,2,Spanish,NA,2
+cfaq4,29,Female,College (Bachelor),0,speaking,ability,1,Spanish,NA,1
+cfaq4,29,Female,College (Bachelor),0,reading,ability,2,Spanish,NA,2
+cfaq4,29,Female,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+clmi8,36,Female,Graduate school (Master),1,listening,age,1,English,NA,0
+clmi8,36,Female,Graduate school (Master),1,speaking,age,2,English,NA,0
+clmi8,36,Female,Graduate school (Master),1,reading,age,4,English,NA,4
+clmi8,36,Female,Graduate school (Master),1,writing,age,5,English,NA,5
+clmi8,36,Female,Graduate school (Master),1,yearstotal,age,35,English,NA,35
+clmi8,36,Female,Graduate school (Master),1,listening,age,4,French,NA,4
+clmi8,36,Female,Graduate school (Master),1,speaking,age,4,French,NA,4
+clmi8,36,Female,Graduate school (Master),1,reading,age,6,French,NA,6
+clmi8,36,Female,Graduate school (Master),1,writing,age,6,French,NA,6
+clmi8,36,Female,Graduate school (Master),1,yearstotal,age,32,French,NA,32
+clmi8,36,Female,Graduate school (Master),1,listening,ability,6,English,NA,6
+clmi8,36,Female,Graduate school (Master),1,speaking,ability,6,English,NA,6
+clmi8,36,Female,Graduate school (Master),1,reading,ability,6,English,NA,6
+clmi8,36,Female,Graduate school (Master),1,writing,ability,6,English,NA,6
+clmi8,36,Female,Graduate school (Master),1,listening,ability,5,French,NA,5
+clmi8,36,Female,Graduate school (Master),1,speaking,ability,4,French,NA,4
+clmi8,36,Female,Graduate school (Master),1,reading,ability,5,French,NA,5
+clmi8,36,Female,Graduate school (Master),1,writing,ability,4,French,NA,4
+czvd8,19,Female,High school,1,listening,age,1,French,NA,0
+czvd8,19,Female,High school,1,speaking,age,2,French,NA,0
+czvd8,19,Female,High school,1,reading,age,5,French,NA,5
+czvd8,19,Female,High school,1,writing,age,7,French,NA,7
+czvd8,19,Female,High school,1,yearstotal,age,19,French,NA,19
+czvd8,19,Female,High school,1,listening,age,8,English,NA,8
+czvd8,19,Female,High school,1,speaking,age,9,English,NA,9
+czvd8,19,Female,High school,1,reading,age,9,English,NA,9
+czvd8,19,Female,High school,1,writing,age,9,English,NA,9
+czvd8,19,Female,High school,1,yearstotal,age,11,English,NA,11
+czvd8,19,Female,High school,1,listening,ability,7,French,NA,7
+czvd8,19,Female,High school,1,speaking,ability,7,French,NA,7
+czvd8,19,Female,High school,1,reading,ability,7,French,NA,7
+czvd8,19,Female,High school,1,writing,ability,6,French,NA,6
+czvd8,19,Female,High school,1,listening,ability,7,English,NA,7
+czvd8,19,Female,High school,1,speaking,ability,7,English,NA,7
+czvd8,19,Female,High school,1,reading,ability,7,English,NA,7
+czvd8,19,Female,High school,1,writing,ability,7,English,NA,7
+eiyu1,27,Female,College (Bachelor),1,listening,age,1,English,NA,0
+eiyu1,27,Female,College (Bachelor),1,speaking,age,1,English,NA,0
+eiyu1,27,Female,College (Bachelor),1,reading,age,5,English,NA,5
+eiyu1,27,Female,College (Bachelor),1,writing,age,5,English,NA,5
+eiyu1,27,Female,College (Bachelor),1,yearstotal,age,27,English,NA,27
+eiyu1,27,Female,College (Bachelor),1,listening,age,3,French,NA,3
+eiyu1,27,Female,College (Bachelor),1,speaking,age,5,French,NA,5
+eiyu1,27,Female,College (Bachelor),1,reading,age,5,French,NA,5
+eiyu1,27,Female,College (Bachelor),1,writing,age,5,French,NA,5
+eiyu1,27,Female,College (Bachelor),1,yearstotal,age,22,French,NA,22
+eiyu1,27,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+eiyu1,27,Female,College (Bachelor),1,speaking,ability,7,English,NA,7
+eiyu1,27,Female,College (Bachelor),1,reading,ability,7,English,NA,7
+eiyu1,27,Female,College (Bachelor),1,writing,ability,7,English,NA,7
+eiyu1,27,Female,College (Bachelor),1,listening,ability,7,French,NA,7
+eiyu1,27,Female,College (Bachelor),1,speaking,ability,6,French,NA,6
+eiyu1,27,Female,College (Bachelor),1,reading,ability,6,French,NA,6
+eiyu1,27,Female,College (Bachelor),1,writing,ability,6,French,NA,6
+empm7,35,Female,High school,0,listening,age,0,English,NA,0
+empm7,35,Female,High school,0,speaking,age,2,English,NA,2
+empm7,35,Female,High school,0,reading,age,5,English,NA,5
+empm7,35,Female,High school,0,writing,age,6,English,NA,6
+empm7,35,Female,High school,0,yearstotal,age,32,English,NA,32
+empm7,35,Female,High school,0,listening,age,2,French,NA,2
+empm7,35,Female,High school,0,speaking,age,2,French,NA,2
+empm7,35,Female,High school,0,reading,age,6,French,NA,6
+empm7,35,Female,High school,0,writing,age,6,French,NA,6
+empm7,35,Female,High school,0,yearstotal,age,32,French,NA,32
+empm7,35,Female,High school,0,listening,ability,5,English,NA,5
+empm7,35,Female,High school,0,speaking,ability,4,English,NA,4
+empm7,35,Female,High school,0,reading,ability,4,English,NA,4
+empm7,35,Female,High school,0,writing,ability,4,English,NA,4
+empm7,35,Female,High school,0,listening,ability,5,French,NA,5
+empm7,35,Female,High school,0,speaking,ability,4,French,NA,4
+empm7,35,Female,High school,0,reading,ability,4,French,NA,4
+empm7,35,Female,High school,0,writing,ability,4,French,NA,4
+fbro6,22,Female,College (Bachelor),0,listening,age,0,English,NA,0
+fbro6,22,Female,College (Bachelor),0,speaking,age,0,English,NA,0
+fbro6,22,Female,College (Bachelor),0,reading,age,5,English,NA,5
+fbro6,22,Female,College (Bachelor),0,writing,age,5,English,NA,5
+fbro6,22,Female,College (Bachelor),0,yearstotal,age,22,English,NA,22
+fbro6,22,Female,College (Bachelor),0,listening,age,0,French,NA,0
+fbro6,22,Female,College (Bachelor),0,speaking,age,0,French,NA,0
+fbro6,22,Female,College (Bachelor),0,reading,age,5,French,NA,5
+fbro6,22,Female,College (Bachelor),0,writing,age,5,French,NA,5
+fbro6,22,Female,College (Bachelor),0,yearstotal,age,22,French,NA,22
+fbro6,22,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+fbro6,22,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+fbro6,22,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+fbro6,22,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+fbro6,22,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+fbro6,22,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+fbro6,22,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+fbro6,22,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+fpke8,24,Female,College (Bachelor),1,listening,age,1,English,NA,0
+fpke8,24,Female,College (Bachelor),1,speaking,age,1,English,NA,0
+fpke8,24,Female,College (Bachelor),1,reading,age,5,English,NA,5
+fpke8,24,Female,College (Bachelor),1,writing,age,5,English,NA,5
+fpke8,24,Female,College (Bachelor),1,yearstotal,age,24,English,NA,24
+fpke8,24,Female,College (Bachelor),1,listening,age,4,French,NA,4
+fpke8,24,Female,College (Bachelor),1,speaking,age,4,French,NA,4
+fpke8,24,Female,College (Bachelor),1,reading,age,6,French,NA,6
+fpke8,24,Female,College (Bachelor),1,writing,age,6,French,NA,6
+fpke8,24,Female,College (Bachelor),1,yearstotal,age,20,French,NA,20
+fpke8,24,Female,College (Bachelor),1,listening,age,19,Spanish,NA,19
+fpke8,24,Female,College (Bachelor),1,speaking,age,19,Spanish,NA,19
+fpke8,24,Female,College (Bachelor),1,reading,age,19,Spanish,NA,19
+fpke8,24,Female,College (Bachelor),1,writing,age,19,Spanish,NA,19
+fpke8,24,Female,College (Bachelor),1,yearstotal,age,3,Spanish,NA,3
+fpke8,24,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+fpke8,24,Female,College (Bachelor),1,speaking,ability,7,English,NA,7
+fpke8,24,Female,College (Bachelor),1,reading,ability,7,English,NA,7
+fpke8,24,Female,College (Bachelor),1,writing,ability,7,English,NA,7
+fpke8,24,Female,College (Bachelor),1,listening,ability,6,French,NA,6
+fpke8,24,Female,College (Bachelor),1,speaking,ability,6,French,NA,6
+fpke8,24,Female,College (Bachelor),1,reading,ability,5,French,NA,5
+fpke8,24,Female,College (Bachelor),1,writing,ability,5,French,NA,5
+fpke8,24,Female,College (Bachelor),1,listening,ability,2,Spanish,NA,2
+fpke8,24,Female,College (Bachelor),1,speaking,ability,3,Spanish,NA,3
+fpke8,24,Female,College (Bachelor),1,reading,ability,3,Spanish,NA,3
+fpke8,24,Female,College (Bachelor),1,writing,ability,2,Spanish,NA,2
+fubi9,27,Female,Graduate school (Master),0,listening,age,0,English,NA,0
+fubi9,27,Female,Graduate school (Master),0,speaking,age,0,English,NA,0
+fubi9,27,Female,Graduate school (Master),0,reading,age,0,English,NA,0
+fubi9,27,Female,Graduate school (Master),0,writing,age,0,English,NA,0
+fubi9,27,Female,Graduate school (Master),0,yearstotal,age,27,English,NA,27
+fubi9,27,Female,Graduate school (Master),0,listening,age,10,French,NA,10
+fubi9,27,Female,Graduate school (Master),0,speaking,age,10,French,NA,10
+fubi9,27,Female,Graduate school (Master),0,reading,age,10,French,NA,10
+fubi9,27,Female,Graduate school (Master),0,writing,age,10,French,NA,10
+fubi9,27,Female,Graduate school (Master),0,yearstotal,age,9,French,NA,9
+fubi9,27,Female,Graduate school (Master),0,listening,age,7,Hebrew,NA,7
+fubi9,27,Female,Graduate school (Master),0,speaking,age,7,Hebrew,NA,7
+fubi9,27,Female,Graduate school (Master),0,reading,age,7,Hebrew,NA,7
+fubi9,27,Female,Graduate school (Master),0,writing,age,7,Hebrew,NA,7
+fubi9,27,Female,Graduate school (Master),0,yearstotal,age,8,Hebrew,NA,8
+fubi9,27,Female,Graduate school (Master),0,listening,age,21,Dutch,NA,21
+fubi9,27,Female,Graduate school (Master),0,speaking,age,21,Dutch,NA,21
+fubi9,27,Female,Graduate school (Master),0,yearstotal,age,1,Dutch,NA,1
+fubi9,27,Female,Graduate school (Master),0,listening,ability,7,English,NA,7
+fubi9,27,Female,Graduate school (Master),0,speaking,ability,7,English,NA,7
+fubi9,27,Female,Graduate school (Master),0,reading,ability,7,English,NA,7
+fubi9,27,Female,Graduate school (Master),0,writing,ability,7,English,NA,7
+fubi9,27,Female,Graduate school (Master),0,listening,ability,4,French,NA,4
+fubi9,27,Female,Graduate school (Master),0,speaking,ability,3,French,NA,3
+fubi9,27,Female,Graduate school (Master),0,reading,ability,4,French,NA,4
+fubi9,27,Female,Graduate school (Master),0,writing,ability,4,French,NA,4
+fubi9,27,Female,Graduate school (Master),0,listening,ability,2,Hebrew,NA,2
+fubi9,27,Female,Graduate school (Master),0,speaking,ability,1,Hebrew,NA,1
+fubi9,27,Female,Graduate school (Master),0,reading,ability,4,Hebrew,NA,4
+fubi9,27,Female,Graduate school (Master),0,writing,ability,2,Hebrew,NA,2
+fubi9,27,Female,Graduate school (Master),0,listening,ability,2,Dutch,NA,2
+fubi9,27,Female,Graduate school (Master),0,speaking,ability,1,Dutch,NA,1
+fubi9,27,Female,Graduate school (Master),0,reading,ability,2,Dutch,NA,2
+fubi9,27,Female,Graduate school (Master),0,writing,ability,1,Dutch,NA,1
+fzgb1,20,Male,High school,0,listening,age,0,English,0,0
+fzgb1,20,Male,High school,0,speaking,age,0.9,English,1,0.9
+fzgb1,20,Male,High school,0,reading,age,5,English,5,5
+fzgb1,20,Male,High school,0,writing,age,5,English,5,5
+fzgb1,20,Male,High school,0,yearstotal,age,20,English,NA,20
+fzgb1,20,Male,High school,0,listening,age,7,French,5,7
+fzgb1,20,Male,High school,0,speaking,age,7,French,5,7
+fzgb1,20,Male,High school,0,reading,age,7,French,5,7
+fzgb1,20,Male,High school,0,writing,age,7,French,5,7
+fzgb1,20,Male,High school,0,yearstotal,age,10,French,NA,10
+fzgb1,20,Male,High school,0,listening,age,19,Norwegian,NA,19
+fzgb1,20,Male,High school,0,speaking,age,19,Norwegian,NA,19
+fzgb1,20,Male,High school,0,reading,age,19,Norwegian,NA,19
+fzgb1,20,Male,High school,0,writing,age,19,Norwegian,NA,19
+fzgb1,20,Male,High school,0,yearstotal,age,1,Norwegian,NA,1
+fzgb1,20,Male,High school,0,listening,ability,7,English,NA,7
+fzgb1,20,Male,High school,0,speaking,ability,7,English,NA,7
+fzgb1,20,Male,High school,0,reading,ability,7,English,NA,7
+fzgb1,20,Male,High school,0,writing,ability,7,English,NA,7
+fzgb1,20,Male,High school,0,listening,ability,3,French,NA,3
+fzgb1,20,Male,High school,0,speaking,ability,1,French,NA,1
+fzgb1,20,Male,High school,0,reading,ability,1,French,NA,1
+fzgb1,20,Male,High school,0,writing,ability,1,French,NA,1
+fzgb1,20,Male,High school,0,listening,ability,1,Norwegian,NA,1
+fzgb1,20,Male,High school,0,speaking,ability,1,Norwegian,NA,1
+fzgb1,20,Male,High school,0,reading,ability,1,Norwegian,NA,1
+fzgb1,20,Male,High school,0,writing,ability,1,Norwegian,NA,1
+gmpn9,20,Female,High school,0,listening,age,0,French,NA,0
+gmpn9,20,Female,High school,0,speaking,age,1,French,NA,1
+gmpn9,20,Female,High school,0,reading,age,7,French,NA,7
+gmpn9,20,Female,High school,0,writing,age,6,French,NA,6
+gmpn9,20,Female,High school,0,yearstotal,age,20,French,NA,20
+gmpn9,20,Female,High school,0,listening,age,3,English,NA,3
+gmpn9,20,Female,High school,0,speaking,age,14,English,NA,14
+gmpn9,20,Female,High school,0,reading,age,13,English,NA,13
+gmpn9,20,Female,High school,0,writing,age,13,English,NA,13
+gmpn9,20,Female,High school,0,yearstotal,age,7,English,NA,7
+gmpn9,20,Female,High school,0,listening,age,19,Mandarin,NA,19
+gmpn9,20,Female,High school,0,speaking,age,19,Mandarin,NA,19
+gmpn9,20,Female,High school,0,reading,age,19,Mandarin,NA,19
+gmpn9,20,Female,High school,0,writing,age,19,Mandarin,NA,19
+gmpn9,20,Female,High school,0,yearstotal,age,1,Mandarin,NA,1
+gmpn9,20,Female,High school,0,listening,age,12,Korean,NA,12
+gmpn9,20,Female,High school,0,speaking,age,15,Korean,NA,15
+gmpn9,20,Female,High school,0,reading,age,15,Korean,NA,15
+gmpn9,20,Female,High school,0,writing,age,15,Korean,NA,15
+gmpn9,20,Female,High school,0,yearstotal,age,1,Korean,NA,1
+gmpn9,20,Female,High school,0,listening,ability,7,French,NA,7
+gmpn9,20,Female,High school,0,speaking,ability,7,French,NA,7
+gmpn9,20,Female,High school,0,reading,ability,7,French,NA,7
+gmpn9,20,Female,High school,0,writing,ability,6,French,NA,6
+gmpn9,20,Female,High school,0,listening,ability,6,English,NA,6
+gmpn9,20,Female,High school,0,speaking,ability,6,English,NA,6
+gmpn9,20,Female,High school,0,reading,ability,6,English,NA,6
+gmpn9,20,Female,High school,0,writing,ability,6,English,NA,6
+gmpn9,20,Female,High school,0,listening,ability,5,Mandarin,NA,5
+gmpn9,20,Female,High school,0,speaking,ability,3,Mandarin,NA,3
+gmpn9,20,Female,High school,0,reading,ability,3,Mandarin,NA,3
+gmpn9,20,Female,High school,0,writing,ability,3,Mandarin,NA,3
+gmpn9,20,Female,High school,0,listening,ability,3,Korean,NA,3
+gmpn9,20,Female,High school,0,speaking,ability,1,Korean,NA,1
+gmpn9,20,Female,High school,0,reading,ability,2,Korean,NA,2
+gmpn9,20,Female,High school,0,writing,ability,1,Korean,NA,1
+hvlz1,20,Female,High school,3,listening,age,20,English,NA,0
+hvlz1,20,Female,High school,3,speaking,age,20,English,NA,0
+hvlz1,20,Female,High school,3,reading,age,20,English,NA,0
+hvlz1,20,Female,High school,3,writing,age,20,English,NA,0
+hvlz1,20,Female,High school,3,yearstotal,age,20,English,NA,20
+hvlz1,20,Female,High school,3,listening,age,3,French,NA,17
+hvlz1,20,Female,High school,3,speaking,age,2,French,NA,18
+hvlz1,20,Female,High school,3,reading,age,2,French,NA,18
+hvlz1,20,Female,High school,3,writing,age,2,French,NA,18
+hvlz1,20,Female,High school,3,yearstotal,age,2,French,NA,2
+hvlz1,20,Female,High school,3,listening,ability,7,English,NA,7
+hvlz1,20,Female,High school,3,speaking,ability,7,English,NA,7
+hvlz1,20,Female,High school,3,reading,ability,7,English,NA,7
+hvlz1,20,Female,High school,3,writing,ability,5,English,NA,5
+hvlz1,20,Female,High school,3,listening,ability,4,French,NA,4
+hvlz1,20,Female,High school,3,speaking,ability,6,French,NA,6
+hvlz1,20,Female,High school,3,reading,ability,7,French,NA,7
+hvlz1,20,Female,High school,3,writing,ability,6,French,NA,6
+jbby4,31,Female,College (Bachelor),3,listening,age,31,English,NA,0
+jbby4,31,Female,College (Bachelor),3,speaking,age,30,English,NA,1
+jbby4,31,Female,College (Bachelor),3,reading,age,24,English,NA,7
+jbby4,31,Female,College (Bachelor),3,writing,age,24,English,NA,7
+jbby4,31,Female,College (Bachelor),3,yearstotal,age,31,English,NA,31
+jbby4,31,Female,College (Bachelor),3,listening,age,31,French,NA,0
+jbby4,31,Female,College (Bachelor),3,speaking,age,26,French,NA,5
+jbby4,31,Female,College (Bachelor),3,reading,age,24,French,NA,7
+jbby4,31,Female,College (Bachelor),3,writing,age,24,French,NA,7
+jbby4,31,Female,College (Bachelor),3,yearstotal,age,26,French,NA,26
+jbby4,31,Female,College (Bachelor),3,listening,age,25,Spanish,NA,6
+jbby4,31,Female,College (Bachelor),3,speaking,age,26,Spanish,NA,5
+jbby4,31,Female,College (Bachelor),3,reading,age,27,Spanish,NA,4
+jbby4,31,Female,College (Bachelor),3,writing,age,27,Spanish,NA,4
+jbby4,31,Female,College (Bachelor),3,yearstotal,age,3,Spanish,NA,3
+jbby4,31,Female,College (Bachelor),3,listening,ability,7,English,NA,7
+jbby4,31,Female,College (Bachelor),3,speaking,ability,7,English,NA,7
+jbby4,31,Female,College (Bachelor),3,reading,ability,7,English,NA,7
+jbby4,31,Female,College (Bachelor),3,writing,ability,6,English,NA,6
+jbby4,31,Female,College (Bachelor),3,listening,ability,7,French,NA,7
+jbby4,31,Female,College (Bachelor),3,speaking,ability,7,French,NA,7
+jbby4,31,Female,College (Bachelor),3,reading,ability,7,French,NA,7
+jbby4,31,Female,College (Bachelor),3,writing,ability,5,French,NA,5
+jbby4,31,Female,College (Bachelor),3,listening,ability,5,Spanish,NA,5
+jbby4,31,Female,College (Bachelor),3,speaking,ability,5,Spanish,NA,5
+jbby4,31,Female,College (Bachelor),3,reading,ability,5,Spanish,NA,5
+jbby4,31,Female,College (Bachelor),3,writing,ability,4,Spanish,NA,4
+jlqc0,44,Male,College (Bachelor),0,listening,age,0,English,NA,0
+jlqc0,44,Male,College (Bachelor),0,speaking,age,1,English,NA,1
+jlqc0,44,Male,College (Bachelor),0,reading,age,5,English,NA,5
+jlqc0,44,Male,College (Bachelor),0,writing,age,5,English,NA,5
+jlqc0,44,Male,College (Bachelor),0,yearstotal,age,44,English,NA,44
+jlqc0,44,Male,College (Bachelor),0,listening,age,6,French,NA,6
+jlqc0,44,Male,College (Bachelor),0,speaking,age,6,French,NA,6
+jlqc0,44,Male,College (Bachelor),0,reading,age,7,French,NA,7
+jlqc0,44,Male,College (Bachelor),0,writing,age,8,French,NA,8
+jlqc0,44,Male,College (Bachelor),0,yearstotal,age,27,French,NA,27
+jlqc0,44,Male,College (Bachelor),0,listening,age,25,German,NA,25
+jlqc0,44,Male,College (Bachelor),0,speaking,age,25,German,NA,25
+jlqc0,44,Male,College (Bachelor),0,yearstotal,age,5,German,NA,5
+jlqc0,44,Male,College (Bachelor),0,listening,age,30,Spanish,NA,30
+jlqc0,44,Male,College (Bachelor),0,speaking,age,30,Spanish,NA,30
+jlqc0,44,Male,College (Bachelor),0,yearstotal,age,3,Spanish,NA,3
+jlqc0,44,Male,College (Bachelor),0,listening,ability,5,English,NA,5
+jlqc0,44,Male,College (Bachelor),0,speaking,ability,5,English,NA,5
+jlqc0,44,Male,College (Bachelor),0,reading,ability,5,English,NA,5
+jlqc0,44,Male,College (Bachelor),0,writing,ability,4,English,NA,4
+jlqc0,44,Male,College (Bachelor),0,listening,ability,4,French,NA,4
+jlqc0,44,Male,College (Bachelor),0,speaking,ability,4,French,NA,4
+jlqc0,44,Male,College (Bachelor),0,reading,ability,3,French,NA,3
+jlqc0,44,Male,College (Bachelor),0,writing,ability,3,French,NA,3
+jlqc0,44,Male,College (Bachelor),0,listening,ability,2,German,NA,2
+jlqc0,44,Male,College (Bachelor),0,speaking,ability,1,German,NA,1
+jlqc0,44,Male,College (Bachelor),0,reading,ability,1,German,NA,1
+jlqc0,44,Male,College (Bachelor),0,writing,ability,1,German,NA,1
+jlqc0,44,Male,College (Bachelor),0,listening,ability,1,Spanish,NA,1
+jlqc0,44,Male,College (Bachelor),0,speaking,ability,1,Spanish,NA,1
+jlqc0,44,Male,College (Bachelor),0,reading,ability,1,Spanish,NA,1
+jlqc0,44,Male,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+msge4,22,Female,College (Bachelor),0,listening,age,0,French,NA,0
+msge4,22,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+msge4,22,Female,College (Bachelor),0,reading,age,5,French,NA,5
+msge4,22,Female,College (Bachelor),0,writing,age,7,French,NA,7
+msge4,22,Female,College (Bachelor),0,yearstotal,age,22,French,NA,22
+msge4,22,Female,College (Bachelor),0,listening,age,10,English,NA,10
+msge4,22,Female,College (Bachelor),0,speaking,age,12,English,NA,12
+msge4,22,Female,College (Bachelor),0,reading,age,11,English,NA,11
+msge4,22,Female,College (Bachelor),0,writing,age,12,English,NA,12
+msge4,22,Female,College (Bachelor),0,yearstotal,age,12,English,NA,12
+msge4,22,Female,College (Bachelor),0,listening,age,19,Spanish,NA,19
+msge4,22,Female,College (Bachelor),0,speaking,age,19,Spanish,NA,19
+msge4,22,Female,College (Bachelor),0,reading,age,19,Spanish,NA,19
+msge4,22,Female,College (Bachelor),0,writing,age,19,Spanish,NA,19
+msge4,22,Female,College (Bachelor),0,yearstotal,age,2,Spanish,NA,2
+msge4,22,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+msge4,22,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+msge4,22,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+msge4,22,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+msge4,22,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+msge4,22,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+msge4,22,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+msge4,22,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+msge4,22,Female,College (Bachelor),0,listening,ability,3,Spanish,NA,3
+msge4,22,Female,College (Bachelor),0,speaking,ability,2,Spanish,NA,2
+msge4,22,Female,College (Bachelor),0,reading,ability,3,Spanish,NA,3
+msge4,22,Female,College (Bachelor),0,writing,ability,2,Spanish,NA,2
+nust7,024,Female,College (Bachelor),0,listening,age,0,English,NA,0
+nust7,024,Female,College (Bachelor),0,speaking,age,2,English,NA,2
+nust7,024,Female,College (Bachelor),0,reading,age,4,English,NA,4
+nust7,024,Female,College (Bachelor),0,writing,age,5,English,NA,5
+nust7,024,Female,College (Bachelor),0,yearstotal,age,24,English,NA,24
+nust7,024,Female,College (Bachelor),0,listening,age,4,French,NA,4
+nust7,024,Female,College (Bachelor),0,speaking,age,5,French,NA,5
+nust7,024,Female,College (Bachelor),0,reading,age,5,French,NA,5
+nust7,024,Female,College (Bachelor),0,writing,age,6,French,NA,6
+nust7,024,Female,College (Bachelor),0,yearstotal,age,20,French,NA,20
+nust7,024,Female,College (Bachelor),0,listening,age,3,German,NA,3
+nust7,024,Female,College (Bachelor),0,speaking,age,19,German,NA,19
+nust7,024,Female,College (Bachelor),0,reading,age,20,German,NA,20
+nust7,024,Female,College (Bachelor),0,writing,age,21,German,NA,21
+nust7,024,Female,College (Bachelor),0,yearstotal,age,5,German,NA,5
+nust7,024,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+nust7,024,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+nust7,024,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+nust7,024,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+nust7,024,Female,College (Bachelor),0,listening,ability,6,French,NA,6
+nust7,024,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+nust7,024,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+nust7,024,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+nust7,024,Female,College (Bachelor),0,listening,ability,5,German,NA,5
+nust7,024,Female,College (Bachelor),0,speaking,ability,3,German,NA,3
+nust7,024,Female,College (Bachelor),0,reading,ability,4,German,NA,4
+nust7,024,Female,College (Bachelor),0,writing,ability,2,German,NA,2
+odex3,26,Female,College (Bachelor),0,listening,age,0,English,0,0
+odex3,26,Female,College (Bachelor),0,speaking,age,0,English,1,0
+odex3,26,Female,College (Bachelor),0,reading,age,0,English,1,0
+odex3,26,Female,College (Bachelor),0,writing,age,0,English,1,0
+odex3,26,Female,College (Bachelor),0,yearstotal,age,26,English,NA,26
+odex3,26,Female,College (Bachelor),0,listening,age,0,French,0,0
+odex3,26,Female,College (Bachelor),0,speaking,age,0,French,1,0
+odex3,26,Female,College (Bachelor),0,reading,age,0,French,1,0
+odex3,26,Female,College (Bachelor),0,writing,age,0,French,1,0
+odex3,26,Female,College (Bachelor),0,yearstotal,age,26,French,NA,26
+odex3,26,Female,College (Bachelor),0,listening,age,16,Spanish,16,16
+odex3,26,Female,College (Bachelor),0,speaking,age,16,Spanish,16,16
+odex3,26,Female,College (Bachelor),0,reading,age,16,Spanish,16,16
+odex3,26,Female,College (Bachelor),0,writing,age,16,Spanish,16,16
+odex3,26,Female,College (Bachelor),0,yearstotal,age,10,Spanish,NA,10
+odex3,26,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+odex3,26,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+odex3,26,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+odex3,26,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+odex3,26,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+odex3,26,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+odex3,26,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+odex3,26,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+odex3,26,Female,College (Bachelor),0,listening,ability,5,Spanish,NA,5
+odex3,26,Female,College (Bachelor),0,speaking,ability,3,Spanish,NA,3
+odex3,26,Female,College (Bachelor),0,reading,ability,4,Spanish,NA,4
+odex3,26,Female,College (Bachelor),0,writing,ability,3,Spanish,NA,3
+onmo9,22,Male,High school,1,listening,age,1,English,NA,0
+onmo9,22,Male,High school,1,speaking,age,1.5,English,NA,1.5
+onmo9,22,Male,High school,1,reading,age,10,English,NA,10
+onmo9,22,Male,High school,1,writing,age,10,English,NA,10
+onmo9,22,Male,High school,1,yearstotal,age,21,English,NA,21
+onmo9,22,Male,High school,1,listening,age,5,French,NA,5
+onmo9,22,Male,High school,1,speaking,age,5,French,NA,5
+onmo9,22,Male,High school,1,reading,age,6.5,French,NA,6.5
+onmo9,22,Male,High school,1,writing,age,6.5,French,NA,6.5
+onmo9,22,Male,High school,1,yearstotal,age,17,French,NA,17
+onmo9,22,Male,High school,1,listening,ability,7,English,NA,7
+onmo9,22,Male,High school,1,speaking,ability,7,English,NA,7
+onmo9,22,Male,High school,1,reading,ability,7,English,NA,7
+onmo9,22,Male,High school,1,writing,ability,6,English,NA,6
+onmo9,22,Male,High school,1,listening,ability,6,French,NA,6
+onmo9,22,Male,High school,1,speaking,ability,5,French,NA,5
+onmo9,22,Male,High school,1,reading,ability,5,French,NA,5
+onmo9,22,Male,High school,1,writing,ability,3,French,NA,3
+ptnl1,22,Female,College (Bachelor),0,listening,age,0,French,NA,0
+ptnl1,22,Female,College (Bachelor),0,speaking,age,2,French,NA,2
+ptnl1,22,Female,College (Bachelor),0,reading,age,5,French,NA,5
+ptnl1,22,Female,College (Bachelor),0,writing,age,5,French,NA,5
+ptnl1,22,Female,College (Bachelor),0,yearstotal,age,22,French,NA,22
+ptnl1,22,Female,College (Bachelor),0,listening,age,0,English,NA,0
+ptnl1,22,Female,College (Bachelor),0,speaking,age,2,English,NA,2
+ptnl1,22,Female,College (Bachelor),0,reading,age,5,English,NA,5
+ptnl1,22,Female,College (Bachelor),0,writing,age,5,English,NA,5
+ptnl1,22,Female,College (Bachelor),0,yearstotal,age,22,English,NA,22
+ptnl1,22,Female,College (Bachelor),0,listening,age,15,Spanish,NA,15
+ptnl1,22,Female,College (Bachelor),0,speaking,age,15,Spanish,NA,15
+ptnl1,22,Female,College (Bachelor),0,reading,age,15,Spanish,NA,15
+ptnl1,22,Female,College (Bachelor),0,writing,age,15,Spanish,NA,15
+ptnl1,22,Female,College (Bachelor),0,yearstotal,age,2,Spanish,NA,2
+ptnl1,22,Female,College (Bachelor),0,listening,ability,5,French,NA,5
+ptnl1,22,Female,College (Bachelor),0,speaking,ability,4,French,NA,4
+ptnl1,22,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+ptnl1,22,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+ptnl1,22,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+ptnl1,22,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+ptnl1,22,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+ptnl1,22,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+ptnl1,22,Female,College (Bachelor),0,listening,ability,2,Spanish,NA,2
+ptnl1,22,Female,College (Bachelor),0,speaking,ability,1,Spanish,NA,1
+ptnl1,22,Female,College (Bachelor),0,reading,ability,3,Spanish,NA,3
+ptnl1,22,Female,College (Bachelor),0,writing,ability,2,Spanish,NA,2
+pzqw5,22,Male,College (Bachelor),0,listening,age,0,English,NA,0
+pzqw5,22,Male,College (Bachelor),0,speaking,age,1,English,NA,1
+pzqw5,22,Male,College (Bachelor),0,reading,age,4,English,NA,4
+pzqw5,22,Male,College (Bachelor),0,writing,age,4,English,NA,4
+pzqw5,22,Male,College (Bachelor),0,yearstotal,age,21,English,NA,21
+pzqw5,22,Male,College (Bachelor),0,listening,age,0,French,NA,0
+pzqw5,22,Male,College (Bachelor),0,speaking,age,1,French,NA,1
+pzqw5,22,Male,College (Bachelor),0,reading,age,4,French,NA,4
+pzqw5,22,Male,College (Bachelor),0,writing,age,4,French,NA,4
+pzqw5,22,Male,College (Bachelor),0,yearstotal,age,21,French,NA,21
+pzqw5,22,Male,College (Bachelor),0,listening,ability,7,English,NA,7
+pzqw5,22,Male,College (Bachelor),0,speaking,ability,7,English,NA,7
+pzqw5,22,Male,College (Bachelor),0,reading,ability,7,English,NA,7
+pzqw5,22,Male,College (Bachelor),0,writing,ability,7,English,NA,7
+pzqw5,22,Male,College (Bachelor),0,listening,ability,6,French,NA,6
+pzqw5,22,Male,College (Bachelor),0,speaking,ability,6,French,NA,6
+pzqw5,22,Male,College (Bachelor),0,reading,ability,6,French,NA,6
+pzqw5,22,Male,College (Bachelor),0,writing,ability,6,French,NA,6
+txca1,22,Female,College (Bachelor),0,listening,age,0,English,NA,0
+txca1,22,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+txca1,22,Female,College (Bachelor),0,reading,age,5,English,NA,5
+txca1,22,Female,College (Bachelor),0,writing,age,7,English,NA,7
+txca1,22,Female,College (Bachelor),0,yearstotal,age,22,English,NA,22
+txca1,22,Female,College (Bachelor),0,listening,age,0,French,NA,0
+txca1,22,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+txca1,22,Female,College (Bachelor),0,reading,age,5,French,NA,5
+txca1,22,Female,College (Bachelor),0,writing,age,7,French,NA,7
+txca1,22,Female,College (Bachelor),0,yearstotal,age,22,French,NA,22
+txca1,22,Female,College (Bachelor),0,listening,age,9,Spanish,NA,9
+txca1,22,Female,College (Bachelor),0,speaking,age,14,Spanish,NA,14
+txca1,22,Female,College (Bachelor),0,reading,age,14,Spanish,NA,14
+txca1,22,Female,College (Bachelor),0,writing,age,14,Spanish,NA,14
+txca1,22,Female,College (Bachelor),0,yearstotal,age,13,Spanish,NA,13
+txca1,22,Female,College (Bachelor),0,listening,age,17,Italian,NA,17
+txca1,22,Female,College (Bachelor),0,speaking,age,17,Italian,NA,17
+txca1,22,Female,College (Bachelor),0,reading,age,18,Italian,NA,18
+txca1,22,Female,College (Bachelor),0,writing,age,18,Italian,NA,18
+txca1,22,Female,College (Bachelor),0,yearstotal,age,5,Italian,NA,5
+txca1,22,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+txca1,22,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+txca1,22,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+txca1,22,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+txca1,22,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+txca1,22,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+txca1,22,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+txca1,22,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+txca1,22,Female,College (Bachelor),0,listening,ability,3,Spanish,NA,3
+txca1,22,Female,College (Bachelor),0,speaking,ability,2,Spanish,NA,2
+txca1,22,Female,College (Bachelor),0,reading,ability,4,Spanish,NA,4
+txca1,22,Female,College (Bachelor),0,writing,ability,3,Spanish,NA,3
+txca1,22,Female,College (Bachelor),0,listening,ability,3,Italian,NA,3
+txca1,22,Female,College (Bachelor),0,speaking,ability,3,Italian,NA,3
+txca1,22,Female,College (Bachelor),0,reading,ability,4,Italian,NA,4
+txca1,22,Female,College (Bachelor),0,writing,ability,3,Italian,NA,3
+udhi7,28,Female,Graduate school (Doctor),0,listening,age,0,French,NA,0
+udhi7,28,Female,Graduate school (Doctor),0,speaking,age,2,French,NA,2
+udhi7,28,Female,Graduate school (Doctor),0,reading,age,6,French,NA,6
+udhi7,28,Female,Graduate school (Doctor),0,writing,age,6,French,NA,6
+udhi7,28,Female,Graduate school (Doctor),0,yearstotal,age,22,French,NA,22
+udhi7,28,Female,Graduate school (Doctor),0,listening,age,0,English,NA,0
+udhi7,28,Female,Graduate school (Doctor),0,speaking,age,2,English,NA,2
+udhi7,28,Female,Graduate school (Doctor),0,reading,age,6,English,NA,6
+udhi7,28,Female,Graduate school (Doctor),0,writing,age,6,English,NA,6
+udhi7,28,Female,Graduate school (Doctor),0,yearstotal,age,22,English,NA,22
+udhi7,28,Female,Graduate school (Doctor),0,listening,age,14,Spanish,NA,14
+udhi7,28,Female,Graduate school (Doctor),0,speaking,age,14,Spanish,NA,14
+udhi7,28,Female,Graduate school (Doctor),0,reading,age,14,Spanish,NA,14
+udhi7,28,Female,Graduate school (Doctor),0,writing,age,14,Spanish,NA,14
+udhi7,28,Female,Graduate school (Doctor),0,yearstotal,age,3,Spanish,NA,3
+udhi7,28,Female,Graduate school (Doctor),0,listening,ability,7,French,NA,7
+udhi7,28,Female,Graduate school (Doctor),0,speaking,ability,7,French,NA,7
+udhi7,28,Female,Graduate school (Doctor),0,reading,ability,7,French,NA,7
+udhi7,28,Female,Graduate school (Doctor),0,writing,ability,5,French,NA,5
+udhi7,28,Female,Graduate school (Doctor),0,listening,ability,7,English,NA,7
+udhi7,28,Female,Graduate school (Doctor),0,speaking,ability,7,English,NA,7
+udhi7,28,Female,Graduate school (Doctor),0,reading,ability,7,English,NA,7
+udhi7,28,Female,Graduate school (Doctor),0,writing,ability,7,English,NA,7
+udhi7,28,Female,Graduate school (Doctor),0,listening,ability,4,Spanish,NA,4
+udhi7,28,Female,Graduate school (Doctor),0,listening,ability,3,NA,NA,3
+udhi7,28,Female,Graduate school (Doctor),0,speaking,ability,3,NA,NA,3
+udhi7,28,Female,Graduate school (Doctor),0,reading,ability,3,NA,NA,3
+udhi7,28,Female,Graduate school (Doctor),0,writing,ability,2,NA,NA,2
+vgen8,21,Female,College (Bachelor),0,listening,age,0,French,NA,0
+vgen8,21,Female,College (Bachelor),0,speaking,age,0,French,NA,0
+vgen8,21,Female,College (Bachelor),0,reading,age,4,French,NA,4
+vgen8,21,Female,College (Bachelor),0,writing,age,6,French,NA,6
+vgen8,21,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+vgen8,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+vgen8,21,Female,College (Bachelor),0,speaking,age,0,English,NA,0
+vgen8,21,Female,College (Bachelor),0,reading,age,4,English,NA,4
+vgen8,21,Female,College (Bachelor),0,writing,age,6,English,NA,6
+vgen8,21,Female,College (Bachelor),0,yearstotal,age,21,English,NA,21
+vgen8,21,Female,College (Bachelor),0,listening,age,5,Spanish,NA,5
+vgen8,21,Female,College (Bachelor),0,speaking,age,7,Spanish,NA,7
+vgen8,21,Female,College (Bachelor),0,reading,age,7,Spanish,NA,7
+vgen8,21,Female,College (Bachelor),0,writing,age,7,Spanish,NA,7
+vgen8,21,Female,College (Bachelor),0,yearstotal,age,16,Spanish,NA,16
+vgen8,21,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+vgen8,21,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+vgen8,21,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+vgen8,21,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+vgen8,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+vgen8,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+vgen8,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+vgen8,21,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+vgen8,21,Female,College (Bachelor),0,listening,ability,5,Spanish,NA,5
+vgen8,21,Female,College (Bachelor),0,speaking,ability,4,Spanish,NA,4
+vgen8,21,Female,College (Bachelor),0,reading,ability,4,Spanish,NA,4
+vgen8,21,Female,College (Bachelor),0,writing,ability,3,Spanish,NA,3
+vxln6,32,Non-relevant,College (Bachelor),1,listening,age,1,English,NA,0
+vxln6,32,Non-relevant,College (Bachelor),1,speaking,age,2,English,NA,0
+vxln6,32,Non-relevant,College (Bachelor),1,reading,age,4,English,NA,4
+vxln6,32,Non-relevant,College (Bachelor),1,writing,age,4,English,NA,4
+vxln6,32,Non-relevant,College (Bachelor),1,yearstotal,age,32,English,NA,32
+vxln6,32,Non-relevant,College (Bachelor),1,listening,age,4,French,NA,4
+vxln6,32,Non-relevant,College (Bachelor),1,speaking,age,4,French,NA,4
+vxln6,32,Non-relevant,College (Bachelor),1,reading,age,4,French,NA,4
+vxln6,32,Non-relevant,College (Bachelor),1,writing,age,4,French,NA,4
+vxln6,32,Non-relevant,College (Bachelor),1,yearstotal,age,14,French,NA,14
+vxln6,32,Non-relevant,College (Bachelor),1,listening,ability,7,English,NA,7
+vxln6,32,Non-relevant,College (Bachelor),1,speaking,ability,7,English,NA,7
+vxln6,32,Non-relevant,College (Bachelor),1,reading,ability,7,English,NA,7
+vxln6,32,Non-relevant,College (Bachelor),1,writing,ability,7,English,NA,7
+vxln6,32,Non-relevant,College (Bachelor),1,listening,ability,3,French,NA,3
+vxln6,32,Non-relevant,College (Bachelor),1,speaking,ability,3,French,NA,3
+vxln6,32,Non-relevant,College (Bachelor),1,reading,ability,3,French,NA,3
+vxln6,32,Non-relevant,College (Bachelor),1,writing,ability,3,French,NA,3
+xxzt5,36,Female,College (Bachelor),0,listening,age,0,English,NA,0
+xxzt5,36,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+xxzt5,36,Female,College (Bachelor),0,reading,age,3,English,NA,3
+xxzt5,36,Female,College (Bachelor),0,writing,age,5,English,NA,5
+xxzt5,36,Female,College (Bachelor),0,yearstotal,age,36,English,NA,36
+xxzt5,36,Female,College (Bachelor),0,listening,age,0,French,NA,0
+xxzt5,36,Female,College (Bachelor),0,speaking,age,4,French,NA,4
+xxzt5,36,Female,College (Bachelor),0,reading,age,5,French,NA,5
+xxzt5,36,Female,College (Bachelor),0,writing,age,5,French,NA,5
+xxzt5,36,Female,College (Bachelor),0,yearstotal,age,36,French,NA,36
+xxzt5,36,Female,College (Bachelor),0,listening,ability,6,English,NA,6
+xxzt5,36,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+xxzt5,36,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+xxzt5,36,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+xxzt5,36,Female,College (Bachelor),0,listening,ability,4,French,NA,4
+xxzt5,36,Female,College (Bachelor),0,speaking,ability,3,French,NA,3
+xxzt5,36,Female,College (Bachelor),0,reading,ability,3,French,NA,3
+xxzt5,36,Female,College (Bachelor),0,writing,ability,3,French,NA,3
+yqec0,25,Male,College (Bachelor),1,listening,age,1,English,NA,0
+yqec0,25,Male,College (Bachelor),1,speaking,age,1,English,NA,0
+yqec0,25,Male,College (Bachelor),1,reading,age,2,English,NA,2
+yqec0,25,Male,College (Bachelor),1,writing,age,2,English,NA,2
+yqec0,25,Male,College (Bachelor),1,yearstotal,age,25,English,NA,25
+yqec0,25,Male,College (Bachelor),1,listening,age,8,French,NA,8
+yqec0,25,Male,College (Bachelor),1,speaking,age,8,French,NA,8
+yqec0,25,Male,College (Bachelor),1,reading,age,8,French,NA,8
+yqec0,25,Male,College (Bachelor),1,writing,age,8,French,NA,8
+yqec0,25,Male,College (Bachelor),1,yearstotal,age,17,French,NA,17
+yqec0,25,Male,College (Bachelor),1,listening,ability,7,English,NA,7
+yqec0,25,Male,College (Bachelor),1,speaking,ability,7,English,NA,7
+yqec0,25,Male,College (Bachelor),1,reading,ability,7,English,NA,7
+yqec0,25,Male,College (Bachelor),1,writing,ability,7,English,NA,7
+yqec0,25,Male,College (Bachelor),1,listening,ability,4,French,NA,4
+yqec0,25,Male,College (Bachelor),1,speaking,ability,1,French,NA,1
+yqec0,25,Male,College (Bachelor),1,reading,ability,4,French,NA,4
+yqec0,25,Male,College (Bachelor),1,writing,ability,3,French,NA,3
+yzoh9,23,Female,College (Bachelor),0,listening,age,2,English,NA,2
+yzoh9,23,Female,College (Bachelor),0,speaking,age,3,English,NA,3
+yzoh9,23,Female,College (Bachelor),0,reading,age,5,English,NA,5
+yzoh9,23,Female,College (Bachelor),0,writing,age,5,English,NA,5
+yzoh9,23,Female,College (Bachelor),0,yearstotal,age,21,English,NA,21
+yzoh9,23,Female,College (Bachelor),0,listening,age,0,French,NA,0
+yzoh9,23,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+yzoh9,23,Female,College (Bachelor),0,reading,age,12,French,NA,12
+yzoh9,23,Female,College (Bachelor),0,writing,age,12,French,NA,12
+yzoh9,23,Female,College (Bachelor),0,yearstotal,age,23,French,NA,23
+yzoh9,23,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+yzoh9,23,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+yzoh9,23,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+yzoh9,23,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+yzoh9,23,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+yzoh9,23,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+yzoh9,23,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+yzoh9,23,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+zalj4,21,Female,College (Bachelor),0,listening,age,0,French,NA,0
+zalj4,21,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+zalj4,21,Female,College (Bachelor),0,reading,age,6,French,NA,6
+zalj4,21,Female,College (Bachelor),0,writing,age,6,French,NA,6
+zalj4,21,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+zalj4,21,Female,College (Bachelor),0,listening,age,8,English,NA,8
+zalj4,21,Female,College (Bachelor),0,speaking,age,8,English,NA,8
+zalj4,21,Female,College (Bachelor),0,reading,age,8,English,NA,8
+zalj4,21,Female,College (Bachelor),0,writing,age,8,English,NA,8
+zalj4,21,Female,College (Bachelor),0,yearstotal,age,13,English,NA,13
+zalj4,21,Female,College (Bachelor),0,listening,age,14,Spanish,NA,14
+zalj4,21,Female,College (Bachelor),0,speaking,age,14,Spanish,NA,14
+zalj4,21,Female,College (Bachelor),0,reading,age,14,Spanish,NA,14
+zalj4,21,Female,College (Bachelor),0,writing,age,14,Spanish,NA,14
+zalj4,21,Female,College (Bachelor),0,yearstotal,age,3,Spanish,NA,3
+zalj4,21,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+zalj4,21,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+zalj4,21,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+zalj4,21,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+zalj4,21,Female,College (Bachelor),0,listening,ability,6,English,NA,6
+zalj4,21,Female,College (Bachelor),0,speaking,ability,5,English,NA,5
+zalj4,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+zalj4,21,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+zalj4,21,Female,College (Bachelor),0,listening,ability,3,Spanish,NA,3
+zalj4,21,Female,College (Bachelor),0,speaking,ability,2,Spanish,NA,2
+zalj4,21,Female,College (Bachelor),0,reading,ability,2,Spanish,NA,2
+zalj4,21,Female,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+zewj8,24,Female,College (Bachelor),0,listening,age,2,English,NA,2
+zewj8,24,Female,College (Bachelor),0,speaking,age,4,English,NA,4
+zewj8,24,Female,College (Bachelor),0,reading,age,5,English,NA,5
+zewj8,24,Female,College (Bachelor),0,writing,age,5,English,NA,5
+zewj8,24,Female,College (Bachelor),0,yearstotal,age,21,English,NA,21
+zewj8,24,Female,College (Bachelor),0,listening,age,0,French,NA,0
+zewj8,24,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+zewj8,24,Female,College (Bachelor),0,reading,age,5,French,NA,5
+zewj8,24,Female,College (Bachelor),0,writing,age,5,French,NA,5
+zewj8,24,Female,College (Bachelor),0,yearstotal,age,24,French,NA,24
+zewj8,24,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+zewj8,24,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+zewj8,24,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+zewj8,24,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+zewj8,24,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+zewj8,24,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+zewj8,24,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+zewj8,24,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+zhcw6,23,Female,College (Bachelor),1,listening,age,1,French,NA,0
+zhcw6,23,Female,College (Bachelor),1,speaking,age,1,French,NA,0
+zhcw6,23,Female,College (Bachelor),1,reading,age,6,French,NA,6
+zhcw6,23,Female,College (Bachelor),1,writing,age,7,French,NA,7
+zhcw6,23,Female,College (Bachelor),1,yearstotal,age,23,French,NA,23
+zhcw6,23,Female,College (Bachelor),1,listening,age,8,English,NA,8
+zhcw6,23,Female,College (Bachelor),1,speaking,age,8,English,NA,8
+zhcw6,23,Female,College (Bachelor),1,reading,age,9,English,NA,9
+zhcw6,23,Female,College (Bachelor),1,writing,age,12,English,NA,12
+zhcw6,23,Female,College (Bachelor),1,yearstotal,age,15,English,NA,15
+zhcw6,23,Female,College (Bachelor),1,listening,ability,7,French,NA,7
+zhcw6,23,Female,College (Bachelor),1,speaking,ability,7,French,NA,7
+zhcw6,23,Female,College (Bachelor),1,reading,ability,7,French,NA,7
+zhcw6,23,Female,College (Bachelor),1,writing,ability,5,French,NA,5
+zhcw6,23,Female,College (Bachelor),1,listening,ability,6,English,NA,6
+zhcw6,23,Female,College (Bachelor),1,speaking,ability,5,English,NA,5
+zhcw6,23,Female,College (Bachelor),1,reading,ability,5,English,NA,5
+zhcw6,23,Female,College (Bachelor),1,writing,ability,5,English,NA,5
+akna2,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+akna2,21,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+akna2,21,Female,College (Bachelor),0,reading,age,5,English,NA,5
+akna2,21,Female,College (Bachelor),0,writing,age,4,English,NA,4
+akna2,21,Female,College (Bachelor),0,yearstotal,age,20,English,NA,20
+akna2,21,Female,College (Bachelor),0,listening,age,0,French,NA,0
+akna2,21,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+akna2,21,Female,College (Bachelor),0,reading,age,5,French,NA,5
+akna2,21,Female,College (Bachelor),0,writing,age,4,French,NA,4
+akna2,21,Female,College (Bachelor),0,yearstotal,age,20,French,NA,20
+akna2,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+akna2,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+akna2,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+akna2,21,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+akna2,21,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+akna2,21,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+akna2,21,Female,College (Bachelor),0,reading,ability,5,French,NA,5
+akna2,21,Female,College (Bachelor),0,writing,ability,3,French,NA,3
+anqy5,21,Male,College (Bachelor),0,listening,age,0,English,NA,0
+anqy5,21,Male,College (Bachelor),0,speaking,age,3,English,NA,3
+anqy5,21,Male,College (Bachelor),0,reading,age,5,English,NA,5
+anqy5,21,Male,College (Bachelor),0,writing,age,5,English,NA,5
+anqy5,21,Male,College (Bachelor),0,yearstotal,age,21,English,NA,21
+anqy5,21,Male,College (Bachelor),0,listening,age,13,French,NA,13
+anqy5,21,Male,College (Bachelor),0,speaking,age,13,French,NA,13
+anqy5,21,Male,College (Bachelor),0,reading,age,13,French,NA,13
+anqy5,21,Male,College (Bachelor),0,writing,age,13,French,NA,13
+anqy5,21,Male,College (Bachelor),0,yearstotal,age,4,French,NA,4
+anqy5,21,Male,College (Bachelor),0,listening,ability,7,English,NA,7
+anqy5,21,Male,College (Bachelor),0,speaking,ability,7,English,NA,7
+anqy5,21,Male,College (Bachelor),0,reading,ability,7,English,NA,7
+anqy5,21,Male,College (Bachelor),0,writing,ability,7,English,NA,7
+anqy5,21,Male,College (Bachelor),0,listening,ability,2,French,NA,2
+anqy5,21,Male,College (Bachelor),0,speaking,ability,2,French,NA,2
+anqy5,21,Male,College (Bachelor),0,reading,ability,2,French,NA,2
+anqy5,21,Male,College (Bachelor),0,writing,ability,1,French,NA,1
+ayzu5,21,Male,College (Bachelor),0,listening,age,0,English,0,0
+ayzu5,21,Male,College (Bachelor),0,speaking,age,2,English,2,2
+ayzu5,21,Male,College (Bachelor),0,reading,age,4,English,3,4
+ayzu5,21,Male,College (Bachelor),0,writing,age,4,English,3,4
+ayzu5,21,Male,College (Bachelor),0,yearstotal,age,21,English,NA,21
+ayzu5,21,Male,College (Bachelor),0,listening,age,0,French,0,0
+ayzu5,21,Male,College (Bachelor),0,speaking,age,3,French,3,3
+ayzu5,21,Male,College (Bachelor),0,reading,age,4,French,3,4
+ayzu5,21,Male,College (Bachelor),0,writing,age,5,French,4,5
+ayzu5,21,Male,College (Bachelor),0,yearstotal,age,21,French,NA,21
+ayzu5,21,Male,College (Bachelor),0,listening,ability,7,English,NA,7
+ayzu5,21,Male,College (Bachelor),0,speaking,ability,7,English,NA,7
+ayzu5,21,Male,College (Bachelor),0,reading,ability,7,English,NA,7
+ayzu5,21,Male,College (Bachelor),0,writing,ability,6,English,NA,6
+ayzu5,21,Male,College (Bachelor),0,listening,ability,6,French,NA,6
+ayzu5,21,Male,College (Bachelor),0,speaking,ability,5,French,NA,5
+ayzu5,21,Male,College (Bachelor),0,reading,ability,5,French,NA,5
+ayzu5,21,Male,College (Bachelor),0,writing,ability,3,French,NA,3
+ayzu5,21,Male,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+ayzu5,21,Male,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+ayzu5,21,Male,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+ayzu5,21,Male,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+ayzu5,21,Male,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+ayzu5,21,Male,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+ayzu5,21,Male,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+ayzu5,21,Male,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+bldx0,23,Male,College (Bachelor),0,listening,age,0,English,NA,0
+bldx0,23,Male,College (Bachelor),0,speaking,age,1,English,NA,1
+bldx0,23,Male,College (Bachelor),0,reading,age,5,English,NA,5
+bldx0,23,Male,College (Bachelor),0,writing,age,5,English,NA,5
+bldx0,23,Male,College (Bachelor),0,yearstotal,age,22,English,NA,22
+bldx0,23,Male,College (Bachelor),0,listening,age,5,French,NA,5
+bldx0,23,Male,College (Bachelor),0,speaking,age,5,French,NA,5
+bldx0,23,Male,College (Bachelor),0,reading,age,5,French,NA,5
+bldx0,23,Male,College (Bachelor),0,writing,age,5,French,NA,5
+bldx0,23,Male,College (Bachelor),0,yearstotal,age,18,French,NA,18
+bldx0,23,Male,College (Bachelor),0,listening,ability,7,English,NA,7
+bldx0,23,Male,College (Bachelor),0,speaking,ability,7,English,NA,7
+bldx0,23,Male,College (Bachelor),0,reading,ability,6,English,NA,6
+bldx0,23,Male,College (Bachelor),0,writing,ability,7,English,NA,7
+bldx0,23,Male,College (Bachelor),0,listening,ability,5,French,NA,5
+bldx0,23,Male,College (Bachelor),0,speaking,ability,4,French,NA,4
+bldx0,23,Male,College (Bachelor),0,reading,ability,4,French,NA,4
+bldx0,23,Male,College (Bachelor),0,writing,ability,4,French,NA,4
+bnmu7,21,Female,College (Bachelor),3,listening,age,21,English,NA,0
+bnmu7,21,Female,College (Bachelor),3,speaking,age,21,English,NA,0
+bnmu7,21,Female,College (Bachelor),3,reading,age,21,English,NA,0
+bnmu7,21,Female,College (Bachelor),3,writing,age,16,English,NA,5
+bnmu7,21,Female,College (Bachelor),3,yearstotal,age,21,English,NA,21
+bnmu7,21,Female,College (Bachelor),3,listening,age,17,French,NA,4
+bnmu7,21,Female,College (Bachelor),3,speaking,age,17,French,NA,4
+bnmu7,21,Female,College (Bachelor),3,reading,age,17,French,NA,4
+bnmu7,21,Female,College (Bachelor),3,writing,age,16,French,NA,5
+bnmu7,21,Female,College (Bachelor),3,yearstotal,age,17,French,NA,17
+bnmu7,21,Female,College (Bachelor),3,listening,age,17,Italian,NA,4
+bnmu7,21,Female,College (Bachelor),3,speaking,age,5,Italian,NA,16
+bnmu7,21,Female,College (Bachelor),3,reading,age,2,Italian,NA,19
+bnmu7,21,Female,College (Bachelor),3,writing,age,0,Italian,NA,21
+bnmu7,21,Female,College (Bachelor),3,yearstotal,age,2,Italian,NA,2
+bnmu7,21,Female,College (Bachelor),3,listening,ability,7,English,NA,7
+bnmu7,21,Female,College (Bachelor),3,speaking,ability,7,English,NA,7
+bnmu7,21,Female,College (Bachelor),3,reading,ability,7,English,NA,7
+bnmu7,21,Female,College (Bachelor),3,writing,ability,7,English,NA,7
+bnmu7,21,Female,College (Bachelor),3,listening,ability,7,French,NA,7
+bnmu7,21,Female,College (Bachelor),3,speaking,ability,6,French,NA,6
+bnmu7,21,Female,College (Bachelor),3,reading,ability,6,French,NA,6
+bnmu7,21,Female,College (Bachelor),3,writing,ability,6,French,NA,6
+bnmu7,21,Female,College (Bachelor),3,listening,ability,5,Italian,NA,5
+bnmu7,21,Female,College (Bachelor),3,speaking,ability,3,Italian,NA,3
+bnmu7,21,Female,College (Bachelor),3,reading,ability,3,Italian,NA,3
+bnmu7,21,Female,College (Bachelor),3,writing,ability,1,Italian,NA,1
+bpyi3,28,Male,Graduate school (Master),3,listening,age,28,English,NA,0
+bpyi3,28,Male,Graduate school (Master),3,speaking,age,27,English,NA,1
+bpyi3,28,Male,Graduate school (Master),3,reading,age,25,English,NA,3
+bpyi3,28,Male,Graduate school (Master),3,writing,age,25,English,NA,3
+bpyi3,28,Male,Graduate school (Master),3,yearstotal,age,28,English,NA,28
+bpyi3,28,Male,Graduate school (Master),3,listening,age,28,French,NA,0
+bpyi3,28,Male,Graduate school (Master),3,speaking,age,27,French,NA,1
+bpyi3,28,Male,Graduate school (Master),3,reading,age,25,French,NA,3
+bpyi3,28,Male,Graduate school (Master),3,writing,age,25,French,NA,3
+bpyi3,28,Male,Graduate school (Master),3,yearstotal,age,21,French,NA,21
+bpyi3,28,Male,Graduate school (Master),3,listening,age,4,Spanish,NA,24
+bpyi3,28,Male,Graduate school (Master),3,speaking,age,0,Spanish,NA,28
+bpyi3,28,Male,Graduate school (Master),3,reading,age,4,Spanish,NA,24
+bpyi3,28,Male,Graduate school (Master),3,writing,age,0,Spanish,NA,28
+bpyi3,28,Male,Graduate school (Master),3,yearstotal,age,4,Spanish,NA,4
+bpyi3,28,Male,Graduate school (Master),3,listening,ability,7,English,NA,7
+bpyi3,28,Male,Graduate school (Master),3,speaking,ability,7,English,NA,7
+bpyi3,28,Male,Graduate school (Master),3,reading,ability,7,English,NA,7
+bpyi3,28,Male,Graduate school (Master),3,writing,ability,7,English,NA,7
+bpyi3,28,Male,Graduate school (Master),3,listening,ability,6,French,NA,6
+bpyi3,28,Male,Graduate school (Master),3,speaking,ability,5,French,NA,5
+bpyi3,28,Male,Graduate school (Master),3,reading,ability,6,French,NA,6
+bpyi3,28,Male,Graduate school (Master),3,writing,ability,5,French,NA,5
+bpyi3,28,Male,Graduate school (Master),3,listening,ability,2,Spanish,NA,2
+bpyi3,28,Male,Graduate school (Master),3,speaking,ability,2,Spanish,NA,2
+bpyi3,28,Male,Graduate school (Master),3,reading,ability,2,Spanish,NA,2
+bpyi3,28,Male,Graduate school (Master),3,writing,ability,2,Spanish,NA,2
+cdyp1,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+cdyp1,21,Female,College (Bachelor),0,speaking,age,2,English,NA,2
+cdyp1,21,Female,College (Bachelor),0,reading,age,5,English,NA,5
+cdyp1,21,Female,College (Bachelor),0,writing,age,5,English,NA,5
+cdyp1,21,Female,College (Bachelor),0,yearstotal,age,18,English,NA,18
+cdyp1,21,Female,College (Bachelor),0,listening,age,0,French,NA,0
+cdyp1,21,Female,College (Bachelor),0,speaking,age,6,French,NA,6
+cdyp1,21,Female,College (Bachelor),0,reading,age,6,French,NA,6
+cdyp1,21,Female,College (Bachelor),0,writing,age,8,French,NA,8
+cdyp1,21,Female,College (Bachelor),0,yearstotal,age,16,French,NA,16
+cdyp1,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+cdyp1,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+cdyp1,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+cdyp1,21,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+cdyp1,21,Female,College (Bachelor),0,listening,ability,5,French,NA,5
+cdyp1,21,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+cdyp1,21,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+cdyp1,21,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+cdyp1,21,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+cdyp1,21,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+cdyp1,21,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+cdyp1,21,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+cdyp1,21,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+cdyp1,21,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+cdyp1,21,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+cdyp1,21,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+ckev1,26,Female,College (Bachelor),0,listening,age,0,French,NA,0
+ckev1,26,Female,College (Bachelor),0,speaking,age,2,French,NA,2
+ckev1,26,Female,College (Bachelor),0,reading,age,4,French,NA,4
+ckev1,26,Female,College (Bachelor),0,writing,age,4,French,NA,4
+ckev1,26,Female,College (Bachelor),0,yearstotal,age,26,French,NA,26
+ckev1,26,Female,College (Bachelor),0,listening,age,9,English,NA,9
+ckev1,26,Female,College (Bachelor),0,speaking,age,9,English,NA,9
+ckev1,26,Female,College (Bachelor),0,reading,age,9,English,NA,9
+ckev1,26,Female,College (Bachelor),0,writing,age,9,English,NA,9
+ckev1,26,Female,College (Bachelor),0,yearstotal,age,17,English,NA,17
+ckev1,26,Female,College (Bachelor),0,listening,age,14,Spanish,NA,14
+ckev1,26,Female,College (Bachelor),0,speaking,age,14,Spanish,NA,14
+ckev1,26,Female,College (Bachelor),0,reading,age,14,Spanish,NA,14
+ckev1,26,Female,College (Bachelor),0,writing,age,14,Spanish,NA,14
+ckev1,26,Female,College (Bachelor),0,yearstotal,age,6,Spanish,NA,6
+ckev1,26,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+ckev1,26,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+ckev1,26,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+ckev1,26,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+ckev1,26,Female,College (Bachelor),0,listening,ability,6,English,NA,6
+ckev1,26,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+ckev1,26,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+ckev1,26,Female,College (Bachelor),0,writing,ability,5,English,NA,5
+ckev1,26,Female,College (Bachelor),0,listening,ability,5,Spanish,NA,5
+ckev1,26,Female,College (Bachelor),0,speaking,ability,4,Spanish,NA,4
+ckev1,26,Female,College (Bachelor),0,reading,ability,4,Spanish,NA,4
+ckev1,26,Female,College (Bachelor),0,writing,ability,3,Spanish,NA,3
+cqmz5,21,Female,College (Bachelor),0,listening,age,0,French,NA,0
+cqmz5,21,Female,College (Bachelor),0,speaking,age,2,French,NA,2
+cqmz5,21,Female,College (Bachelor),0,reading,age,6,French,NA,6
+cqmz5,21,Female,College (Bachelor),0,writing,age,6,French,NA,6
+cqmz5,21,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+cqmz5,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+cqmz5,21,Female,College (Bachelor),0,speaking,age,5,English,NA,5
+cqmz5,21,Female,College (Bachelor),0,reading,age,6,English,NA,6
+cqmz5,21,Female,College (Bachelor),0,writing,age,6,English,NA,6
+cqmz5,21,Female,College (Bachelor),0,yearstotal,age,16,English,NA,16
+cqmz5,21,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+cqmz5,21,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+cqmz5,21,Female,College (Bachelor),0,reading,ability,5,French,NA,5
+cqmz5,21,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+cqmz5,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+cqmz5,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+cqmz5,21,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+cqmz5,21,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+csxx5,23,Female,College (Bachelor),0,listening,age,0,English,NA,0
+csxx5,23,Female,College (Bachelor),0,speaking,age,2,English,NA,2
+csxx5,23,Female,College (Bachelor),0,reading,age,3,English,NA,3
+csxx5,23,Female,College (Bachelor),0,writing,age,3,English,NA,3
+csxx5,23,Female,College (Bachelor),0,yearstotal,age,23,English,NA,23
+csxx5,23,Female,College (Bachelor),0,listening,age,3,French,NA,3
+csxx5,23,Female,College (Bachelor),0,speaking,age,3,French,NA,3
+csxx5,23,Female,College (Bachelor),0,reading,age,3,French,NA,3
+csxx5,23,Female,College (Bachelor),0,writing,age,3,French,NA,3
+csxx5,23,Female,College (Bachelor),0,yearstotal,age,20,French,NA,20
+csxx5,23,Female,College (Bachelor),0,listening,ability,6,English,NA,6
+csxx5,23,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+csxx5,23,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+csxx5,23,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+csxx5,23,Female,College (Bachelor),0,listening,ability,5,French,NA,5
+csxx5,23,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+csxx5,23,Female,College (Bachelor),0,reading,ability,5,French,NA,5
+csxx5,23,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+ctjj0,22,Female,College (Bachelor),1,listening,age,1,English,NA,0
+ctjj0,22,Female,College (Bachelor),1,speaking,age,2,English,NA,0
+ctjj0,22,Female,College (Bachelor),1,reading,age,5,English,NA,5
+ctjj0,22,Female,College (Bachelor),1,writing,age,5,English,NA,5
+ctjj0,22,Female,College (Bachelor),1,yearstotal,age,22,English,NA,22
+ctjj0,22,Female,College (Bachelor),1,listening,age,4,French,NA,4
+ctjj0,22,Female,College (Bachelor),1,speaking,age,5,French,NA,5
+ctjj0,22,Female,College (Bachelor),1,reading,age,6,French,NA,6
+ctjj0,22,Female,College (Bachelor),1,writing,age,7,French,NA,7
+ctjj0,22,Female,College (Bachelor),1,yearstotal,age,17,French,NA,17
+ctjj0,22,Female,College (Bachelor),1,listening,age,18,Spanish,NA,18
+ctjj0,22,Female,College (Bachelor),1,speaking,age,18,Spanish,NA,18
+ctjj0,22,Female,College (Bachelor),1,reading,age,18,Spanish,NA,18
+ctjj0,22,Female,College (Bachelor),1,writing,age,18,Spanish,NA,18
+ctjj0,22,Female,College (Bachelor),1,yearstotal,age,4,Spanish,NA,4
+ctjj0,22,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+ctjj0,22,Female,College (Bachelor),1,speaking,ability,7,English,NA,7
+ctjj0,22,Female,College (Bachelor),1,reading,ability,7,English,NA,7
+ctjj0,22,Female,College (Bachelor),1,writing,ability,7,English,NA,7
+ctjj0,22,Female,College (Bachelor),1,listening,ability,6,French,NA,6
+ctjj0,22,Female,College (Bachelor),1,speaking,ability,5,French,NA,5
+ctjj0,22,Female,College (Bachelor),1,reading,ability,6,French,NA,6
+ctjj0,22,Female,College (Bachelor),1,writing,ability,5,French,NA,5
+ctjj0,22,Female,College (Bachelor),1,listening,ability,3,Spanish,NA,3
+ctjj0,22,Female,College (Bachelor),1,speaking,ability,2,Spanish,NA,2
+ctjj0,22,Female,College (Bachelor),1,reading,ability,2,Spanish,NA,2
+ctjj0,22,Female,College (Bachelor),1,writing,ability,2,Spanish,NA,2
+cxsu8,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+cxsu8,21,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+cxsu8,21,Female,College (Bachelor),0,reading,age,4,English,NA,4
+cxsu8,21,Female,College (Bachelor),0,writing,age,2,English,NA,2
+cxsu8,21,Female,College (Bachelor),0,yearstotal,age,21,English,NA,21
+cxsu8,21,Female,College (Bachelor),0,listening,age,3,French,NA,3
+cxsu8,21,Female,College (Bachelor),0,speaking,age,3,French,NA,3
+cxsu8,21,Female,College (Bachelor),0,reading,age,5,French,NA,5
+cxsu8,21,Female,College (Bachelor),0,writing,age,4,French,NA,4
+cxsu8,21,Female,College (Bachelor),0,yearstotal,age,18,French,NA,18
+cxsu8,21,Female,College (Bachelor),0,listening,age,3,Hebrew,NA,3
+cxsu8,21,Female,College (Bachelor),0,speaking,age,3,Hebrew,NA,3
+cxsu8,21,Female,College (Bachelor),0,reading,age,5,Hebrew,NA,5
+cxsu8,21,Female,College (Bachelor),0,writing,age,4,Hebrew,NA,4
+cxsu8,21,Female,College (Bachelor),0,yearstotal,age,18,Hebrew,NA,18
+cxsu8,21,Female,College (Bachelor),0,listening,age,12,Spanish,NA,12
+cxsu8,21,Female,College (Bachelor),0,speaking,age,12,Spanish,NA,12
+cxsu8,21,Female,College (Bachelor),0,reading,age,12,Spanish,NA,12
+cxsu8,21,Female,College (Bachelor),0,writing,age,12,Spanish,NA,12
+cxsu8,21,Female,College (Bachelor),0,yearstotal,age,9,Spanish,NA,9
+cxsu8,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+cxsu8,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+cxsu8,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+cxsu8,21,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+cxsu8,21,Female,College (Bachelor),0,listening,ability,5,French,NA,5
+cxsu8,21,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+cxsu8,21,Female,College (Bachelor),0,reading,ability,5,French,NA,5
+cxsu8,21,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+cxsu8,21,Female,College (Bachelor),0,listening,ability,2,Hebrew,NA,2
+cxsu8,21,Female,College (Bachelor),0,speaking,ability,2,Hebrew,NA,2
+cxsu8,21,Female,College (Bachelor),0,reading,ability,2,Hebrew,NA,2
+cxsu8,21,Female,College (Bachelor),0,writing,ability,2,Hebrew,NA,2
+cxsu8,21,Female,College (Bachelor),0,listening,ability,4,Spanish,NA,4
+cxsu8,21,Female,College (Bachelor),0,speaking,ability,4,Spanish,NA,4
+cxsu8,21,Female,College (Bachelor),0,reading,ability,4,Spanish,NA,4
+cxsu8,21,Female,College (Bachelor),0,writing,ability,4,Spanish,NA,4
+dgsa0,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+dgsa0,21,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+dgsa0,21,Female,College (Bachelor),0,reading,age,6,English,NA,6
+dgsa0,21,Female,College (Bachelor),0,writing,age,6,English,NA,6
+dgsa0,21,Female,College (Bachelor),0,yearstotal,age,21,English,NA,21
+dgsa0,21,Female,College (Bachelor),0,listening,age,1,French,NA,1
+dgsa0,21,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+dgsa0,21,Female,College (Bachelor),0,reading,age,6,French,NA,6
+dgsa0,21,Female,College (Bachelor),0,writing,age,6,French,NA,6
+dgsa0,21,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+dgsa0,21,Female,College (Bachelor),0,listening,age,14,Spanish,NA,14
+dgsa0,21,Female,College (Bachelor),0,speaking,age,14,Spanish,NA,14
+dgsa0,21,Female,College (Bachelor),0,reading,age,14,Spanish,NA,14
+dgsa0,21,Female,College (Bachelor),0,writing,age,14,Spanish,NA,14
+dgsa0,21,Female,College (Bachelor),0,yearstotal,age,7,Spanish,NA,7
+dgsa0,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+dgsa0,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+dgsa0,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+dgsa0,21,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+dgsa0,21,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+dgsa0,21,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+dgsa0,21,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+dgsa0,21,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+dgsa0,21,Female,College (Bachelor),0,listening,ability,5,Spanish,NA,5
+dgsa0,21,Female,College (Bachelor),0,speaking,ability,3,Spanish,NA,3
+dgsa0,21,Female,College (Bachelor),0,reading,ability,4,Spanish,NA,4
+dgsa0,21,Female,College (Bachelor),0,writing,ability,3,Spanish,NA,3
+dlfp5,21,Female,College (Bachelor),0,listening,age,0,English,0,0
+dlfp5,21,Female,College (Bachelor),0,speaking,age,2,English,1,2
+dlfp5,21,Female,College (Bachelor),0,reading,age,3,English,3,3
+dlfp5,21,Female,College (Bachelor),0,writing,age,3,English,3,3
+dlfp5,21,Female,College (Bachelor),0,yearstotal,age,21,English,NA,21
+dlfp5,21,Female,College (Bachelor),0,listening,age,0,French,0,0
+dlfp5,21,Female,College (Bachelor),0,speaking,age,2,French,3,2
+dlfp5,21,Female,College (Bachelor),0,reading,age,3,French,4,3
+dlfp5,21,Female,College (Bachelor),0,writing,age,3,French,4,3
+dlfp5,21,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+dlfp5,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+dlfp5,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+dlfp5,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+dlfp5,21,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+dlfp5,21,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+dlfp5,21,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+dlfp5,21,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+dlfp5,21,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+dnqf6,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+dnqf6,21,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+dnqf6,21,Female,College (Bachelor),0,reading,age,5,English,NA,5
+dnqf6,21,Female,College (Bachelor),0,writing,age,5,English,NA,5
+dnqf6,21,Female,College (Bachelor),0,yearstotal,age,21,English,NA,21
+dnqf6,21,Female,College (Bachelor),0,listening,age,5,French,NA,5
+dnqf6,21,Female,College (Bachelor),0,speaking,age,5,French,NA,5
+dnqf6,21,Female,College (Bachelor),0,reading,age,5,French,NA,5
+dnqf6,21,Female,College (Bachelor),0,writing,age,5,French,NA,5
+dnqf6,21,Female,College (Bachelor),0,yearstotal,age,16,French,NA,16
+dnqf6,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+dnqf6,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+dnqf6,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+dnqf6,21,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+dnqf6,21,Female,College (Bachelor),0,listening,ability,6,French,NA,6
+dnqf6,21,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+dnqf6,21,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+dnqf6,21,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+eelu0,29,Male,Graduate school (Master),0,listening,age,0,English,NA,0
+eelu0,29,Male,Graduate school (Master),0,speaking,age,1,English,NA,1
+eelu0,29,Male,Graduate school (Master),0,reading,age,5,English,NA,5
+eelu0,29,Male,Graduate school (Master),0,writing,age,5,English,NA,5
+eelu0,29,Male,Graduate school (Master),0,yearstotal,age,29,English,NA,29
+eelu0,29,Male,Graduate school (Master),0,listening,age,5,French,NA,5
+eelu0,29,Male,Graduate school (Master),0,speaking,age,5,French,NA,5
+eelu0,29,Male,Graduate school (Master),0,reading,age,5,French,NA,5
+eelu0,29,Male,Graduate school (Master),0,writing,age,5,French,NA,5
+eelu0,29,Male,Graduate school (Master),0,yearstotal,age,25,French,NA,25
+eelu0,29,Male,Graduate school (Master),0,listening,ability,7,English,NA,7
+eelu0,29,Male,Graduate school (Master),0,speaking,ability,7,English,NA,7
+eelu0,29,Male,Graduate school (Master),0,reading,ability,7,English,NA,7
+eelu0,29,Male,Graduate school (Master),0,writing,ability,7,English,NA,7
+eelu0,29,Male,Graduate school (Master),0,listening,ability,5,French,NA,5
+eelu0,29,Male,Graduate school (Master),0,speaking,ability,5,French,NA,5
+eelu0,29,Male,Graduate school (Master),0,reading,ability,5,French,NA,5
+eelu0,29,Male,Graduate school (Master),0,writing,ability,4,French,NA,4
+eelu0,29,Male,Graduate school (Master),0,listening,ability,NA,N/A,NA,NA
+eelu0,29,Male,Graduate school (Master),0,speaking,ability,NA,N/A,NA,NA
+eelu0,29,Male,Graduate school (Master),0,reading,ability,NA,N/A,NA,NA
+eelu0,29,Male,Graduate school (Master),0,writing,ability,NA,N/A,NA,NA
+eelu0,29,Male,Graduate school (Master),0,listening,ability,NA,N/A,NA,NA
+eelu0,29,Male,Graduate school (Master),0,speaking,ability,NA,N/A,NA,NA
+eelu0,29,Male,Graduate school (Master),0,reading,ability,NA,N/A,NA,NA
+eelu0,29,Male,Graduate school (Master),0,writing,ability,NA,N/A,NA,NA
+fghq0,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+fghq0,21,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+fghq0,21,Female,College (Bachelor),0,reading,age,3,English,NA,3
+fghq0,21,Female,College (Bachelor),0,writing,age,3,English,NA,3
+fghq0,21,Female,College (Bachelor),0,yearstotal,age,21,English,NA,21
+fghq0,21,Female,College (Bachelor),0,listening,age,4,French,NA,4
+fghq0,21,Female,College (Bachelor),0,speaking,age,5,French,NA,5
+fghq0,21,Female,College (Bachelor),0,reading,age,5,French,NA,5
+fghq0,21,Female,College (Bachelor),0,writing,age,6,French,NA,6
+fghq0,21,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+fghq0,21,Female,College (Bachelor),0,listening,age,6,Hebrew,NA,6
+fghq0,21,Female,College (Bachelor),0,speaking,age,6,Hebrew,NA,6
+fghq0,21,Female,College (Bachelor),0,reading,age,6,Hebrew,NA,6
+fghq0,21,Female,College (Bachelor),0,writing,age,6,Hebrew,NA,6
+fghq0,21,Female,College (Bachelor),0,yearstotal,age,5,Hebrew,NA,5
+fghq0,21,Female,College (Bachelor),0,listening,age,14,Spanish,NA,14
+fghq0,21,Female,College (Bachelor),0,speaking,age,14,Spanish,NA,14
+fghq0,21,Female,College (Bachelor),0,reading,age,14,Spanish,NA,14
+fghq0,21,Female,College (Bachelor),0,writing,age,14,Spanish,NA,14
+fghq0,21,Female,College (Bachelor),0,yearstotal,age,2,Spanish,NA,2
+fghq0,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+fghq0,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+fghq0,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+fghq0,21,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+fghq0,21,Female,College (Bachelor),0,listening,ability,5,French,NA,5
+fghq0,21,Female,College (Bachelor),0,speaking,ability,4,French,NA,4
+fghq0,21,Female,College (Bachelor),0,reading,ability,5,French,NA,5
+fghq0,21,Female,College (Bachelor),0,writing,ability,4,French,NA,4
+fghq0,21,Female,College (Bachelor),0,listening,ability,1,Hebrew,NA,1
+fghq0,21,Female,College (Bachelor),0,speaking,ability,1,Hebrew,NA,1
+fghq0,21,Female,College (Bachelor),0,reading,ability,1,Hebrew,NA,1
+fghq0,21,Female,College (Bachelor),0,writing,ability,1,Hebrew,NA,1
+fghq0,21,Female,College (Bachelor),0,listening,ability,1,Spanish,NA,1
+fghq0,21,Female,College (Bachelor),0,speaking,ability,1,Spanish,NA,1
+fghq0,21,Female,College (Bachelor),0,reading,ability,1,Spanish,NA,1
+fghq0,21,Female,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+gfky5,24,Female,High school,0,listening,age,0,English,NA,0
+gfky5,24,Female,High school,0,speaking,age,1,English,NA,1
+gfky5,24,Female,High school,0,reading,age,3,English,NA,3
+gfky5,24,Female,High school,0,writing,age,4,English,NA,4
+gfky5,24,Female,High school,0,yearstotal,age,24,English,NA,24
+gfky5,24,Female,High school,0,listening,age,5,French,NA,5
+gfky5,24,Female,High school,0,speaking,age,5,French,NA,5
+gfky5,24,Female,High school,0,reading,age,5,French,NA,5
+gfky5,24,Female,High school,0,writing,age,5,French,NA,5
+gfky5,24,Female,High school,0,yearstotal,age,15,French,NA,15
+gfky5,24,Female,High school,0,listening,ability,7,English,NA,7
+gfky5,24,Female,High school,0,speaking,ability,7,English,NA,7
+gfky5,24,Female,High school,0,reading,ability,7,English,NA,7
+gfky5,24,Female,High school,0,writing,ability,7,English,NA,7
+gfky5,24,Female,High school,0,listening,ability,3,French,NA,3
+gfky5,24,Female,High school,0,speaking,ability,2,French,NA,2
+gfky5,24,Female,High school,0,reading,ability,3,French,NA,3
+gfky5,24,Female,High school,0,writing,ability,3,French,NA,3
+haoi0,23,Male,College (Bachelor),3,listening,age,23,English,NA,0
+haoi0,23,Male,College (Bachelor),3,speaking,age,23,English,NA,0
+haoi0,23,Male,College (Bachelor),3,reading,age,22,English,NA,1
+haoi0,23,Male,College (Bachelor),3,writing,age,22,English,NA,1
+haoi0,23,Male,College (Bachelor),3,yearstotal,age,23,English,NA,23
+haoi0,23,Male,College (Bachelor),3,listening,age,18,French,NA,5
+haoi0,23,Male,College (Bachelor),3,speaking,age,18,French,NA,5
+haoi0,23,Male,College (Bachelor),3,reading,age,18,French,NA,5
+haoi0,23,Male,College (Bachelor),3,writing,age,18,French,NA,5
+haoi0,23,Male,College (Bachelor),3,yearstotal,age,18,French,NA,18
+haoi0,23,Male,College (Bachelor),3,listening,age,17,Italian,NA,6
+haoi0,23,Male,College (Bachelor),3,speaking,age,17,Italian,NA,6
+haoi0,23,Male,College (Bachelor),3,reading,age,17,Italian,NA,6
+haoi0,23,Male,College (Bachelor),3,writing,age,0,Italian,NA,23
+haoi0,23,Male,College (Bachelor),3,yearstotal,age,10,Italian,NA,10
+haoi0,23,Male,College (Bachelor),3,listening,ability,7,English,NA,7
+haoi0,23,Male,College (Bachelor),3,speaking,ability,7,English,NA,7
+haoi0,23,Male,College (Bachelor),3,reading,ability,7,English,NA,7
+haoi0,23,Male,College (Bachelor),3,writing,ability,7,English,NA,7
+haoi0,23,Male,College (Bachelor),3,listening,ability,5,French,NA,5
+haoi0,23,Male,College (Bachelor),3,speaking,ability,4,French,NA,4
+haoi0,23,Male,College (Bachelor),3,reading,ability,5,French,NA,5
+haoi0,23,Male,College (Bachelor),3,writing,ability,5,French,NA,5
+haoi0,23,Male,College (Bachelor),3,listening,ability,5,Italian,NA,5
+haoi0,23,Male,College (Bachelor),3,speaking,ability,3,Italian,NA,3
+haoi0,23,Male,College (Bachelor),3,reading,ability,3,Italian,NA,3
+haoi0,23,Male,College (Bachelor),3,writing,ability,2,Italian,NA,2
+iavu2,25,Female,Graduate school (Master),0,listening,age,0,English,NA,0
+iavu2,25,Female,Graduate school (Master),0,speaking,age,2,English,NA,2
+iavu2,25,Female,Graduate school (Master),0,reading,age,5,English,NA,5
+iavu2,25,Female,Graduate school (Master),0,writing,age,5,English,NA,5
+iavu2,25,Female,Graduate school (Master),0,yearstotal,age,23,English,NA,23
+iavu2,25,Female,Graduate school (Master),0,listening,age,0,French,NA,0
+iavu2,25,Female,Graduate school (Master),0,speaking,age,0,French,NA,0
+iavu2,25,Female,Graduate school (Master),0,reading,age,7,French,NA,7
+iavu2,25,Female,Graduate school (Master),0,writing,age,7,French,NA,7
+iavu2,25,Female,Graduate school (Master),0,yearstotal,age,25,French,NA,25
+iavu2,25,Female,Graduate school (Master),0,listening,ability,7,English,NA,7
+iavu2,25,Female,Graduate school (Master),0,speaking,ability,7,English,NA,7
+iavu2,25,Female,Graduate school (Master),0,reading,ability,7,English,NA,7
+iavu2,25,Female,Graduate school (Master),0,writing,ability,7,English,NA,7
+iavu2,25,Female,Graduate school (Master),0,listening,ability,7,French,NA,7
+iavu2,25,Female,Graduate school (Master),0,speaking,ability,7,French,NA,7
+iavu2,25,Female,Graduate school (Master),0,reading,ability,6,French,NA,6
+iavu2,25,Female,Graduate school (Master),0,writing,ability,6,French,NA,6
+iavu2,25,Female,Graduate school (Master),0,listening,ability,NA,N/A,NA,NA
+iavu2,25,Female,Graduate school (Master),0,speaking,ability,NA,N/A,NA,NA
+iavu2,25,Female,Graduate school (Master),0,reading,ability,NA,N/A,NA,NA
+iavu2,25,Female,Graduate school (Master),0,writing,ability,NA,N/A,NA,NA
+iavu2,25,Female,Graduate school (Master),0,listening,ability,NA,N/A,NA,NA
+iavu2,25,Female,Graduate school (Master),0,speaking,ability,NA,N/A,NA,NA
+iavu2,25,Female,Graduate school (Master),0,reading,ability,NA,N/A,NA,NA
+iavu2,25,Female,Graduate school (Master),0,writing,ability,NA,N/A,NA,NA
+itwa0,32,Female,College (Bachelor),1,listening,age,1,English,NA,0
+itwa0,32,Female,College (Bachelor),1,speaking,age,1,English,NA,0
+itwa0,32,Female,College (Bachelor),1,reading,age,1,English,NA,1
+itwa0,32,Female,College (Bachelor),1,writing,age,1,English,NA,1
+itwa0,32,Female,College (Bachelor),1,yearstotal,age,32,English,NA,32
+itwa0,32,Female,College (Bachelor),1,listening,age,18,French,NA,18
+itwa0,32,Female,College (Bachelor),1,speaking,age,18,French,NA,18
+itwa0,32,Female,College (Bachelor),1,reading,age,18,French,NA,18
+itwa0,32,Female,College (Bachelor),1,writing,age,18,French,NA,18
+itwa0,32,Female,College (Bachelor),1,yearstotal,age,15,French,NA,15
+itwa0,32,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+itwa0,32,Female,College (Bachelor),1,speaking,ability,7,English,NA,7
+itwa0,32,Female,College (Bachelor),1,reading,ability,7,English,NA,7
+itwa0,32,Female,College (Bachelor),1,writing,ability,7,English,NA,7
+itwa0,32,Female,College (Bachelor),1,listening,ability,2,French,NA,2
+itwa0,32,Female,College (Bachelor),1,speaking,ability,3,French,NA,3
+itwa0,32,Female,College (Bachelor),1,reading,ability,4,French,NA,4
+itwa0,32,Female,College (Bachelor),1,writing,ability,2,French,NA,2
+ixkt1,21,Female,College (Bachelor),3,listening,age,21,English,NA,0
+ixkt1,21,Female,College (Bachelor),3,speaking,age,19,English,NA,2
+ixkt1,21,Female,College (Bachelor),3,reading,age,11,English,NA,10
+ixkt1,21,Female,College (Bachelor),3,writing,age,9,English,NA,12
+ixkt1,21,Female,College (Bachelor),3,yearstotal,age,21,English,NA,21
+ixkt1,21,Female,College (Bachelor),3,listening,age,10,French,NA,11
+ixkt1,21,Female,College (Bachelor),3,speaking,age,7,French,NA,14
+ixkt1,21,Female,College (Bachelor),3,reading,age,7,French,NA,14
+ixkt1,21,Female,College (Bachelor),3,writing,age,7,French,NA,14
+ixkt1,21,Female,College (Bachelor),3,yearstotal,age,7,French,NA,7
+ixkt1,21,Female,College (Bachelor),3,listening,ability,7,English,NA,7
+ixkt1,21,Female,College (Bachelor),3,speaking,ability,6,English,NA,6
+ixkt1,21,Female,College (Bachelor),3,reading,ability,6,English,NA,6
+ixkt1,21,Female,College (Bachelor),3,writing,ability,5,English,NA,5
+ixkt1,21,Female,College (Bachelor),3,listening,ability,6,French,NA,6
+ixkt1,21,Female,College (Bachelor),3,speaking,ability,3,French,NA,3
+ixkt1,21,Female,College (Bachelor),3,reading,ability,4,French,NA,4
+ixkt1,21,Female,College (Bachelor),3,writing,ability,3,French,NA,3
+jbpl3,21,Male,College (Bachelor),1,listening,age,1,English,NA,0
+jbpl3,21,Male,College (Bachelor),1,speaking,age,2,English,NA,0
+jbpl3,21,Male,College (Bachelor),1,reading,age,6,English,NA,6
+jbpl3,21,Male,College (Bachelor),1,writing,age,6,English,NA,6
+jbpl3,21,Male,College (Bachelor),1,yearstotal,age,19,English,NA,19
+jbpl3,21,Male,College (Bachelor),1,listening,age,1,French,NA,0
+jbpl3,21,Male,College (Bachelor),1,speaking,age,6,French,NA,6
+jbpl3,21,Male,College (Bachelor),1,reading,age,6,French,NA,6
+jbpl3,21,Male,College (Bachelor),1,writing,age,6,French,NA,6
+jbpl3,21,Male,College (Bachelor),1,yearstotal,age,15,French,NA,15
+jbpl3,21,Male,College (Bachelor),1,listening,ability,7,English,NA,7
+jbpl3,21,Male,College (Bachelor),1,speaking,ability,5,English,NA,5
+jbpl3,21,Male,College (Bachelor),1,reading,ability,5,English,NA,5
+jbpl3,21,Male,College (Bachelor),1,writing,ability,5,English,NA,5
+jbpl3,21,Male,College (Bachelor),1,listening,ability,7,French,NA,7
+jbpl3,21,Male,College (Bachelor),1,speaking,ability,5,French,NA,5
+jbpl3,21,Male,College (Bachelor),1,reading,ability,5,French,NA,5
+jbpl3,21,Male,College (Bachelor),1,writing,ability,5,French,NA,5
+jevi3,20,Female,(Other),0,listening,age,0,English,NA,0
+jevi3,20,Female,(Other),0,speaking,age,1,English,NA,1
+jevi3,20,Female,(Other),0,reading,age,4,English,NA,4
+jevi3,20,Female,(Other),0,writing,age,4,English,NA,4
+jevi3,20,Female,(Other),0,yearstotal,age,22,English,NA,22
+jevi3,20,Female,(Other),0,listening,age,4,French,NA,4
+jevi3,20,Female,(Other),0,speaking,age,4,French,NA,4
+jevi3,20,Female,(Other),0,reading,age,4,French,NA,4
+jevi3,20,Female,(Other),0,writing,age,4,French,NA,4
+jevi3,20,Female,(Other),0,yearstotal,age,18,French,NA,18
+jevi3,20,Female,(Other),0,listening,ability,7,English,NA,7
+jevi3,20,Female,(Other),0,speaking,ability,7,English,NA,7
+jevi3,20,Female,(Other),0,reading,ability,6,English,NA,6
+jevi3,20,Female,(Other),0,writing,ability,6,English,NA,6
+jevi3,20,Female,(Other),0,listening,ability,5,French,NA,5
+jevi3,20,Female,(Other),0,speaking,ability,4,French,NA,4
+jevi3,20,Female,(Other),0,reading,ability,4,French,NA,4
+jevi3,20,Female,(Other),0,writing,ability,4,French,NA,4
+jofh2,23,Female,College (Bachelor),1,listening,age,1,English,NA,0
+jofh2,23,Female,College (Bachelor),1,speaking,age,1,English,NA,0
+jofh2,23,Female,College (Bachelor),1,reading,age,5,English,NA,5
+jofh2,23,Female,College (Bachelor),1,writing,age,5,English,NA,5
+jofh2,23,Female,College (Bachelor),1,yearstotal,age,22,English,NA,22
+jofh2,23,Female,College (Bachelor),1,listening,age,1,French,NA,0
+jofh2,23,Female,College (Bachelor),1,speaking,age,4,French,NA,4
+jofh2,23,Female,College (Bachelor),1,reading,age,5,French,NA,5
+jofh2,23,Female,College (Bachelor),1,writing,age,5,French,NA,5
+jofh2,23,Female,College (Bachelor),1,yearstotal,age,22,French,NA,22
+jofh2,23,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+jofh2,23,Female,College (Bachelor),1,speaking,ability,6,English,NA,6
+jofh2,23,Female,College (Bachelor),1,reading,ability,6,English,NA,6
+jofh2,23,Female,College (Bachelor),1,writing,ability,5,English,NA,5
+jofh2,23,Female,College (Bachelor),1,listening,ability,5,French,NA,5
+jofh2,23,Female,College (Bachelor),1,speaking,ability,5,French,NA,5
+jofh2,23,Female,College (Bachelor),1,reading,ability,5,French,NA,5
+jofh2,23,Female,College (Bachelor),1,writing,ability,4,French,NA,4
+juvm7,22,Male,College (Bachelor),1,listening,age,1,English,NA,0
+juvm7,22,Male,College (Bachelor),1,speaking,age,1,English,NA,0
+juvm7,22,Male,College (Bachelor),1,reading,age,2,English,NA,2
+juvm7,22,Male,College (Bachelor),1,writing,age,3,English,NA,3
+juvm7,22,Male,College (Bachelor),1,yearstotal,age,22,English,NA,22
+juvm7,22,Male,College (Bachelor),1,listening,age,4,French,NA,4
+juvm7,22,Male,College (Bachelor),1,speaking,age,4,French,NA,4
+juvm7,22,Male,College (Bachelor),1,reading,age,5,French,NA,5
+juvm7,22,Male,College (Bachelor),1,writing,age,5,French,NA,5
+juvm7,22,Male,College (Bachelor),1,yearstotal,age,17,French,NA,17
+juvm7,22,Male,College (Bachelor),1,listening,age,18,Spanish,NA,18
+juvm7,22,Male,College (Bachelor),1,speaking,age,18,Spanish,NA,18
+juvm7,22,Male,College (Bachelor),1,reading,age,18,Spanish,NA,18
+juvm7,22,Male,College (Bachelor),1,writing,age,18,Spanish,NA,18
+juvm7,22,Male,College (Bachelor),1,yearstotal,age,4,Spanish,NA,4
+juvm7,22,Male,College (Bachelor),1,listening,ability,7,English,NA,7
+juvm7,22,Male,College (Bachelor),1,speaking,ability,7,English,NA,7
+juvm7,22,Male,College (Bachelor),1,reading,ability,7,English,NA,7
+juvm7,22,Male,College (Bachelor),1,writing,ability,7,English,NA,7
+juvm7,22,Male,College (Bachelor),1,listening,ability,4,French,NA,4
+juvm7,22,Male,College (Bachelor),1,speaking,ability,4,French,NA,4
+juvm7,22,Male,College (Bachelor),1,reading,ability,5,French,NA,5
+juvm7,22,Male,College (Bachelor),1,writing,ability,5,French,NA,5
+juvm7,22,Male,College (Bachelor),1,listening,ability,3,Spanish,NA,3
+juvm7,22,Male,College (Bachelor),1,speaking,ability,3,Spanish,NA,3
+juvm7,22,Male,College (Bachelor),1,reading,ability,4,Spanish,NA,4
+juvm7,22,Male,College (Bachelor),1,writing,ability,3,Spanish,NA,3
+juvm7,22,Male,College (Bachelor),1,listening,ability,NA,N/A,NA,NA
+juvm7,22,Male,College (Bachelor),1,speaking,ability,NA,N/A,NA,NA
+juvm7,22,Male,College (Bachelor),1,reading,ability,NA,N/A,NA,NA
+juvm7,22,Male,College (Bachelor),1,writing,ability,NA,N/A,NA,NA
+kngj1,21,Female,College (Bachelor),0,listening,age,0,English,NA,0
+kngj1,21,Female,College (Bachelor),0,speaking,age,0,English,NA,0
+kngj1,21,Female,College (Bachelor),0,reading,age,0,English,NA,0
+kngj1,21,Female,College (Bachelor),0,writing,age,0,English,NA,0
+kngj1,21,Female,College (Bachelor),0,yearstotal,age,20,English,NA,20
+kngj1,21,Female,College (Bachelor),0,listening,age,5,French,NA,5
+kngj1,21,Female,College (Bachelor),0,speaking,age,5,French,NA,5
+kngj1,21,Female,College (Bachelor),0,reading,age,5,French,NA,5
+kngj1,21,Female,College (Bachelor),0,writing,age,5,French,NA,5
+kngj1,21,Female,College (Bachelor),0,yearstotal,age,15,French,NA,15
+kngj1,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+kngj1,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+kngj1,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+kngj1,21,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+kngj1,21,Female,College (Bachelor),0,listening,ability,5,French,NA,5
+kngj1,21,Female,College (Bachelor),0,speaking,ability,4,French,NA,4
+kngj1,21,Female,College (Bachelor),0,reading,ability,3,French,NA,3
+kngj1,21,Female,College (Bachelor),0,writing,ability,3,French,NA,3
+lsle3,23,Female,College (Bachelor),0,listening,age,4,English,NA,4
+lsle3,23,Female,College (Bachelor),0,speaking,age,6,English,NA,6
+lsle3,23,Female,College (Bachelor),0,reading,age,8,English,NA,8
+lsle3,23,Female,College (Bachelor),0,writing,age,7,English,NA,7
+lsle3,23,Female,College (Bachelor),0,yearstotal,age,19,English,NA,19
+lsle3,23,Female,College (Bachelor),0,listening,age,0,French,NA,0
+lsle3,23,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+lsle3,23,Female,College (Bachelor),0,reading,age,4,French,NA,4
+lsle3,23,Female,College (Bachelor),0,writing,age,7,French,NA,7
+lsle3,23,Female,College (Bachelor),0,yearstotal,age,23,French,NA,23
+lsle3,23,Female,College (Bachelor),0,listening,age,6,Hebrew,NA,6
+lsle3,23,Female,College (Bachelor),0,speaking,age,8,Hebrew,NA,8
+lsle3,23,Female,College (Bachelor),0,reading,age,8,Hebrew,NA,8
+lsle3,23,Female,College (Bachelor),0,writing,age,8,Hebrew,NA,8
+lsle3,23,Female,College (Bachelor),0,yearstotal,age,14,Hebrew,NA,14
+lsle3,23,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+lsle3,23,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+lsle3,23,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+lsle3,23,Female,College (Bachelor),0,writing,ability,5,English,NA,5
+lsle3,23,Female,College (Bachelor),0,listening,ability,6,French,NA,6
+lsle3,23,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+lsle3,23,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+lsle3,23,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+lsle3,23,Female,College (Bachelor),0,listening,ability,5,Hebrew,NA,5
+lsle3,23,Female,College (Bachelor),0,speaking,ability,4,Hebrew,NA,4
+lsle3,23,Female,College (Bachelor),0,reading,ability,5,Hebrew,NA,5
+lsle3,23,Female,College (Bachelor),0,writing,ability,3,Hebrew,NA,3
+mobd6,22,Female,College (Bachelor),1,listening,age,0,English,NA,0
+mobd6,22,Female,College (Bachelor),1,speaking,age,0,English,NA,0
+mobd6,22,Female,College (Bachelor),1,reading,age,6,English,NA,6
+mobd6,22,Female,College (Bachelor),1,writing,age,4,English,NA,4
+mobd6,22,Female,College (Bachelor),1,yearstotal,age,22,English,NA,22
+mobd6,22,Female,College (Bachelor),1,listening,age,5,French,NA,5
+mobd6,22,Female,College (Bachelor),1,speaking,age,5,French,NA,5
+mobd6,22,Female,College (Bachelor),1,reading,age,5,French,NA,5
+mobd6,22,Female,College (Bachelor),1,writing,age,5,French,NA,5
+mobd6,22,Female,College (Bachelor),1,yearstotal,age,17,French,NA,17
+mobd6,22,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+mobd6,22,Female,College (Bachelor),1,speaking,ability,7,English,NA,7
+mobd6,22,Female,College (Bachelor),1,reading,ability,7,English,NA,7
+mobd6,22,Female,College (Bachelor),1,writing,ability,7,English,NA,7
+mobd6,22,Female,College (Bachelor),1,listening,ability,6,French,NA,6
+mobd6,22,Female,College (Bachelor),1,speaking,ability,5,French,NA,5
+mobd6,22,Female,College (Bachelor),1,reading,ability,6,French,NA,6
+mobd6,22,Female,College (Bachelor),1,writing,ability,5,French,NA,5
+mobd6,22,Female,College (Bachelor),1,listening,ability,NA,N/A,NA,NA
+mobd6,22,Female,College (Bachelor),1,speaking,ability,NA,N/A,NA,NA
+mobd6,22,Female,College (Bachelor),1,reading,ability,NA,N/A,NA,NA
+mobd6,22,Female,College (Bachelor),1,writing,ability,NA,N/A,NA,NA
+mobd6,22,Female,College (Bachelor),1,listening,ability,NA,N/A,NA,NA
+mobd6,22,Female,College (Bachelor),1,speaking,ability,NA,N/A,NA,NA
+mobd6,22,Female,College (Bachelor),1,reading,ability,NA,N/A,NA,NA
+mobd6,22,Female,College (Bachelor),1,writing,ability,NA,N/A,NA,NA
+nikh1,41,Female,College (Bachelor),0,listening,age,0,English,NA,0
+nikh1,41,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+nikh1,41,Female,College (Bachelor),0,reading,age,6,English,NA,6
+nikh1,41,Female,College (Bachelor),0,writing,age,6,English,NA,6
+nikh1,41,Female,College (Bachelor),0,yearstotal,age,41,English,NA,41
+nikh1,41,Female,College (Bachelor),0,listening,age,0,French,NA,0
+nikh1,41,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+nikh1,41,Female,College (Bachelor),0,reading,age,6,French,NA,6
+nikh1,41,Female,College (Bachelor),0,writing,age,6,French,NA,6
+nikh1,41,Female,College (Bachelor),0,yearstotal,age,41,French,NA,41
+nikh1,41,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+nikh1,41,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+nikh1,41,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+nikh1,41,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+nikh1,41,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+nikh1,41,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+nikh1,41,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+nikh1,41,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+nonr1,22,Female,College (Bachelor),0,listening,age,0,French,NA,0
+nonr1,22,Female,College (Bachelor),0,speaking,age,0,French,NA,0
+nonr1,22,Female,College (Bachelor),0,reading,age,5,French,NA,5
+nonr1,22,Female,College (Bachelor),0,writing,age,5,French,NA,5
+nonr1,22,Female,College (Bachelor),0,yearstotal,age,22,French,NA,22
+nonr1,22,Female,College (Bachelor),0,listening,age,10,English,NA,10
+nonr1,22,Female,College (Bachelor),0,speaking,age,10,English,NA,10
+nonr1,22,Female,College (Bachelor),0,reading,age,10,English,NA,10
+nonr1,22,Female,College (Bachelor),0,writing,age,10,English,NA,10
+nonr1,22,Female,College (Bachelor),0,yearstotal,age,10,English,NA,10
+nonr1,22,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+nonr1,22,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+nonr1,22,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+nonr1,22,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+nonr1,22,Female,College (Bachelor),0,listening,ability,6,English,NA,6
+nonr1,22,Female,College (Bachelor),0,speaking,ability,5,English,NA,5
+nonr1,22,Female,College (Bachelor),0,reading,ability,5,English,NA,5
+nonr1,22,Female,College (Bachelor),0,writing,ability,5,English,NA,5
+ohnx1,20,Female,College (Bachelor),0,listening,age,0,French,NA,0
+ohnx1,20,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+ohnx1,20,Female,College (Bachelor),0,reading,age,5,French,NA,5
+ohnx1,20,Female,College (Bachelor),0,writing,age,5,French,NA,5
+ohnx1,20,Female,College (Bachelor),0,yearstotal,age,20,French,NA,20
+ohnx1,20,Female,College (Bachelor),0,listening,age,5,English,NA,5
+ohnx1,20,Female,College (Bachelor),0,speaking,age,7,English,NA,7
+ohnx1,20,Female,College (Bachelor),0,reading,age,8,English,NA,8
+ohnx1,20,Female,College (Bachelor),0,writing,age,9,English,NA,9
+ohnx1,20,Female,College (Bachelor),0,yearstotal,age,15,English,NA,15
+ohnx1,20,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+ohnx1,20,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+ohnx1,20,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+ohnx1,20,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+ohnx1,20,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+ohnx1,20,Female,College (Bachelor),0,speaking,ability,5,English,NA,5
+ohnx1,20,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+ohnx1,20,Female,College (Bachelor),0,writing,ability,5,English,NA,5
+oiow5,19,Female,College (Bachelor),0,listening,age,0,English,NA,0
+oiow5,19,Female,College (Bachelor),0,speaking,age,0,English,NA,0
+oiow5,19,Female,College (Bachelor),0,reading,age,5,English,NA,5
+oiow5,19,Female,College (Bachelor),0,writing,age,5,English,NA,5
+oiow5,19,Female,College (Bachelor),0,yearstotal,age,19,English,NA,19
+oiow5,19,Female,College (Bachelor),0,listening,age,0,French,NA,0
+oiow5,19,Female,College (Bachelor),0,speaking,age,0,French,NA,0
+oiow5,19,Female,College (Bachelor),0,reading,age,5,French,NA,5
+oiow5,19,Female,College (Bachelor),0,writing,age,5,French,NA,5
+oiow5,19,Female,College (Bachelor),0,yearstotal,age,19,French,NA,19
+oiow5,19,Female,College (Bachelor),0,listening,age,3,Italian,NA,3
+oiow5,19,Female,College (Bachelor),0,speaking,age,4,Italian,NA,4
+oiow5,19,Female,College (Bachelor),0,reading,age,8,Italian,NA,8
+oiow5,19,Female,College (Bachelor),0,writing,age,8,Italian,NA,8
+oiow5,19,Female,College (Bachelor),0,yearstotal,age,4,Italian,NA,4
+oiow5,19,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+oiow5,19,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+oiow5,19,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+oiow5,19,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+oiow5,19,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+oiow5,19,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+oiow5,19,Female,College (Bachelor),0,reading,ability,5,French,NA,5
+oiow5,19,Female,College (Bachelor),0,writing,ability,4,French,NA,4
+oiow5,19,Female,College (Bachelor),0,listening,ability,5,Italian,NA,5
+oiow5,19,Female,College (Bachelor),0,speaking,ability,1,Italian,NA,1
+oiow5,19,Female,College (Bachelor),0,reading,ability,3,Italian,NA,3
+oiow5,19,Female,College (Bachelor),0,writing,ability,1,Italian,NA,1
+ozhd9,38,Female,High school,0,listening,age,0,French,NA,0
+ozhd9,38,Female,High school,0,speaking,age,1,French,NA,1
+ozhd9,38,Female,High school,0,reading,age,3,French,NA,3
+ozhd9,38,Female,High school,0,writing,age,6,French,NA,6
+ozhd9,38,Female,High school,0,yearstotal,age,38,French,NA,38
+ozhd9,38,Female,High school,0,listening,age,0,English,NA,0
+ozhd9,38,Female,High school,0,speaking,age,1,English,NA,1
+ozhd9,38,Female,High school,0,reading,age,4,English,NA,4
+ozhd9,38,Female,High school,0,writing,age,8,English,NA,8
+ozhd9,38,Female,High school,0,yearstotal,age,30,English,NA,30
+ozhd9,38,Female,High school,0,listening,ability,7,French,NA,7
+ozhd9,38,Female,High school,0,speaking,ability,6,French,NA,6
+ozhd9,38,Female,High school,0,reading,ability,7,French,NA,7
+ozhd9,38,Female,High school,0,writing,ability,4,French,NA,4
+ozhd9,38,Female,High school,0,listening,ability,7,English,NA,7
+ozhd9,38,Female,High school,0,speaking,ability,6,English,NA,6
+ozhd9,38,Female,High school,0,reading,ability,6,English,NA,6
+ozhd9,38,Female,High school,0,writing,ability,6,English,NA,6
+ozhd9,38,Female,High school,0,listening,ability,NA,N/A,NA,NA
+ozhd9,38,Female,High school,0,speaking,ability,NA,N/A,NA,NA
+ozhd9,38,Female,High school,0,reading,ability,NA,N/A,NA,NA
+ozhd9,38,Female,High school,0,writing,ability,NA,N/A,NA,NA
+ozhd9,38,Female,High school,0,listening,ability,NA,N/A,NA,NA
+ozhd9,38,Female,High school,0,speaking,ability,NA,N/A,NA,NA
+ozhd9,38,Female,High school,0,reading,ability,NA,N/A,NA,NA
+ozhd9,38,Female,High school,0,writing,ability,NA,N/A,NA,NA
+pmgl2,29,Male,College (Bachelor),0,listening,age,0,English,NA,0
+pmgl2,29,Male,College (Bachelor),0,speaking,age,0,English,NA,0
+pmgl2,29,Male,College (Bachelor),0,reading,age,6,English,NA,6
+pmgl2,29,Male,College (Bachelor),0,writing,age,4,English,NA,4
+pmgl2,29,Male,College (Bachelor),0,yearstotal,age,28,English,NA,28
+pmgl2,29,Male,College (Bachelor),0,listening,age,11,French,NA,11
+pmgl2,29,Male,College (Bachelor),0,speaking,age,11,French,NA,11
+pmgl2,29,Male,College (Bachelor),0,reading,age,11,French,NA,11
+pmgl2,29,Male,College (Bachelor),0,writing,age,11,French,NA,11
+pmgl2,29,Male,College (Bachelor),0,yearstotal,age,10,French,NA,10
+pmgl2,29,Male,College (Bachelor),0,listening,ability,7,English,NA,7
+pmgl2,29,Male,College (Bachelor),0,speaking,ability,7,English,NA,7
+pmgl2,29,Male,College (Bachelor),0,reading,ability,7,English,NA,7
+pmgl2,29,Male,College (Bachelor),0,writing,ability,7,English,NA,7
+pmgl2,29,Male,College (Bachelor),0,listening,ability,5,French,NA,5
+pmgl2,29,Male,College (Bachelor),0,speaking,ability,4,French,NA,4
+pmgl2,29,Male,College (Bachelor),0,reading,ability,5,French,NA,5
+pmgl2,29,Male,College (Bachelor),0,writing,ability,3,French,NA,3
+pojv1,27,Female,College (Bachelor),0,listening,age,0,English,NA,0
+pojv1,27,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+pojv1,27,Female,College (Bachelor),0,reading,age,3,English,NA,3
+pojv1,27,Female,College (Bachelor),0,writing,age,6,English,NA,6
+pojv1,27,Female,College (Bachelor),0,yearstotal,age,27,English,NA,27
+pojv1,27,Female,College (Bachelor),0,listening,age,6,French,NA,6
+pojv1,27,Female,College (Bachelor),0,speaking,age,7,French,NA,7
+pojv1,27,Female,College (Bachelor),0,reading,age,7,French,NA,7
+pojv1,27,Female,College (Bachelor),0,writing,age,7,French,NA,7
+pojv1,27,Female,College (Bachelor),0,yearstotal,age,20,French,NA,20
+pojv1,27,Female,College (Bachelor),0,listening,age,15,Spanish,NA,15
+pojv1,27,Female,College (Bachelor),0,speaking,age,15,Spanish,NA,15
+pojv1,27,Female,College (Bachelor),0,reading,age,15,Spanish,NA,15
+pojv1,27,Female,College (Bachelor),0,writing,age,15,Spanish,NA,15
+pojv1,27,Female,College (Bachelor),0,yearstotal,age,2,Spanish,NA,2
+pojv1,27,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+pojv1,27,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+pojv1,27,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+pojv1,27,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+pojv1,27,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+pojv1,27,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+pojv1,27,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+pojv1,27,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+pojv1,27,Female,College (Bachelor),0,listening,ability,3,Spanish,NA,3
+pojv1,27,Female,College (Bachelor),0,speaking,ability,2,Spanish,NA,2
+pojv1,27,Female,College (Bachelor),0,reading,ability,2,Spanish,NA,2
+pojv1,27,Female,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+prpo1,20,Female,College (Bachelor),0,listening,age,0,French,0,0
+prpo1,20,Female,College (Bachelor),0,speaking,age,2,French,1,2
+prpo1,20,Female,College (Bachelor),0,reading,age,6,French,6,6
+prpo1,20,Female,College (Bachelor),0,writing,age,6,French,6,6
+prpo1,20,Female,College (Bachelor),0,yearstotal,age,18,French,NA,18
+prpo1,20,Female,College (Bachelor),0,listening,age,0,English,0,0
+prpo1,20,Female,College (Bachelor),0,speaking,age,4,English,3,4
+prpo1,20,Female,College (Bachelor),0,reading,age,7,English,7,7
+prpo1,20,Female,College (Bachelor),0,writing,age,7,English,8,7
+prpo1,20,Female,College (Bachelor),0,yearstotal,age,16,English,NA,16
+prpo1,20,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+prpo1,20,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+prpo1,20,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+prpo1,20,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+prpo1,20,Female,College (Bachelor),0,listening,ability,6,English,NA,6
+prpo1,20,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+prpo1,20,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+prpo1,20,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+pyoc4,23,Female,College (Bachelor),0,listening,age,0,English,NA,0
+pyoc4,23,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+pyoc4,23,Female,College (Bachelor),0,reading,age,4,English,NA,4
+pyoc4,23,Female,College (Bachelor),0,writing,age,5,English,NA,5
+pyoc4,23,Female,College (Bachelor),0,yearstotal,age,23,English,NA,23
+pyoc4,23,Female,College (Bachelor),0,listening,age,0,French,NA,0
+pyoc4,23,Female,College (Bachelor),0,speaking,age,2,French,NA,2
+pyoc4,23,Female,College (Bachelor),0,reading,age,5,French,NA,5
+pyoc4,23,Female,College (Bachelor),0,writing,age,5,French,NA,5
+pyoc4,23,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+pyoc4,23,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+pyoc4,23,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+pyoc4,23,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+pyoc4,23,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+pyoc4,23,Female,College (Bachelor),0,listening,ability,6,French,NA,6
+pyoc4,23,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+pyoc4,23,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+pyoc4,23,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+pyoc4,23,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+pyoc4,23,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+pyoc4,23,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+pyoc4,23,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+pyoc4,23,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+pyoc4,23,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+pyoc4,23,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+pyoc4,23,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+qmql1,25,Female,College (Bachelor),0,listening,age,0,English,NA,0
+qmql1,25,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+qmql1,25,Female,College (Bachelor),0,reading,age,5,English,NA,5
+qmql1,25,Female,College (Bachelor),0,writing,age,5,English,NA,5
+qmql1,25,Female,College (Bachelor),0,yearstotal,age,24,English,NA,24
+qmql1,25,Female,College (Bachelor),0,listening,age,0,French,NA,0
+qmql1,25,Female,College (Bachelor),0,speaking,age,5,French,NA,5
+qmql1,25,Female,College (Bachelor),0,reading,age,5,French,NA,5
+qmql1,25,Female,College (Bachelor),0,writing,age,5,French,NA,5
+qmql1,25,Female,College (Bachelor),0,yearstotal,age,20,French,NA,20
+qmql1,25,Female,College (Bachelor),0,listening,age,5,Italian,NA,5
+qmql1,25,Female,College (Bachelor),0,speaking,age,5,Italian,NA,5
+qmql1,25,Female,College (Bachelor),0,reading,age,5,Italian,NA,5
+qmql1,25,Female,College (Bachelor),0,writing,age,5,Italian,NA,5
+qmql1,25,Female,College (Bachelor),0,yearstotal,age,20,Italian,NA,20
+qmql1,25,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+qmql1,25,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+qmql1,25,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+qmql1,25,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+qmql1,25,Female,College (Bachelor),0,listening,ability,6,French,NA,6
+qmql1,25,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+qmql1,25,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+qmql1,25,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+qmql1,25,Female,College (Bachelor),0,listening,ability,5,Italian,NA,5
+qmql1,25,Female,College (Bachelor),0,speaking,ability,5,Italian,NA,5
+qmql1,25,Female,College (Bachelor),0,reading,ability,5,Italian,NA,5
+qmql1,25,Female,College (Bachelor),0,writing,ability,4,Italian,NA,4
+qvyc1,20,Female,College (Bachelor),1,listening,age,1,English,NA,0
+qvyc1,20,Female,College (Bachelor),1,speaking,age,4,English,NA,4
+qvyc1,20,Female,College (Bachelor),1,reading,age,4,English,NA,4
+qvyc1,20,Female,College (Bachelor),1,writing,age,4,English,NA,4
+qvyc1,20,Female,College (Bachelor),1,yearstotal,age,20,English,NA,20
+qvyc1,20,Female,College (Bachelor),1,listening,age,1,French,NA,0
+qvyc1,20,Female,College (Bachelor),1,speaking,age,2,French,NA,0
+qvyc1,20,Female,College (Bachelor),1,reading,age,4,French,NA,4
+qvyc1,20,Female,College (Bachelor),1,writing,age,4,French,NA,4
+qvyc1,20,Female,College (Bachelor),1,yearstotal,age,20,French,NA,20
+qvyc1,20,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+qvyc1,20,Female,College (Bachelor),1,speaking,ability,7,English,NA,7
+qvyc1,20,Female,College (Bachelor),1,reading,ability,7,English,NA,7
+qvyc1,20,Female,College (Bachelor),1,writing,ability,7,English,NA,7
+qvyc1,20,Female,College (Bachelor),1,listening,ability,7,French,NA,7
+qvyc1,20,Female,College (Bachelor),1,speaking,ability,6,French,NA,6
+qvyc1,20,Female,College (Bachelor),1,reading,ability,7,French,NA,7
+qvyc1,20,Female,College (Bachelor),1,writing,ability,5,French,NA,5
+qzja7,39,Female,College (Bachelor),0,listening,age,0,English,NA,0
+qzja7,39,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+qzja7,39,Female,College (Bachelor),0,reading,age,5,English,NA,5
+qzja7,39,Female,College (Bachelor),0,writing,age,5,English,NA,5
+qzja7,39,Female,College (Bachelor),0,yearstotal,age,38,English,NA,38
+qzja7,39,Female,College (Bachelor),0,listening,age,7,French,NA,7
+qzja7,39,Female,College (Bachelor),0,speaking,age,8,French,NA,8
+qzja7,39,Female,College (Bachelor),0,reading,age,9,French,NA,9
+qzja7,39,Female,College (Bachelor),0,writing,age,9,French,NA,9
+qzja7,39,Female,College (Bachelor),0,yearstotal,age,15,French,NA,15
+qzja7,39,Female,College (Bachelor),0,listening,age,20,Russian,NA,20
+qzja7,39,Female,College (Bachelor),0,speaking,age,20,Russian,NA,20
+qzja7,39,Female,College (Bachelor),0,reading,age,20,Russian,NA,20
+qzja7,39,Female,College (Bachelor),0,writing,age,20,Russian,NA,20
+qzja7,39,Female,College (Bachelor),0,yearstotal,age,0,Russian,NA,0
+qzja7,39,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+qzja7,39,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+qzja7,39,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+qzja7,39,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+qzja7,39,Female,College (Bachelor),0,listening,ability,3,French,NA,3
+qzja7,39,Female,College (Bachelor),0,speaking,ability,3,French,NA,3
+qzja7,39,Female,College (Bachelor),0,reading,ability,4,French,NA,4
+qzja7,39,Female,College (Bachelor),0,writing,ability,1,French,NA,1
+qzja7,39,Female,College (Bachelor),0,listening,ability,1,Russian,NA,1
+qzja7,39,Female,College (Bachelor),0,speaking,ability,2,Russian,NA,2
+qzja7,39,Female,College (Bachelor),0,reading,ability,1,Russian,NA,1
+qzja7,39,Female,College (Bachelor),0,writing,ability,1,Russian,NA,1
+rieo6,21,Female,College (Bachelor),0,listening,age,0,English,5,0
+rieo6,21,Female,College (Bachelor),0,speaking,age,5,English,6,5
+rieo6,21,Female,College (Bachelor),0,reading,age,7,English,8,7
+rieo6,21,Female,College (Bachelor),0,writing,age,7,English,8,7
+rieo6,21,Female,College (Bachelor),0,yearstotal,age,16,English,NA,16
+rieo6,21,Female,College (Bachelor),0,listening,age,0,French,0,0
+rieo6,21,Female,College (Bachelor),0,speaking,age,1,French,1,1
+rieo6,21,Female,College (Bachelor),0,reading,age,2,French,4,2
+rieo6,21,Female,College (Bachelor),0,writing,age,4,French,4,4
+rieo6,21,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+rieo6,21,Female,College (Bachelor),0,listening,age,14,Spanish,NA,14
+rieo6,21,Female,College (Bachelor),0,speaking,age,14,Spanish,NA,14
+rieo6,21,Female,College (Bachelor),0,reading,age,14,Spanish,NA,14
+rieo6,21,Female,College (Bachelor),0,writing,age,14,Spanish,NA,14
+rieo6,21,Female,College (Bachelor),0,yearstotal,age,4,Spanish,NA,4
+rieo6,21,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+rieo6,21,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+rieo6,21,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+rieo6,21,Female,College (Bachelor),0,writing,ability,5,English,NA,5
+rieo6,21,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+rieo6,21,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+rieo6,21,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+rieo6,21,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+rieo6,21,Female,College (Bachelor),0,listening,ability,5,Spanish,NA,5
+rieo6,21,Female,College (Bachelor),0,speaking,ability,3,Spanish,NA,3
+rieo6,21,Female,College (Bachelor),0,reading,ability,2,Spanish,NA,2
+rieo6,21,Female,College (Bachelor),0,writing,ability,2,Spanish,NA,2
+rilm1,22,Female,College (Bachelor),0,listening,age,0,English,0,0
+rilm1,22,Female,College (Bachelor),0,speaking,age,1,English,1,1
+rilm1,22,Female,College (Bachelor),0,reading,age,4,English,5,4
+rilm1,22,Female,College (Bachelor),0,writing,age,5,English,5,5
+rilm1,22,Female,College (Bachelor),0,yearstotal,age,22,English,NA,22
+rilm1,22,Female,College (Bachelor),0,listening,age,5,French,4,5
+rilm1,22,Female,College (Bachelor),0,speaking,age,5,French,5,5
+rilm1,22,Female,College (Bachelor),0,reading,age,5,French,5,5
+rilm1,22,Female,College (Bachelor),0,writing,age,5,French,5,5
+rilm1,22,Female,College (Bachelor),0,yearstotal,age,17,French,NA,17
+rilm1,22,Female,College (Bachelor),0,listening,age,1,Punjabi,NA,1
+rilm1,22,Female,College (Bachelor),0,speaking,age,4,Punjabi,NA,4
+rilm1,22,Female,College (Bachelor),0,reading,age,18,Punjabi,NA,18
+rilm1,22,Female,College (Bachelor),0,writing,age,18,Punjabi,NA,18
+rilm1,22,Female,College (Bachelor),0,yearstotal,age,18,Punjabi,NA,18
+rilm1,22,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+rilm1,22,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+rilm1,22,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+rilm1,22,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+rilm1,22,Female,College (Bachelor),0,listening,ability,6,French,NA,6
+rilm1,22,Female,College (Bachelor),0,speaking,ability,5,French,NA,5
+rilm1,22,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+rilm1,22,Female,College (Bachelor),0,writing,ability,4,French,NA,4
+rilm1,22,Female,College (Bachelor),0,listening,ability,6,Punjabi,NA,6
+rilm1,22,Female,College (Bachelor),0,speaking,ability,6,Punjabi,NA,6
+rilm1,22,Female,College (Bachelor),0,reading,ability,1,Punjabi,NA,1
+rilm1,22,Female,College (Bachelor),0,writing,ability,1,Punjabi,NA,1
+rrsj9,22,Female,College (Bachelor),0,listening,age,0,English,0,0
+rrsj9,22,Female,College (Bachelor),0,speaking,age,1,English,1,1
+rrsj9,22,Female,College (Bachelor),0,reading,age,5,English,5,5
+rrsj9,22,Female,College (Bachelor),0,writing,age,5,English,5,5
+rrsj9,22,Female,College (Bachelor),0,yearstotal,age,22,English,NA,22
+rrsj9,22,Female,College (Bachelor),0,listening,age,0,French,0,0
+rrsj9,22,Female,College (Bachelor),0,speaking,age,5,French,5,5
+rrsj9,22,Female,College (Bachelor),0,reading,age,5,French,5,5
+rrsj9,22,Female,College (Bachelor),0,writing,age,5,French,5,5
+rrsj9,22,Female,College (Bachelor),0,yearstotal,age,22,French,NA,22
+rrsj9,22,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+rrsj9,22,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+rrsj9,22,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+rrsj9,22,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+rrsj9,22,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+rrsj9,22,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+rrsj9,22,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+rrsj9,22,Female,College (Bachelor),0,writing,ability,4,French,NA,4
+seej4,19,Female,College (Bachelor),0,listening,age,0,English,0,0
+seej4,19,Female,College (Bachelor),0,speaking,age,1,English,1,1
+seej4,19,Female,College (Bachelor),0,reading,age,4,English,4,4
+seej4,19,Female,College (Bachelor),0,writing,age,5,English,4,5
+seej4,19,Female,College (Bachelor),0,yearstotal,age,19,English,NA,19
+seej4,19,Female,College (Bachelor),0,listening,age,4,French,3,4
+seej4,19,Female,College (Bachelor),0,speaking,age,4,French,4,4
+seej4,19,Female,College (Bachelor),0,reading,age,5,French,5,5
+seej4,19,Female,College (Bachelor),0,writing,age,5,French,5,5
+seej4,19,Female,College (Bachelor),0,yearstotal,age,15,French,NA,15
+seej4,19,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+seej4,19,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+seej4,19,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+seej4,19,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+seej4,19,Female,College (Bachelor),0,listening,ability,5,French,NA,5
+seej4,19,Female,College (Bachelor),0,speaking,ability,4,French,NA,4
+seej4,19,Female,College (Bachelor),0,reading,ability,5,French,NA,5
+seej4,19,Female,College (Bachelor),0,writing,ability,4,French,NA,4
+tycg0,22,Female,(Other),0,listening,age,0,English,NA,0
+tycg0,22,Female,(Other),0,speaking,age,2,English,NA,2
+tycg0,22,Female,(Other),0,reading,age,4,English,NA,4
+tycg0,22,Female,(Other),0,writing,age,5,English,NA,5
+tycg0,22,Female,(Other),0,yearstotal,age,22,English,NA,22
+tycg0,22,Female,(Other),0,listening,age,0,French,NA,0
+tycg0,22,Female,(Other),0,speaking,age,6,French,NA,6
+tycg0,22,Female,(Other),0,reading,age,6,French,NA,6
+tycg0,22,Female,(Other),0,writing,age,6,French,NA,6
+tycg0,22,Female,(Other),0,yearstotal,age,17,French,NA,17
+tycg0,22,Female,(Other),0,listening,ability,7,English,NA,7
+tycg0,22,Female,(Other),0,speaking,ability,7,English,NA,7
+tycg0,22,Female,(Other),0,reading,ability,7,English,NA,7
+tycg0,22,Female,(Other),0,writing,ability,7,English,NA,7
+tycg0,22,Female,(Other),0,listening,ability,6,French,NA,6
+tycg0,22,Female,(Other),0,speaking,ability,6,French,NA,6
+tycg0,22,Female,(Other),0,reading,ability,6,French,NA,6
+tycg0,22,Female,(Other),0,writing,ability,5,French,NA,5
+tysu5,22,Female,College (Bachelor),0,listening,age,0,English,NA,0
+tysu5,22,Female,College (Bachelor),0,speaking,age,0,English,NA,0
+tysu5,22,Female,College (Bachelor),0,reading,age,0,English,NA,0
+tysu5,22,Female,College (Bachelor),0,writing,age,0,English,NA,0
+tysu5,22,Female,College (Bachelor),0,yearstotal,age,22,English,NA,22
+tysu5,22,Female,College (Bachelor),0,listening,age,5,French,NA,5
+tysu5,22,Female,College (Bachelor),0,speaking,age,6,French,NA,6
+tysu5,22,Female,College (Bachelor),0,reading,age,6,French,NA,6
+tysu5,22,Female,College (Bachelor),0,writing,age,6,French,NA,6
+tysu5,22,Female,College (Bachelor),0,yearstotal,age,9,French,NA,9
+tysu5,22,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+tysu5,22,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+tysu5,22,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+tysu5,22,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+tysu5,22,Female,College (Bachelor),0,listening,ability,4,French,NA,4
+tysu5,22,Female,College (Bachelor),0,speaking,ability,3,French,NA,3
+tysu5,22,Female,College (Bachelor),0,reading,ability,3,French,NA,3
+tysu5,22,Female,College (Bachelor),0,writing,ability,1,French,NA,1
+tysu5,22,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+tysu5,22,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+tysu5,22,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+tysu5,22,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+tysu5,22,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+tysu5,22,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+tysu5,22,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+tysu5,22,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+ujsp3,20,Female,College (Bachelor),0,listening,age,0,French,NA,0
+ujsp3,20,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+ujsp3,20,Female,College (Bachelor),0,reading,age,5,French,NA,5
+ujsp3,20,Female,College (Bachelor),0,writing,age,5,French,NA,5
+ujsp3,20,Female,College (Bachelor),0,yearstotal,age,20,French,NA,20
+ujsp3,20,Female,College (Bachelor),0,listening,age,5,English,NA,5
+ujsp3,20,Female,College (Bachelor),0,speaking,age,5,English,NA,5
+ujsp3,20,Female,College (Bachelor),0,reading,age,5,English,NA,5
+ujsp3,20,Female,College (Bachelor),0,writing,age,5,English,NA,5
+ujsp3,20,Female,College (Bachelor),0,yearstotal,age,15,English,NA,15
+ujsp3,20,Female,College (Bachelor),0,listening,age,19,Romanian,NA,19
+ujsp3,20,Female,College (Bachelor),0,speaking,age,19,Romanian,NA,19
+ujsp3,20,Female,College (Bachelor),0,reading,age,19,Romanian,NA,19
+ujsp3,20,Female,College (Bachelor),0,writing,age,19,Romanian,NA,19
+ujsp3,20,Female,College (Bachelor),0,yearstotal,age,1,Romanian,NA,1
+ujsp3,20,Female,College (Bachelor),0,listening,age,17,Spanish,NA,17
+ujsp3,20,Female,College (Bachelor),0,speaking,age,17,Spanish,NA,17
+ujsp3,20,Female,College (Bachelor),0,reading,age,17,Spanish,NA,17
+ujsp3,20,Female,College (Bachelor),0,writing,age,17,Spanish,NA,17
+ujsp3,20,Female,College (Bachelor),0,yearstotal,age,3,Spanish,NA,3
+ujsp3,20,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+ujsp3,20,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+ujsp3,20,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+ujsp3,20,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+ujsp3,20,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+ujsp3,20,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+ujsp3,20,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+ujsp3,20,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+ujsp3,20,Female,College (Bachelor),0,listening,ability,4,Romanian,NA,4
+ujsp3,20,Female,College (Bachelor),0,speaking,ability,2,Romanian,NA,2
+ujsp3,20,Female,College (Bachelor),0,reading,ability,6,Romanian,NA,6
+ujsp3,20,Female,College (Bachelor),0,writing,ability,5,Romanian,NA,5
+ujsp3,20,Female,College (Bachelor),0,listening,ability,4,Spanish,NA,4
+ujsp3,20,Female,College (Bachelor),0,speaking,ability,4,Spanish,NA,4
+ujsp3,20,Female,College (Bachelor),0,reading,ability,6,Spanish,NA,6
+ujsp3,20,Female,College (Bachelor),0,writing,ability,5,Spanish,NA,5
+uldj5,20,Male,College (Bachelor),0,listening,age,0,English,NA,0
+uldj5,20,Male,College (Bachelor),0,speaking,age,1,English,NA,1
+uldj5,20,Male,College (Bachelor),0,reading,age,5,English,NA,5
+uldj5,20,Male,College (Bachelor),0,writing,age,6,English,NA,6
+uldj5,20,Male,College (Bachelor),0,yearstotal,age,20,English,NA,20
+uldj5,20,Male,College (Bachelor),0,listening,age,5,French,NA,5
+uldj5,20,Male,College (Bachelor),0,speaking,age,5,French,NA,5
+uldj5,20,Male,College (Bachelor),0,reading,age,5,French,NA,5
+uldj5,20,Male,College (Bachelor),0,writing,age,6,French,NA,6
+uldj5,20,Male,College (Bachelor),0,yearstotal,age,15,French,NA,15
+uldj5,20,Male,College (Bachelor),0,listening,ability,7,English,NA,7
+uldj5,20,Male,College (Bachelor),0,speaking,ability,7,English,NA,7
+uldj5,20,Male,College (Bachelor),0,reading,ability,7,English,NA,7
+uldj5,20,Male,College (Bachelor),0,writing,ability,7,English,NA,7
+uldj5,20,Male,College (Bachelor),0,listening,ability,6,French,NA,6
+uldj5,20,Male,College (Bachelor),0,speaking,ability,4,French,NA,4
+uldj5,20,Male,College (Bachelor),0,reading,ability,5,French,NA,5
+uldj5,20,Male,College (Bachelor),0,writing,ability,5,French,NA,5
+uvms7,21,Female,College (Bachelor),1,listening,age,2,English,NA,0
+uvms7,21,Female,College (Bachelor),1,speaking,age,4,English,NA,4
+uvms7,21,Female,College (Bachelor),1,reading,age,5,English,NA,5
+uvms7,21,Female,College (Bachelor),1,writing,age,5,English,NA,5
+uvms7,21,Female,College (Bachelor),1,yearstotal,age,21,English,NA,21
+uvms7,21,Female,College (Bachelor),1,listening,age,2,French,NA,0
+uvms7,21,Female,College (Bachelor),1,speaking,age,5,French,NA,5
+uvms7,21,Female,College (Bachelor),1,reading,age,5,French,NA,5
+uvms7,21,Female,College (Bachelor),1,writing,age,5,French,NA,5
+uvms7,21,Female,College (Bachelor),1,yearstotal,age,21,French,NA,21
+uvms7,21,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+uvms7,21,Female,College (Bachelor),1,speaking,ability,7,English,NA,7
+uvms7,21,Female,College (Bachelor),1,reading,ability,7,English,NA,7
+uvms7,21,Female,College (Bachelor),1,writing,ability,7,English,NA,7
+uvms7,21,Female,College (Bachelor),1,listening,ability,7,French,NA,7
+uvms7,21,Female,College (Bachelor),1,speaking,ability,4,French,NA,4
+uvms7,21,Female,College (Bachelor),1,reading,ability,6,French,NA,6
+uvms7,21,Female,College (Bachelor),1,writing,ability,4,French,NA,4
+vicp2,23,Female,College (Bachelor),0,listening,age,0,English,NA,0
+vicp2,23,Female,College (Bachelor),0,speaking,age,1,English,NA,1
+vicp2,23,Female,College (Bachelor),0,reading,age,8,English,NA,8
+vicp2,23,Female,College (Bachelor),0,writing,age,8,English,NA,8
+vicp2,23,Female,College (Bachelor),0,yearstotal,age,23,English,NA,23
+vicp2,23,Female,College (Bachelor),0,listening,age,0,French,NA,0
+vicp2,23,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+vicp2,23,Female,College (Bachelor),0,reading,age,5,French,NA,5
+vicp2,23,Female,College (Bachelor),0,writing,age,7,French,NA,7
+vicp2,23,Female,College (Bachelor),0,yearstotal,age,23,French,NA,23
+vicp2,23,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+vicp2,23,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+vicp2,23,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+vicp2,23,Female,College (Bachelor),0,writing,ability,7,English,NA,7
+vicp2,23,Female,College (Bachelor),0,listening,ability,6,French,NA,6
+vicp2,23,Female,College (Bachelor),0,speaking,ability,6,French,NA,6
+vicp2,23,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+vicp2,23,Female,College (Bachelor),0,writing,ability,6,French,NA,6
+vqai4,19,Female,College (Bachelor),0,listening,age,0,French,NA,0
+vqai4,19,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+vqai4,19,Female,College (Bachelor),0,reading,age,3,French,NA,3
+vqai4,19,Female,College (Bachelor),0,writing,age,4,French,NA,4
+vqai4,19,Female,College (Bachelor),0,yearstotal,age,19,French,NA,19
+vqai4,19,Female,College (Bachelor),0,listening,age,5,English,NA,5
+vqai4,19,Female,College (Bachelor),0,speaking,age,6,English,NA,6
+vqai4,19,Female,College (Bachelor),0,reading,age,6,English,NA,6
+vqai4,19,Female,College (Bachelor),0,writing,age,6,English,NA,6
+vqai4,19,Female,College (Bachelor),0,yearstotal,age,13,English,NA,13
+vqai4,19,Female,College (Bachelor),0,listening,age,10,Spanish,NA,10
+vqai4,19,Female,College (Bachelor),0,speaking,age,10,Spanish,NA,10
+vqai4,19,Female,College (Bachelor),0,reading,age,10,Spanish,NA,10
+vqai4,19,Female,College (Bachelor),0,writing,age,10,Spanish,NA,10
+vqai4,19,Female,College (Bachelor),0,yearstotal,age,4,Spanish,NA,4
+vqai4,19,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+vqai4,19,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+vqai4,19,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+vqai4,19,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+vqai4,19,Female,College (Bachelor),0,listening,ability,4,English,NA,4
+vqai4,19,Female,College (Bachelor),0,speaking,ability,3,English,NA,3
+vqai4,19,Female,College (Bachelor),0,reading,ability,4,English,NA,4
+vqai4,19,Female,College (Bachelor),0,writing,ability,4,English,NA,4
+vqai4,19,Female,College (Bachelor),0,listening,ability,2,Spanish,NA,2
+vqai4,19,Female,College (Bachelor),0,speaking,ability,1,Spanish,NA,1
+vqai4,19,Female,College (Bachelor),0,reading,ability,2,Spanish,NA,2
+vqai4,19,Female,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+vwrn7,23,Female,College (Bachelor),0,listening,age,0,French,0,0
+vwrn7,23,Female,College (Bachelor),0,speaking,age,1,French,1,1
+vwrn7,23,Female,College (Bachelor),0,reading,age,5,French,5,5
+vwrn7,23,Female,College (Bachelor),0,writing,age,5,French,6,5
+vwrn7,23,Female,College (Bachelor),0,yearstotal,age,23,French,NA,23
+vwrn7,23,Female,College (Bachelor),0,listening,age,8,English,8,8
+vwrn7,23,Female,College (Bachelor),0,speaking,age,8,English,8,8
+vwrn7,23,Female,College (Bachelor),0,reading,age,8,English,8,8
+vwrn7,23,Female,College (Bachelor),0,writing,age,8,English,8,8
+vwrn7,23,Female,College (Bachelor),0,yearstotal,age,15,English,NA,15
+vwrn7,23,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+vwrn7,23,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+vwrn7,23,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+vwrn7,23,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+vwrn7,23,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+vwrn7,23,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+vwrn7,23,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+vwrn7,23,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+wiej4,20,Female,College (Bachelor),0,listening,age,0,French,NA,0
+wiej4,20,Female,College (Bachelor),0,speaking,age,2,French,NA,2
+wiej4,20,Female,College (Bachelor),0,reading,age,6,French,NA,6
+wiej4,20,Female,College (Bachelor),0,writing,age,6,French,NA,6
+wiej4,20,Female,College (Bachelor),0,yearstotal,age,20,French,NA,20
+wiej4,20,Female,College (Bachelor),0,listening,age,7,English,NA,7
+wiej4,20,Female,College (Bachelor),0,speaking,age,7,English,NA,7
+wiej4,20,Female,College (Bachelor),0,reading,age,7,English,NA,7
+wiej4,20,Female,College (Bachelor),0,writing,age,7,English,NA,7
+wiej4,20,Female,College (Bachelor),0,yearstotal,age,13,English,NA,13
+wiej4,20,Female,College (Bachelor),0,listening,age,15,Spanish,NA,15
+wiej4,20,Female,College (Bachelor),0,speaking,age,15,Spanish,NA,15
+wiej4,20,Female,College (Bachelor),0,reading,age,15,Spanish,NA,15
+wiej4,20,Female,College (Bachelor),0,writing,age,15,Spanish,NA,15
+wiej4,20,Female,College (Bachelor),0,yearstotal,age,2,Spanish,NA,2
+wiej4,20,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+wiej4,20,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+wiej4,20,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+wiej4,20,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+wiej4,20,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+wiej4,20,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+wiej4,20,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+wiej4,20,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+wiej4,20,Female,College (Bachelor),0,listening,ability,3,Spanish,NA,3
+wiej4,20,Female,College (Bachelor),0,speaking,ability,2,Spanish,NA,2
+wiej4,20,Female,College (Bachelor),0,reading,ability,2,Spanish,NA,2
+wiej4,20,Female,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+wiej4,20,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+wiej4,20,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+wiej4,20,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+wiej4,20,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+xfzn3,24,Female,College (Bachelor),3,listening,age,24,French,NA,0
+xfzn3,24,Female,College (Bachelor),3,speaking,age,24,French,NA,0
+xfzn3,24,Female,College (Bachelor),3,reading,age,24,French,NA,0
+xfzn3,24,Female,College (Bachelor),3,writing,age,24,French,NA,0
+xfzn3,24,Female,College (Bachelor),3,yearstotal,age,24,French,NA,24
+xfzn3,24,Female,College (Bachelor),3,listening,age,24,English,NA,0
+xfzn3,24,Female,College (Bachelor),3,speaking,age,10,English,NA,14
+xfzn3,24,Female,College (Bachelor),3,reading,age,10,English,NA,14
+xfzn3,24,Female,College (Bachelor),3,writing,age,10,English,NA,14
+xfzn3,24,Female,College (Bachelor),3,yearstotal,age,24,English,NA,24
+xfzn3,24,Female,College (Bachelor),3,listening,age,10,Spanish,NA,14
+xfzn3,24,Female,College (Bachelor),3,speaking,age,7,Spanish,NA,17
+xfzn3,24,Female,College (Bachelor),3,reading,age,0,Spanish,NA,24
+xfzn3,24,Female,College (Bachelor),3,writing,age,0,Spanish,NA,24
+xfzn3,24,Female,College (Bachelor),3,yearstotal,age,10,Spanish,NA,10
+xfzn3,24,Female,College (Bachelor),3,listening,ability,7,French,NA,7
+xfzn3,24,Female,College (Bachelor),3,speaking,ability,7,French,NA,7
+xfzn3,24,Female,College (Bachelor),3,reading,ability,7,French,NA,7
+xfzn3,24,Female,College (Bachelor),3,writing,ability,7,French,NA,7
+xfzn3,24,Female,College (Bachelor),3,listening,ability,7,English,NA,7
+xfzn3,24,Female,College (Bachelor),3,speaking,ability,7,English,NA,7
+xfzn3,24,Female,College (Bachelor),3,reading,ability,7,English,NA,7
+xfzn3,24,Female,College (Bachelor),3,writing,ability,7,English,NA,7
+xfzn3,24,Female,College (Bachelor),3,listening,ability,4,Spanish,NA,4
+xfzn3,24,Female,College (Bachelor),3,speaking,ability,2,Spanish,NA,2
+xfzn3,24,Female,College (Bachelor),3,reading,ability,4,Spanish,NA,4
+xfzn3,24,Female,College (Bachelor),3,writing,ability,1,Spanish,NA,1
+xxjc8,20,Female,College (Bachelor),1,listening,age,2,English,NA,0
+xxjc8,20,Female,College (Bachelor),1,speaking,age,3,English,NA,3
+xxjc8,20,Female,College (Bachelor),1,reading,age,5,English,NA,5
+xxjc8,20,Female,College (Bachelor),1,writing,age,5,English,NA,5
+xxjc8,20,Female,College (Bachelor),1,yearstotal,age,17,English,NA,17
+xxjc8,20,Female,College (Bachelor),1,listening,age,6,French,NA,6
+xxjc8,20,Female,College (Bachelor),1,speaking,age,6,French,NA,6
+xxjc8,20,Female,College (Bachelor),1,reading,age,6,French,NA,6
+xxjc8,20,Female,College (Bachelor),1,writing,age,6,French,NA,6
+xxjc8,20,Female,College (Bachelor),1,yearstotal,age,14,French,NA,14
+xxjc8,20,Female,College (Bachelor),1,listening,age,3,Italian,NA,3
+xxjc8,20,Female,College (Bachelor),1,speaking,age,4,Italian,NA,4
+xxjc8,20,Female,College (Bachelor),1,reading,age,10,Italian,NA,10
+xxjc8,20,Female,College (Bachelor),1,writing,age,10,Italian,NA,10
+xxjc8,20,Female,College (Bachelor),1,yearstotal,age,16,Italian,NA,16
+xxjc8,20,Female,College (Bachelor),1,listening,ability,7,English,NA,7
+xxjc8,20,Female,College (Bachelor),1,speaking,ability,7,English,NA,7
+xxjc8,20,Female,College (Bachelor),1,reading,ability,7,English,NA,7
+xxjc8,20,Female,College (Bachelor),1,writing,ability,6,English,NA,6
+xxjc8,20,Female,College (Bachelor),1,listening,ability,5,French,NA,5
+xxjc8,20,Female,College (Bachelor),1,speaking,ability,5,French,NA,5
+xxjc8,20,Female,College (Bachelor),1,reading,ability,5,French,NA,5
+xxjc8,20,Female,College (Bachelor),1,writing,ability,4,French,NA,4
+xxjc8,20,Female,College (Bachelor),1,listening,ability,5,Italian,NA,5
+xxjc8,20,Female,College (Bachelor),1,speaking,ability,5,Italian,NA,5
+xxjc8,20,Female,College (Bachelor),1,reading,ability,5,Italian,NA,5
+xxjc8,20,Female,College (Bachelor),1,writing,ability,4,Italian,NA,4
+ylqg8,23,Female,College (Bachelor),0,listening,age,0,French,NA,0
+ylqg8,23,Female,College (Bachelor),0,speaking,age,2,French,NA,2
+ylqg8,23,Female,College (Bachelor),0,reading,age,5,French,NA,5
+ylqg8,23,Female,College (Bachelor),0,writing,age,6,French,NA,6
+ylqg8,23,Female,College (Bachelor),0,yearstotal,age,21,French,NA,21
+ylqg8,23,Female,College (Bachelor),0,listening,age,4,English,NA,4
+ylqg8,23,Female,College (Bachelor),0,speaking,age,5,English,NA,5
+ylqg8,23,Female,College (Bachelor),0,reading,age,6,English,NA,6
+ylqg8,23,Female,College (Bachelor),0,writing,age,6,English,NA,6
+ylqg8,23,Female,College (Bachelor),0,yearstotal,age,18,English,NA,18
+ylqg8,23,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+ylqg8,23,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+ylqg8,23,Female,College (Bachelor),0,reading,ability,6,French,NA,6
+ylqg8,23,Female,College (Bachelor),0,writing,ability,5,French,NA,5
+ylqg8,23,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+ylqg8,23,Female,College (Bachelor),0,speaking,ability,7,English,NA,7
+ylqg8,23,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+ylqg8,23,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+zaph0,32,Non-binary,College (Bachelor),0,listening,age,0,English,NA,0
+zaph0,32,Non-binary,College (Bachelor),0,speaking,age,4,English,NA,4
+zaph0,32,Non-binary,College (Bachelor),0,reading,age,5,English,NA,5
+zaph0,32,Non-binary,College (Bachelor),0,writing,age,5,English,NA,5
+zaph0,32,Non-binary,College (Bachelor),0,yearstotal,age,32,English,NA,32
+zaph0,32,Non-binary,College (Bachelor),0,listening,age,0,French,NA,0
+zaph0,32,Non-binary,College (Bachelor),0,speaking,age,2,French,NA,2
+zaph0,32,Non-binary,College (Bachelor),0,reading,age,4,French,NA,4
+zaph0,32,Non-binary,College (Bachelor),0,writing,age,8,French,NA,8
+zaph0,32,Non-binary,College (Bachelor),0,yearstotal,age,32,French,NA,32
+zaph0,32,Non-binary,College (Bachelor),0,listening,age,8,Spanish,NA,8
+zaph0,32,Non-binary,College (Bachelor),0,speaking,age,8,Spanish,NA,8
+zaph0,32,Non-binary,College (Bachelor),0,reading,age,8,Spanish,NA,8
+zaph0,32,Non-binary,College (Bachelor),0,writing,age,8,Spanish,NA,8
+zaph0,32,Non-binary,College (Bachelor),0,yearstotal,age,9,Spanish,NA,9
+zaph0,32,Non-binary,College (Bachelor),0,listening,age,23,Mandarin,NA,23
+zaph0,32,Non-binary,College (Bachelor),0,speaking,age,23,Mandarin,NA,23
+zaph0,32,Non-binary,College (Bachelor),0,reading,age,24,Mandarin,NA,24
+zaph0,32,Non-binary,College (Bachelor),0,writing,age,24,Mandarin,NA,24
+zaph0,32,Non-binary,College (Bachelor),0,yearstotal,age,8,Mandarin,NA,8
+zaph0,32,Non-binary,College (Bachelor),0,listening,ability,7,English,NA,7
+zaph0,32,Non-binary,College (Bachelor),0,speaking,ability,7,English,NA,7
+zaph0,32,Non-binary,College (Bachelor),0,reading,ability,7,English,NA,7
+zaph0,32,Non-binary,College (Bachelor),0,writing,ability,7,English,NA,7
+zaph0,32,Non-binary,College (Bachelor),0,listening,ability,7,French,NA,7
+zaph0,32,Non-binary,College (Bachelor),0,speaking,ability,7,French,NA,7
+zaph0,32,Non-binary,College (Bachelor),0,reading,ability,6,French,NA,6
+zaph0,32,Non-binary,College (Bachelor),0,writing,ability,4,French,NA,4
+zaph0,32,Non-binary,College (Bachelor),0,listening,ability,3,Spanish,NA,3
+zaph0,32,Non-binary,College (Bachelor),0,speaking,ability,2,Spanish,NA,2
+zaph0,32,Non-binary,College (Bachelor),0,reading,ability,4,Spanish,NA,4
+zaph0,32,Non-binary,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+zaph0,32,Non-binary,College (Bachelor),0,listening,ability,3,Mandarin,NA,3
+zaph0,32,Non-binary,College (Bachelor),0,speaking,ability,3,Mandarin,NA,3
+zaph0,32,Non-binary,College (Bachelor),0,reading,ability,2,Mandarin,NA,2
+zaph0,32,Non-binary,College (Bachelor),0,writing,ability,1,Mandarin,NA,1
+zdqu7,23,Female,College (Bachelor),0,listening,age,0,French,NA,0
+zdqu7,23,Female,College (Bachelor),0,speaking,age,1,French,NA,1
+zdqu7,23,Female,College (Bachelor),0,reading,age,4,French,NA,4
+zdqu7,23,Female,College (Bachelor),0,writing,age,4,French,NA,4
+zdqu7,23,Female,College (Bachelor),0,yearstotal,age,23,French,NA,23
+zdqu7,23,Female,College (Bachelor),0,listening,age,11,English,NA,11
+zdqu7,23,Female,College (Bachelor),0,speaking,age,11,English,NA,11
+zdqu7,23,Female,College (Bachelor),0,reading,age,11,English,NA,11
+zdqu7,23,Female,College (Bachelor),0,writing,age,11,English,NA,11
+zdqu7,23,Female,College (Bachelor),0,yearstotal,age,6,English,NA,6
+zdqu7,23,Female,College (Bachelor),0,listening,age,14,Spanish,NA,14
+zdqu7,23,Female,College (Bachelor),0,speaking,age,14,Spanish,NA,14
+zdqu7,23,Female,College (Bachelor),0,reading,age,14,Spanish,NA,14
+zdqu7,23,Female,College (Bachelor),0,writing,age,14,Spanish,NA,14
+zdqu7,23,Female,College (Bachelor),0,yearstotal,age,1,Spanish,NA,1
+zdqu7,23,Female,College (Bachelor),0,listening,age,18,German,NA,18
+zdqu7,23,Female,College (Bachelor),0,speaking,age,18,German,NA,18
+zdqu7,23,Female,College (Bachelor),0,reading,age,18,German,NA,18
+zdqu7,23,Female,College (Bachelor),0,writing,age,18,German,NA,18
+zdqu7,23,Female,College (Bachelor),0,yearstotal,age,1,German,NA,1
+zdqu7,23,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+zdqu7,23,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+zdqu7,23,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+zdqu7,23,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+zdqu7,23,Female,College (Bachelor),0,listening,ability,6,English,NA,6
+zdqu7,23,Female,College (Bachelor),0,speaking,ability,5,English,NA,5
+zdqu7,23,Female,College (Bachelor),0,reading,ability,6,English,NA,6
+zdqu7,23,Female,College (Bachelor),0,writing,ability,4,English,NA,4
+zdqu7,23,Female,College (Bachelor),0,listening,ability,2,Spanish,NA,2
+zdqu7,23,Female,College (Bachelor),0,speaking,ability,1,Spanish,NA,1
+zdqu7,23,Female,College (Bachelor),0,reading,ability,3,Spanish,NA,3
+zdqu7,23,Female,College (Bachelor),0,writing,ability,1,Spanish,NA,1
+zdqu7,23,Female,College (Bachelor),0,listening,ability,1,German,NA,1
+zdqu7,23,Female,College (Bachelor),0,speaking,ability,2,German,NA,2
+zdqu7,23,Female,College (Bachelor),0,reading,ability,2,German,NA,2
+zdqu7,23,Female,College (Bachelor),0,writing,ability,1,German,NA,1
+aqgy2,43,Female,Graduate school (Master),5,listening,age,0,French,NA,0
+aqgy2,43,Female,Graduate school (Master),5,speaking,age,0,French,NA,0
+aqgy2,43,Female,Graduate school (Master),5,reading,age,0,French,NA,0
+aqgy2,43,Female,Graduate school (Master),5,writing,age,0,French,NA,0
+aqgy2,43,Female,Graduate school (Master),5,yearstotal,age,43,French,NA,43
+aqgy2,43,Female,Graduate school (Master),5,listening,age,8,English,NA,8
+aqgy2,43,Female,Graduate school (Master),5,speaking,age,8,English,NA,8
+aqgy2,43,Female,Graduate school (Master),5,reading,age,8,English,NA,8
+aqgy2,43,Female,Graduate school (Master),5,writing,age,8,English,NA,8
+aqgy2,43,Female,Graduate school (Master),5,yearstotal,age,35,English,NA,35
+aqgy2,43,Female,Graduate school (Master),5,listening,age,16,Spanish,NA,16
+aqgy2,43,Female,Graduate school (Master),5,speaking,age,16,Spanish,NA,16
+aqgy2,43,Female,Graduate school (Master),5,reading,age,16,Spanish,NA,16
+aqgy2,43,Female,Graduate school (Master),5,writing,age,16,Spanish,NA,16
+aqgy2,43,Female,Graduate school (Master),5,yearstotal,age,27,Spanish,NA,27
+aqgy2,43,Female,Graduate school (Master),5,listening,age,43,Japanese,NA,43
+aqgy2,43,Female,Graduate school (Master),5,speaking,age,43,Japanese,NA,43
+aqgy2,43,Female,Graduate school (Master),5,reading,age,43,Japanese,NA,43
+aqgy2,43,Female,Graduate school (Master),5,writing,age,43,Japanese,NA,43
+aqgy2,43,Female,Graduate school (Master),5,yearstotal,age,1,Japanese,NA,1
+aqgy2,43,Female,Graduate school (Master),5,listening,ability,7,French,NA,7
+aqgy2,43,Female,Graduate school (Master),5,speaking,ability,7,French,NA,7
+aqgy2,43,Female,Graduate school (Master),5,reading,ability,7,French,NA,7
+aqgy2,43,Female,Graduate school (Master),5,writing,ability,7,French,NA,7
+aqgy2,43,Female,Graduate school (Master),5,listening,ability,7,English,NA,7
+aqgy2,43,Female,Graduate school (Master),5,speaking,ability,6,English,NA,6
+aqgy2,43,Female,Graduate school (Master),5,reading,ability,7,English,NA,7
+aqgy2,43,Female,Graduate school (Master),5,writing,ability,6,English,NA,6
+aqgy2,43,Female,Graduate school (Master),5,listening,ability,5,Spanish,NA,5
+aqgy2,43,Female,Graduate school (Master),5,speaking,ability,5,Spanish,NA,5
+aqgy2,43,Female,Graduate school (Master),5,reading,ability,5,Spanish,NA,5
+aqgy2,43,Female,Graduate school (Master),5,writing,ability,4,Spanish,NA,4
+aqgy2,43,Female,Graduate school (Master),5,listening,ability,2,Japanese,NA,2
+aqgy2,43,Female,Graduate school (Master),5,speaking,ability,1,Japanese,NA,1
+aqgy2,43,Female,Graduate school (Master),5,reading,ability,3,Japanese,NA,3
+aqgy2,43,Female,Graduate school (Master),5,writing,ability,1,Japanese,NA,1
+ebsy0,28,Female,Graduate school (Doctor),0,listening,age,0,English,NA,0
+ebsy0,28,Female,Graduate school (Doctor),0,speaking,age,2,English,NA,2
+ebsy0,28,Female,Graduate school (Doctor),0,reading,age,8,English,NA,8
+ebsy0,28,Female,Graduate school (Doctor),0,writing,age,6,English,NA,6
+ebsy0,28,Female,Graduate school (Doctor),0,yearstotal,age,28,English,NA,28
+ebsy0,28,Female,Graduate school (Doctor),0,listening,age,0,French,NA,0
+ebsy0,28,Female,Graduate school (Doctor),0,speaking,age,3,French,NA,3
+ebsy0,28,Female,Graduate school (Doctor),0,reading,age,5,French,NA,5
+ebsy0,28,Female,Graduate school (Doctor),0,writing,age,6,French,NA,6
+ebsy0,28,Female,Graduate school (Doctor),0,yearstotal,age,28,French,NA,28
+ebsy0,28,Female,Graduate school (Doctor),0,listening,ability,7,English,NA,7
+ebsy0,28,Female,Graduate school (Doctor),0,speaking,ability,7,English,NA,7
+ebsy0,28,Female,Graduate school (Doctor),0,reading,ability,7,English,NA,7
+ebsy0,28,Female,Graduate school (Doctor),0,writing,ability,7,English,NA,7
+ebsy0,28,Female,Graduate school (Doctor),0,listening,ability,7,French,NA,7
+ebsy0,28,Female,Graduate school (Doctor),0,speaking,ability,7,French,NA,7
+ebsy0,28,Female,Graduate school (Doctor),0,reading,ability,7,French,NA,7
+ebsy0,28,Female,Graduate school (Doctor),0,writing,ability,7,French,NA,7
+ebsy0,28,Female,Graduate school (Doctor),0,listening,ability,NA,N/A,NA,NA
+ebsy0,28,Female,Graduate school (Doctor),0,speaking,ability,NA,N/A,NA,NA
+ebsy0,28,Female,Graduate school (Doctor),0,reading,ability,NA,N/A,NA,NA
+ebsy0,28,Female,Graduate school (Doctor),0,writing,ability,NA,N/A,NA,NA
+ebsy0,28,Female,Graduate school (Doctor),0,listening,ability,NA,N/A,NA,NA
+ebsy0,28,Female,Graduate school (Doctor),0,speaking,ability,NA,N/A,NA,NA
+ebsy0,28,Female,Graduate school (Doctor),0,reading,ability,NA,N/A,NA,NA
+ebsy0,28,Female,Graduate school (Doctor),0,writing,ability,NA,N/A,NA,NA
+fydk8,24,Female,College (Bachelor),5,listening,age,0,French,NA,0
+fydk8,24,Female,College (Bachelor),5,speaking,age,0,French,NA,0
+fydk8,24,Female,College (Bachelor),5,reading,age,0,French,NA,0
+fydk8,24,Female,College (Bachelor),5,writing,age,0,French,NA,0
+fydk8,24,Female,College (Bachelor),5,yearstotal,age,24,French,NA,24
+fydk8,24,Female,College (Bachelor),5,listening,age,10,English,NA,10
+fydk8,24,Female,College (Bachelor),5,speaking,age,10,English,NA,10
+fydk8,24,Female,College (Bachelor),5,reading,age,10,English,NA,10
+fydk8,24,Female,College (Bachelor),5,writing,age,10,English,NA,10
+fydk8,24,Female,College (Bachelor),5,yearstotal,age,15,English,NA,15
+fydk8,24,Female,College (Bachelor),5,listening,age,13,Spanish,NA,13
+fydk8,24,Female,College (Bachelor),5,speaking,age,13,Spanish,NA,13
+fydk8,24,Female,College (Bachelor),5,reading,age,13,Spanish,NA,13
+fydk8,24,Female,College (Bachelor),5,writing,age,13,Spanish,NA,13
+fydk8,24,Female,College (Bachelor),5,yearstotal,age,7,Spanish,NA,7
+fydk8,24,Female,College (Bachelor),5,listening,ability,7,French,NA,7
+fydk8,24,Female,College (Bachelor),5,speaking,ability,7,French,NA,7
+fydk8,24,Female,College (Bachelor),5,reading,ability,7,French,NA,7
+fydk8,24,Female,College (Bachelor),5,writing,ability,7,French,NA,7
+fydk8,24,Female,College (Bachelor),5,listening,ability,7,English,NA,7
+fydk8,24,Female,College (Bachelor),5,speaking,ability,7,English,NA,7
+fydk8,24,Female,College (Bachelor),5,reading,ability,7,English,NA,7
+fydk8,24,Female,College (Bachelor),5,writing,ability,7,English,NA,7
+fydk8,24,Female,College (Bachelor),5,listening,ability,5,Spanish,NA,5
+fydk8,24,Female,College (Bachelor),5,speaking,ability,3,Spanish,NA,3
+fydk8,24,Female,College (Bachelor),5,reading,ability,5,Spanish,NA,5
+fydk8,24,Female,College (Bachelor),5,writing,ability,3,Spanish,NA,3
+fydk8,24,Female,College (Bachelor),5,listening,ability,NA,N/A,NA,NA
+fydk8,24,Female,College (Bachelor),5,speaking,ability,NA,N/A,NA,NA
+fydk8,24,Female,College (Bachelor),5,reading,ability,NA,N/A,NA,NA
+fydk8,24,Female,College (Bachelor),5,writing,ability,NA,N/A,NA,NA
+rlgr8,38,Female,Graduate school (Master),0,listening,age,0,French,NA,0
+rlgr8,38,Female,Graduate school (Master),0,speaking,age,2,French,NA,2
+rlgr8,38,Female,Graduate school (Master),0,reading,age,4,French,NA,4
+rlgr8,38,Female,Graduate school (Master),0,writing,age,5,French,NA,5
+rlgr8,38,Female,Graduate school (Master),0,yearstotal,age,38,French,NA,38
+rlgr8,38,Female,Graduate school (Master),0,listening,age,0,English,NA,0
+rlgr8,38,Female,Graduate school (Master),0,speaking,age,7,English,NA,7
+rlgr8,38,Female,Graduate school (Master),0,reading,age,10,English,NA,10
+rlgr8,38,Female,Graduate school (Master),0,writing,age,10,English,NA,10
+rlgr8,38,Female,Graduate school (Master),0,yearstotal,age,38,English,NA,38
+rlgr8,38,Female,Graduate school (Master),0,listening,age,17,Spanish,NA,17
+rlgr8,38,Female,Graduate school (Master),0,speaking,age,17,Spanish,NA,17
+rlgr8,38,Female,Graduate school (Master),0,reading,age,17,Spanish,NA,17
+rlgr8,38,Female,Graduate school (Master),0,writing,age,17,Spanish,NA,17
+rlgr8,38,Female,Graduate school (Master),0,yearstotal,age,10,Spanish,NA,10
+rlgr8,38,Female,Graduate school (Master),0,listening,age,22,Hebrew,NA,22
+rlgr8,38,Female,Graduate school (Master),0,speaking,age,23,Hebrew,NA,23
+rlgr8,38,Female,Graduate school (Master),0,reading,age,23,Hebrew,NA,23
+rlgr8,38,Female,Graduate school (Master),0,writing,age,23,Hebrew,NA,23
+rlgr8,38,Female,Graduate school (Master),0,yearstotal,age,4,Hebrew,NA,4
+rlgr8,38,Female,Graduate school (Master),0,listening,ability,7,French,NA,7
+rlgr8,38,Female,Graduate school (Master),0,speaking,ability,7,French,NA,7
+rlgr8,38,Female,Graduate school (Master),0,reading,ability,7,French,NA,7
+rlgr8,38,Female,Graduate school (Master),0,writing,ability,7,French,NA,7
+rlgr8,38,Female,Graduate school (Master),0,listening,ability,7,English,NA,7
+rlgr8,38,Female,Graduate school (Master),0,speaking,ability,7,English,NA,7
+rlgr8,38,Female,Graduate school (Master),0,reading,ability,7,English,NA,7
+rlgr8,38,Female,Graduate school (Master),0,writing,ability,7,English,NA,7
+rlgr8,38,Female,Graduate school (Master),0,listening,ability,6,Spanish,NA,6
+rlgr8,38,Female,Graduate school (Master),0,speaking,ability,5,Spanish,NA,5
+rlgr8,38,Female,Graduate school (Master),0,reading,ability,5,Spanish,NA,5
+rlgr8,38,Female,Graduate school (Master),0,writing,ability,4,Spanish,NA,4
+rlgr8,38,Female,Graduate school (Master),0,listening,ability,1,Hebrew,NA,1
+rlgr8,38,Female,Graduate school (Master),0,speaking,ability,1,Hebrew,NA,1
+rlgr8,38,Female,Graduate school (Master),0,reading,ability,1,Hebrew,NA,1
+rlgr8,38,Female,Graduate school (Master),0,writing,ability,1,Hebrew,NA,1
+skhr9,25,Female,College (Bachelor),0,listening,age,0,French,NA,0
+skhr9,25,Female,College (Bachelor),0,speaking,age,0,French,NA,0
+skhr9,25,Female,College (Bachelor),0,reading,age,5,French,NA,5
+skhr9,25,Female,College (Bachelor),0,writing,age,5,French,NA,5
+skhr9,25,Female,College (Bachelor),0,yearstotal,age,25,French,NA,25
+skhr9,25,Female,College (Bachelor),0,listening,age,0,English,NA,0
+skhr9,25,Female,College (Bachelor),0,speaking,age,0,English,NA,0
+skhr9,25,Female,College (Bachelor),0,reading,age,7,English,NA,7
+skhr9,25,Female,College (Bachelor),0,writing,age,8,English,NA,8
+skhr9,25,Female,College (Bachelor),0,yearstotal,age,25,English,NA,25
+skhr9,25,Female,College (Bachelor),0,listening,ability,7,French,NA,7
+skhr9,25,Female,College (Bachelor),0,speaking,ability,7,French,NA,7
+skhr9,25,Female,College (Bachelor),0,reading,ability,7,French,NA,7
+skhr9,25,Female,College (Bachelor),0,writing,ability,7,French,NA,7
+skhr9,25,Female,College (Bachelor),0,listening,ability,7,English,NA,7
+skhr9,25,Female,College (Bachelor),0,speaking,ability,6,English,NA,6
+skhr9,25,Female,College (Bachelor),0,reading,ability,7,English,NA,7
+skhr9,25,Female,College (Bachelor),0,writing,ability,6,English,NA,6
+skhr9,25,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+skhr9,25,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+skhr9,25,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+skhr9,25,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
+skhr9,25,Female,College (Bachelor),0,listening,ability,NA,N/A,NA,NA
+skhr9,25,Female,College (Bachelor),0,speaking,ability,NA,N/A,NA,NA
+skhr9,25,Female,College (Bachelor),0,reading,ability,NA,N/A,NA,NA
+skhr9,25,Female,College (Bachelor),0,writing,ability,NA,N/A,NA,NA
